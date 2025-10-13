@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>NISM Gym — Start Your Career in Finance Here</title>
-    <meta name="description" content="Choose from NISM XA, NISM XB, and NISM XV courses. Learn the path to RIA and RA careers and get free resources via our YouTube channel." />
+    <meta name="description" content="NISM XA, XB, XV courses with clear paths to RIA and RA careers. Join the Telegram group and learn from Pranshumaan Singh." />
     <meta name="theme-color" content="#0f172a" />
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -21,7 +21,7 @@
     <div id="root"></div>
 
     <script type="text/babel">
-      function CourseCard({ tag, title, description, bullets, ctaLabel, href }) {
+      function CourseCard({ tag, title, description, bullets, onLearn, joinLink }) {
         return (
           <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow">
             <div className="text-xs font-semibold text-slate-700 bg-slate-100 inline-flex px-3 py-1 rounded-full">{tag}</div>
@@ -30,12 +30,17 @@
             <ul className="mt-4 space-y-2 text-sm text-slate-700 list-disc list-inside">
               {bullets.map((b, i) => <li key={i}>{b}</li>)}
             </ul>
-            <div className="mt-5">
-              <a href={href} className="inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold bg-slate-900 text-white hover:bg-slate-800">
-                {ctaLabel}
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                </svg>
+            <div className="mt-5 flex gap-3">
+              <button onClick={onLearn} className="inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold bg-slate-100 text-slate-900 hover:bg-slate-200 border border-slate-300">
+                Learn More
+              </button>
+              <a
+                href={joinLink}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold bg-slate-900 text-white hover:bg-slate-800"
+              >
+                Join Now
               </a>
             </div>
           </div>
@@ -43,9 +48,11 @@
       }
 
       function NismGymLanding() {
+        const [showPopup, setShowPopup] = React.useState(false);
         const year = new Date().getFullYear();
+
         return (
-          <div className="min-h-screen bg-white text-slate-900">
+          <div className="min-h-screen bg-white text-slate-900 relative">
             {/* Header / Hero */}
             <header className="relative overflow-hidden">
               <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
@@ -73,34 +80,56 @@
             <section id="courses" className="py-12 sm:py-16 bg-slate-50">
               <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
                 <h2 className="text-xl sm:text-2xl font-bold mb-6 sm:mb-8 text-center">Choose Your Course</h2>
+
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
                   <CourseCard
                     tag="Beginner"
                     title="NISM XA — Investment Adviser (Level 1)"
                     description="Master foundations: products, risk profiling, asset allocation, and compliant advice delivery. Ideal starting point for aspiring advisors."
                     bullets={['Foundations of personal finance', 'Client risk profiling & suitability', 'Practical advisory frameworks']}
-                    ctaLabel="View NISM XA"
-                    href="#xa-link" /* TODO: replace with your XA URL */
+                    onLearn={() => setShowPopup(true)}
+                    joinLink="https://payments.cashfree.com/forms/nismxa"
                   />
                   <CourseCard
                     tag="Advanced"
                     title="NISM XB — Investment Adviser (Level 2)"
                     description="Advance to full-fledged RIA readiness: regulations, practice management, and advanced planning techniques."
                     bullets={['SEBI regulations & compliance', 'Practice setup & fee models', 'Advanced planning & review']}
-                    ctaLabel="View NISM XB"
-                    href="#xb-link" /* TODO: replace with your XB URL */
+                    onLearn={() => setShowPopup(true)}
+                    joinLink="https://payments.cashfree.com/forms/nismxb"
                   />
                   <CourseCard
                     tag="Specialization"
                     title="NISM XV — Research Analyst"
                     description="Deep dive into equity research: business analysis, valuation basics, report writing, and RA-compliant processes."
                     bullets={['Research process & templates', 'Valuation building blocks', 'RA code of conduct & filings']}
-                    ctaLabel="View NISM XV"
-                    href="#xv-link" /* TODO: replace with your XV URL */
+                    onLearn={() => setShowPopup(true)}
+                    joinLink="https://payments.cashfree.com/forms/nismxv"
                   />
                 </div>
               </div>
             </section>
+
+            {/* Popup */}
+            {showPopup && (
+              <div className="fixed inset-0 flex items-center justify-center bg-black/50 z-50 p-4">
+                <div className="bg-white rounded-2xl max-w-lg w-full p-8 shadow-xl text-center relative">
+                  <button onClick={() => setShowPopup(false)} className="absolute top-3 right-3 text-slate-500 hover:text-slate-700">✕</button>
+                  <h3 className="text-xl font-bold mb-4">What You Get from the Course</h3>
+                  <ul className="text-left list-disc list-inside space-y-2 text-slate-700 mb-4">
+                    <li>Access to Course Video Lectures</li>
+                    <li>Class Notes and Slides</li>
+                    <li>Mock Quizzes and Papers</li>
+                    <li>Guidance for Registering with SEBI</li>
+                    <li>Live Weekly Expert Guidance Sessions</li>
+                  </ul>
+                  <p className="text-slate-700 mb-6">
+                    Taught by <strong>Pranshumaan Singh</strong>, an Investment Banker with over 10 years of experience in Corporate Finance and Advisory.
+                  </p>
+                  <p className="font-semibold text-slate-900">You get everything you need to start your career in Finance.</p>
+                </div>
+              </div>
+            )}
 
             {/* Careers Explainer */}
             <section id="careers" className="py-12 sm:py-16">
@@ -139,16 +168,45 @@
               </div>
             </section>
 
-            {/* About Me */}
+            {/* CTA Section */}
+            <section id="cta" className="py-12 sm:py-16 bg-white">
+              <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
+                <h2 className="text-xl sm:text-2xl font-bold mb-4">Still Have Questions?</h2>
+                <p className="text-slate-600 mb-6 text-base sm:text-lg">
+                  Join our active Telegram group where you can ask your doubts, discuss exam prep, and connect with other aspiring advisors.
+                </p>
+                <a
+                  href="https://t.me/becomeRIA/1"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center justify-center rounded-xl bg-slate-900 text-white font-semibold px-6 py-3 text-sm hover:bg-slate-800 shadow-md"
+                >
+                  Join the Telegram Group
+                </a>
+              </div>
+            </section>
+
+            {/* About Me with Photo */}
             <section id="about" className="py-12 sm:py-16 bg-slate-50">
               <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
                 <h2 className="text-xl sm:text-2xl font-bold mb-6">About Me</h2>
-                <p className="text-slate-700 leading-relaxed text-base sm:text-lg">
-                  My name is Pranshumaan Singh. I'm a former investment banker with over 10 years of experience in Corporate Finance, M&amp;A, and Strategy. Over the course of my career, I've advised on M&amp;A transactions exceeding $10 billion across India, the UK, and the UAE. I've also managed funds with Assets Under Management (AUM) of more than INR 1,000 crore, working closely with institutional investors and corporate stakeholders.
-                </p>
-                <p className="mt-4 text-slate-700 leading-relaxed text-base sm:text-lg">
-                  Today, I help professionals become SEBI-registered Investment Advisors and Research Analysts, and guide individuals on how to take control of their personal finances through actionable advice and hands-on sessions.
-                </p>
+                <div className="flex flex-col items-center md:flex-row md:items-center md:justify-center gap-6">
+                  <a href="https://www.linkedin.com/in/pranshumaaan/" target="_blank" rel="noreferrer">
+                    <img
+                      src="/images/pranshumaan-singh.jpg"
+                      alt="Pranshumaan Singh"
+                      className="w-40 h-40 rounded-full object-cover shadow-md border-4 border-slate-200 hover:opacity-90 transition"
+                    />
+                  </a>
+                  <div className="md:text-left text-center max-w-xl">
+                    <p className="text-slate-700 leading-relaxed text-base sm:text-lg">
+                      My name is Pranshumaan Singh. I'm a former investment banker with over 10 years of experience in Corporate Finance, M&amp;A, and Strategy. Over the course of my career, I've advised on M&amp;A transactions exceeding $10 billion across India, the UK, and the UAE. I've also managed funds with Assets Under Management (AUM) of more than INR 1,000 crore, working closely with institutional investors and corporate stakeholders.
+                    </p>
+                    <p className="mt-4 text-slate-700 leading-relaxed text-base sm:text-lg">
+                      Today, I help professionals become SEBI-registered Investment Advisors and Research Analysts, and guide individuals on how to take control of their personal finances through actionable advice and hands-on sessions.
+                    </p>
+                  </div>
+                </div>
               </div>
             </section>
 
@@ -162,7 +220,7 @@
                   </div>
                   <div className="flex items-center gap-4">
                     <a
-                      href="#your-youtube-channel"  /* TODO: replace with your YouTube channel URL */
+                      href="http://www.youtube.com/@permabullish"
                       target="_blank"
                       rel="noreferrer"
                       className="inline-flex items-center gap-2 rounded-xl bg-white/5 px-4 py-2 text-sm hover:bg-white/10"
@@ -174,7 +232,9 @@
                     </a>
                   </div>
                 </div>
-                <div className="mt-6 text-xs text-slate-500">© {year} Permabullish / Arivvo. All rights reserved.</div>
+                <div className="mt-6 text-xs text-slate-500">
+                  © {year} Permabullish / Arivvo. All rights reserved. | Contact: <a href="mailto:mail@mayaskara.com" className="underline hover:text-slate-300">mail@mayaskara.com</a>
+                </div>
               </div>
             </footer>
           </div>
