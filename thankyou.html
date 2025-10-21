@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thank You – NISM Gym</title>
+  <meta name="description" content="Thank you for purchasing your NISM Gym course.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Top Bar -->
+  <header class="bg-white border-b border-gray-200">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-2 group">
+        <div class="w-9 h-9 rounded-xl bg-gray-900 text-white grid place-items-center font-bold group-hover:rotate-6 transition">NG</div>
+        <span class="text-xl font-semibold tracking-tight">NISM Gym</span>
+      </a>
+      <nav class="hidden sm:flex items-center gap-6 text-sm">
+        <a href="/" class="hover:text-gray-700">Home</a>
+        <a href="/courses" class="hover:text-gray-700">Courses</a>
+        <a href="http://www.youtube.com/@permabullish" class="hover:text-gray-700" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://t.me/becomeRIA/1" class="hover:text-gray-700" target="_blank" rel="noopener">Telegram</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-b from-white to-gray-50">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
+      <div class="w-16 h-16 mx-auto mb-6 bg-green-100 text-green-600 rounded-full grid place-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+        </svg>
+      </div>
+      <h1 class="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900">Thank You for Your Purchase!</h1>
+      <p class="mt-4 text-gray-600">Your payment was successful, and your course access is now active.</p>
+      <p class="mt-2 text-gray-600">You’ll receive an email within 24 hours with your login details and next steps.</p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="/" class="px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition">Go to Home</a>
+        <a href="https://t.me/becomeRIA/1" target="_blank" rel="noopener" class="px-6 py-3 border border-gray-300 rounded-lg hover:bg-gray-100 transition">Join Telegram Group</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Info Section -->
+  <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center">
+    <div class="bg-white border border-gray-200 rounded-2xl shadow-sm p-6 sm:p-10">
+      <h2 class="text-xl font-semibold mb-4">What Happens Next?</h2>
+      <p class="text-gray-700 leading-relaxed">
+        You will now have full access to your purchased course content. You can log in anytime to start learning at your own pace.
+        Make sure to join our Telegram group to receive class updates, live session invites, and additional study resources.
+      </p>
+      <p class="mt-4 text-gray-700">
+        For any issues with login or course access, please write to us at 
+        <a href="mailto:mail@mayaskara.com" class="text-gray-900 underline underline-offset-4 decoration-2">mail@mayaskara.com</a>.
+      </p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="mt-10 border-t border-gray-200 bg-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-sm text-gray-600">
+      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div>
+          <p class="font-medium text-gray-700">NISM Gym</p>
+          <p class="mt-1">© <span id="year"></span> NISM Gym. All rights reserved.</p>
+          <p class="mt-1">Owned &amp; operated by <strong>Pranshumaan Singh</strong>.</p>
+        </div>
+        <div class="flex gap-6">
+          <a href="/terms-and-conditions.html" class="hover:text-gray-800">Terms &amp; Conditions</a>
+          <a href="/refund-and-cancellation.html" class="hover:text-gray-800">Refund &amp; Cancellation Policy</a>
+          <a href="mailto:mail@mayaskara.com" class="hover:text-gray-800">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
