@@ -35,11 +35,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <script type="text/babel">
       function CourseCard({ tag, title, description, bullets, onLearn, joinLink }) {
+        // ⬇️ Add image per course without changing call sites
+        const imgSrc =
+          title.includes("NISM XA") ? "nismxa.png" :
+          title.includes("NISM XB") ? "nismxb.png" :
+          title.includes("NISM XV") ? "nismxv.png" : null;
+
         return (
           <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow">
             <div className="text-xs font-semibold text-slate-700 bg-slate-100 inline-flex px-3 py-1 rounded-full">{tag}</div>
             <h3 className="mt-3 text-lg font-bold">{title}</h3>
             <p className="mt-2 text-slate-600 text-sm">{description}</p>
+            {imgSrc && <img src={imgSrc} alt={title} className="w-full h-40 object-cover rounded-xl mt-4" />}
             <ul className="mt-4 space-y-2 text-sm text-slate-700 list-disc list-inside">
               {bullets.map((b, i) => <li key={i}>{b}</li>)}
             </ul>
@@ -272,6 +279,3 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </script>
   </body>
 </html>
-
-
-
