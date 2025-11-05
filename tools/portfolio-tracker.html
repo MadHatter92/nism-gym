@@ -319,6 +319,16 @@
       }
     }
     
+
+    .loader {
+      width: 40px;
+      height: 40px;
+      display: none;
+    }
+    .loader.show {
+      display: inline-block;
+    }
+
 </style>
 </head>
 <body>
@@ -377,7 +387,7 @@
 
     <div class="actions">
       <button id="calcBtn" class="secondary" type="button">Calculate Portfolio Performance</button>
-      <div class="status" id="statusText"></div>
+      <div style="display:flex;align-items:center;gap:8px;"><img src="Dancingkitty.gif" alt="Loading..." id="loader" class="loader" /><div class="status" id="statusText"></div></div>
     </div>
 
     <div id="resultsContainer"></div>
@@ -2423,6 +2433,7 @@
     const calcBtn = document.getElementById("calcBtn");
     const statusText = document.getElementById("statusText");
     const resultsContainer = document.getElementById("resultsContainer");
+const loader = document.getElementById("loader");
     const suggestionsContainer = document.getElementById("symbolSuggestions");
     const modeButtons = document.querySelectorAll(".mode-btn");
 
@@ -2471,7 +2482,9 @@
       });
     }
 
-    function setStatus(msg, isError = false) {
+    function setLoading(isLoading){if(loader){loader.classList.toggle('show',!!isLoading);}}
+
+function setStatus(msg, isError = false) {
       statusText.textContent = msg || "";
       statusText.classList.toggle("error", !!isError);
     }
@@ -2843,6 +2856,7 @@
 
       calcBtn.disabled = true;
       addBtn.disabled = true;
+      setLoading(true);
       setStatus("Fetching price data and calculating…");
 
       try {
@@ -2896,6 +2910,7 @@
       } finally {
         calcBtn.disabled = false;
         addBtn.disabled = false;
+        setLoading(false);
       }
     });
 
