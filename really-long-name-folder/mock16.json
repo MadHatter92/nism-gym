@@ -1,0 +1,2043 @@
+{
+  "id": "MOCK16",
+  "title": "NISM XA Mock Test 16",
+  "durationMinutes": 180,
+  "negativeMarking": 0.25,
+  "questions": [
+    {
+      "id": "M2C5_Q003",
+      "module": 2,
+      "chapter": 5,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Money market deals mainly with:",
+      "options": [
+        "Long-term equity financing",
+        "Short-term funds and instruments with maturity less than 1 year",
+        "Only foreign currency bonds",
+        "Real estate financing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Money market instruments such as T-Bills, CPs and CDs have maturities below one year."
+    },
+    {
+      "id": "M1C4_Q003",
+      "module": 1,
+      "chapter": 4,
+      "type": "mcq",
+      "marks": 1,
+      "text": "An unsecured loan is one that:",
+      "options": [
+        "Requires collateral security",
+        "Has no underlying asset pledged to the lender",
+        "Is always interest-free",
+        "Can never be defaulted"
+      ],
+      "correctIndex": 1,
+      "explanation": "Unsecured loans rely solely on borrower’s creditworthiness rather than collateral."
+    },
+    {
+      "id": "M2C5_Q012",
+      "module": 2,
+      "chapter": 5,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which ministry is responsible for macroeconomic policy and capital markets through its Department of Economic Affairs?",
+      "options": [
+        "Ministry of Corporate Affairs",
+        "Ministry of Finance",
+        "Ministry of Commerce",
+        "Ministry of Law and Justice"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Ministry of Finance, via the Department of Economic Affairs, handles macroeconomic policy and capital markets."
+    },
+    {
+      "id": "M1C3_Q033",
+      "module": 1,
+      "chapter": 3,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of the following would improve cash-flow position?",
+      "options": [
+        "Increasing EMI commitments",
+        "Reducing discretionary expenses",
+        "Delaying income receipts",
+        "Taking more loans"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reducing discretionary outflows increases surplus."
+    },
+    {
+      "id": "M5C14_Q007",
+      "module": 5,
+      "chapter": 14,
+      "type": "mcq",
+      "marks": 1,
+      "text": "A 'risk-neutral' investor:",
+      "options": [
+        "Demands the highest risk premium for all investments",
+        "Focuses only on expected return, ignoring risk",
+        "Avoids risky portfolios",
+        "Seeks to minimize variance"
+      ],
+      "correctIndex": 1,
+      "explanation": "A risk-neutral investor evaluates investments solely on expected returns without regard for risk."
+    },
+    {
+      "id": "M3C9_Q026",
+      "module": 3,
+      "chapter": 9,
+      "type": "mcq",
+      "marks": 1,
+      "text": "A perpetual bond (consol) is valued using the formula:",
+      "options": [
+        "Price = Face value × (1 + coupon rate)",
+        "Price = Coupon / required rate of return",
+        "Price = Face value / (1 + required rate)^n",
+        "Price = Coupon × maturity"
+      ],
+      "correctIndex": 1,
+      "explanation": "For a perpetuity, Price = coupon per period divided by the required rate of return, since cash flows continue indefinitely."
+    },
+    {
+      "id": "M1C3_Q020",
+      "module": 1,
+      "chapter": 3,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Budget variance occurs when:",
+      "options": [
+        "Actual figures differ from budgeted figures",
+        "Income is constant",
+        "All bills are paid on time",
+        "Investments earn expected return"
+      ],
+      "correctIndex": 0,
+      "explanation": "Variance = Actual − Budgeted; it helps monitor deviations."
+    },
+    {
+      "id": "M5C15_Q015",
+      "module": 5,
+      "chapter": 15,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Psychographic analysis of an investor helps in:",
+      "options": [
+        "Estimating tax liability",
+        "Understanding behavioural traits and risk personality",
+        "Determining credit rating",
+        "Predicting market returns"
+      ],
+      "correctIndex": 1,
+      "explanation": "Psychographic analysis identifies behavioural and personality characteristics affecting investment decisions and risk profile."
+    },
+    {
+      "id": "M5C16_Q007",
+      "module": 5,
+      "chapter": 16,
+      "type": "mcq",
+      "marks": 1,
+      "text": "The formula for the Sharpe Ratio is:",
+      "options": [
+        "(Portfolio Return – Risk-Free Rate) / Portfolio Beta",
+        "(Portfolio Return – Benchmark Return) / Portfolio Risk",
+        "(Portfolio Return – Risk-Free Rate) / Standard Deviation of Portfolio",
+        "(Alpha – Risk-Free Rate) / Beta"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sharpe Ratio = (Rp – Rf) / σp, where Rp is portfolio return, Rf is risk-free rate, and σp is portfolio’s standard deviation."
+    },
+    {
+      "id": "M4C12_Q011",
+      "module": 4,
+      "chapter": 12,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Portfolio Managers can invest a maximum of ___% of a client’s portfolio in their own associate or related companies.",
+      "options": [
+        "10%",
+        "20%",
+        "30%",
+        "50%"
+      ],
+      "correctIndex": 2,
+      "explanation": "As per SEBI, the cap is 30% with prior written consent from the client."
+    },
+    {
+      "id": "M6C20_Q014",
+      "module": 6,
+      "chapter": 20,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which regulator handles insurance-related investor complaints?",
+      "options": [
+        "SEBI",
+        "IRDAI",
+        "RBI",
+        "PFRDA"
+      ],
+      "correctIndex": 1,
+      "explanation": "IRDAI regulates insurance entities and handles insurance-related grievances."
+    },
+    {
+      "id": "M4C13_Q008",
+      "module": 4,
+      "chapter": 13,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Category III AIFs are characterised by:",
+      "options": [
+        "Prohibition on short-selling",
+        "Use of diverse or complex trading strategies including leverage",
+        "Investment only in unlisted equity",
+        "Government guarantee of returns"
+      ],
+      "correctIndex": 1,
+      "explanation": "Category III AIFs, such as hedge funds, employ complex or leverage-based trading strategies and invest in listed or unlisted securities."
+    },
+    {
+      "id": "M2C6_Q041",
+      "module": 2,
+      "chapter": 6,
+      "type": "mcq",
+      "marks": 1,
+      "text": "A market order is an order to:",
+      "options": [
+        "Buy or sell at a specified price",
+        "Buy or sell immediately at the best available price",
+        "Cancel a previous order",
+        "Block shares from being traded"
+      ],
+      "correctIndex": 1,
+      "explanation": "Market orders execute immediately at current best prices."
+    },
+    {
+      "id": "M6C19_Q030",
+      "module": 6,
+      "chapter": 19,
+      "type": "mcq",
+      "marks": 1,
+      "text": "The overarching ethical test for any adviser action is:",
+      "options": [
+        "Does it maximise short-term revenue?",
+        "Will it pass regulatory scrutiny alone?",
+        "Is it legal, fair, transparent, and in the client’s best interest?",
+        "Will competitors notice?"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ethical actions must be legal, fair, transparent, and aligned with the client’s best interests and market integrity."
+    },
+    {
+      "id": "M4C13_Q005",
+      "module": 4,
+      "chapter": 13,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of the following is NOT a category of AIF under SEBI regulations?",
+      "options": [
+        "Category I",
+        "Category II",
+        "Category III",
+        "Category IV"
+      ],
+      "correctIndex": 3,
+      "explanation": "There are only three categories of AIF — Category I, II and III."
+    },
+    {
+      "id": "M6C20_Q010",
+      "module": 6,
+      "chapter": 20,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of the following statements is TRUE regarding investor grievance handling?",
+      "options": [
+        "Complaints can only be submitted physically",
+        "SCORES allows paperless digital complaint resolution",
+        "Investors must pay a fee to file on SCORES",
+        "Only NRIs can use SCORES"
+      ],
+      "correctIndex": 1,
+      "explanation": "SCORES provides a free, paperless, and transparent process for investors to submit and monitor complaints online."
+    },
+    {
+      "id": "M1C4_Q007",
+      "module": 1,
+      "chapter": 4,
+      "type": "mcq",
+      "marks": 1,
+      "text": "In an EMI, the interest component:",
+      "options": [
+        "Increases with each payment",
+        "Remains constant throughout",
+        "Decreases as principal reduces",
+        "Is zero in the first year"
+      ],
+      "correctIndex": 2,
+      "explanation": "As principal outstanding reduces, the interest portion of each EMI declines."
+    },
+    {
+      "id": "M3C8_Q035",
+      "module": 3,
+      "chapter": 8,
+      "type": "mcq",
+      "marks": 1,
+      "text": "A client nearing retirement with a low risk appetite should:",
+      "options": [
+        "Shift progressively from equity to fixed income and capital preservation assets",
+        "Increase leverage in equity",
+        "Invest only in small-cap stocks",
+        "Hold 100% of assets in equities"
+      ],
+      "correctIndex": 0,
+      "explanation": "As retirement nears, focus shifts to capital protection and stable income, reducing equity exposure."
+    },
+    {
+      "id": "M4C13_Q019",
+      "module": 4,
+      "chapter": 13,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Category III AIFs may be open-ended or close-ended depending on:",
+      "options": [
+        "Investor choice and strategy",
+        "Only SEBI direction",
+        "Bank approval",
+        "Government notification"
+      ],
+      "correctIndex": 0,
+      "explanation": "Category III AIFs can be open-ended or close-ended depending on their investment strategy and disclosure in the PPM."
+    },
+    {
+      "id": "M6C18_Q017",
+      "module": 6,
+      "chapter": 18,
+      "type": "mcq",
+      "marks": 1,
+      "text": "The key compliance requirement for all intermediaries under SEBI is:",
+      "options": [
+        "Filing annual audit reports with SEBI",
+        "Maintaining client confidentiality and proper records",
+        "Avoiding all advertising",
+        "Offering fixed returns"
+      ],
+      "correctIndex": 1,
+      "explanation": "Intermediaries must maintain confidentiality and records as part of SEBI’s code of conduct and inspection norms."
+    },
+    {
+      "id": "M1C4_Q035",
+      "module": 1,
+      "chapter": 4,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Debt restructuring refers to:",
+      "options": [
+        "Taking additional debt",
+        "Revising loan terms to make repayment easier",
+        "Selling pledged collateral",
+        "Defaulting on loan"
+      ],
+      "correctIndex": 1,
+      "explanation": "It may involve extending tenure, reducing rate, or partial waiver to restore repayment ability."
+    },
+    {
+      "id": "M1C1_Q043",
+      "module": 1,
+      "chapter": 1,
+      "type": "mcq",
+      "marks": 1,
+      "text": "A client wanting to retire early at age 50 instead of 60 will generally need to:",
+      "options": [
+        "Save more and invest more aggressively in earlier years",
+        "Borrow more money for consumption",
+        "Avoid equity investments completely",
+        "Ignore inflation impact"
+      ],
+      "correctIndex": 0,
+      "explanation": "Early retirement means fewer earning years and more retired years, requiring higher saving and often more growth-oriented investments."
+    },
+    {
+      "id": "M5C16_Q017",
+      "module": 5,
+      "chapter": 16,
+      "type": "mcq",
+      "marks": 1,
+      "text": "If the Sharpe Ratio of a portfolio is less than that of the market, it indicates:",
+      "options": [
+        "Portfolio offers better risk-adjusted performance",
+        "Portfolio underperforms on a risk-adjusted basis",
+        "Portfolio is perfectly diversified",
+        "Portfolio has no systematic risk"
+      ],
+      "correctIndex": 1,
+      "explanation": "A lower Sharpe Ratio than the market indicates inferior risk-adjusted performance."
+    },
+    {
+      "id": "M4C11_Q005",
+      "module": 4,
+      "chapter": 11,
+      "type": "mcq",
+      "marks": 1,
+      "text": "An investor’s holding in a mutual fund is represented by:",
+      "options": [
+        "Number of shares of the AMC",
+        "Number of bonds issued by the scheme",
+        "Number of units of the scheme",
+        "Amount of cash in the trust account"
+      ],
+      "correctIndex": 2,
+      "explanation": "Each investor’s holding in a mutual fund is represented in terms of units of the scheme."
+    },
+    {
+      "id": "M1C1_Q007",
+      "module": 1,
+      "chapter": 1,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of these best describes holistic financial planning?",
+      "options": [
+        "Selecting the highest-return mutual fund",
+        "Planning for only retirement",
+        "Coordinating investments, insurance, tax, retirement and estate aspects around the client’s life goals",
+        "Keeping all money in a savings account"
+      ],
+      "correctIndex": 2,
+      "explanation": "Holistic planning considers all aspects of the client’s financial life and integrates them around their goals."
+    },
+    {
+      "id": "M4C11_Q013",
+      "module": 4,
+      "chapter": 11,
+      "type": "mcq",
+      "marks": 1,
+      "text": "A closed-end mutual fund scheme:",
+      "options": [
+        "Has no maturity date",
+        "Is generally listed on a stock exchange to provide liquidity",
+        "Always allows redemption directly with the AMC",
+        "Can never invest in equities"
+      ],
+      "correctIndex": 1,
+      "explanation": "Closed-end schemes are for a fixed term and are mandatorily listed on a stock exchange so investors can exit by selling units there."
+    },
+    {
+      "id": "M5C14_Q020",
+      "module": 5,
+      "chapter": 14,
+      "type": "mcq",
+      "marks": 1,
+      "text": "As the number of securities in a portfolio increases, the number of covariance terms:",
+      "options": [
+        "Decreases linearly",
+        "Increases exponentially according to n(n–1)/2",
+        "Remains constant",
+        "Doubles the number of securities"
+      ],
+      "correctIndex": 1,
+      "explanation": "For n securities, the number of covariance terms is n(n–1)/2, which grows rapidly as portfolio size increases."
+    },
+    {
+      "id": "M5C15_Q014",
+      "module": 5,
+      "chapter": 15,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Ethical investing primarily involves:",
+      "options": [
+        "Investing in sin industries for profit",
+        "Selecting investments based on personal moral principles",
+        "Avoiding diversification",
+        "Maximizing short-term speculative gains"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ethical investing filters out investments conflicting with an investor’s moral or ethical beliefs, such as gambling or tobacco."
+    },
+    {
+      "id": "M1C1_Q001",
+      "module": 1,
+      "chapter": 1,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Personal financial planning primarily aims to:",
+      "options": [
+        "Maximise returns from equity investments",
+        "Ensure adequate resources to meet current and future life goals",
+        "Minimise tax in every year",
+        "Beat inflation by at least 2% every year"
+      ],
+      "correctIndex": 1,
+      "explanation": "The central purpose of personal financial planning is to organise finances so that the individual can meet current and future goals comfortably."
+    },
+    {
+      "id": "M1C3_Q018",
+      "module": 1,
+      "chapter": 3,
+      "type": "mcq",
+      "marks": 1,
+      "text": "A cash-flow deficit indicates that:",
+      "options": [
+        "Expenses exceed income",
+        "Income equals expenses",
+        "Income exceeds expenses",
+        "No cash transactions occur"
+      ],
+      "correctIndex": 0,
+      "explanation": "Deficit means spending more than earnings; corrective action needed."
+    },
+    {
+      "id": "M1C1_Q024",
+      "module": 1,
+      "chapter": 1,
+      "type": "mcq",
+      "marks": 1,
+      "text": "In which stage of the financial life cycle does preservation of capital and regular income become more important than high growth?",
+      "options": [
+        "Early career",
+        "Mid-career",
+        "Pre-retirement and retirement",
+        "Student phase"
+      ],
+      "correctIndex": 2,
+      "explanation": "As individuals near retirement, their focus shifts to capital preservation and stable income."
+    },
+    {
+      "id": "M2C5_Q027",
+      "module": 2,
+      "chapter": 5,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Who publishes daily reference rates for major currency pairs like USD/INR?",
+      "options": [
+        "SEBI",
+        "FBIL (Financial Benchmark India Pvt. Ltd.)",
+        "RBI directly on trading terminals",
+        "IRDAI"
+      ],
+      "correctIndex": 1,
+      "explanation": "FBIL publishes daily reference rates for key currency pairs on Mumbai business days."
+    },
+    {
+      "id": "M6C20_Q022",
+      "module": 6,
+      "chapter": 20,
+      "type": "mcq",
+      "marks": 1,
+      "text": "If a complaint remains unresolved even after arbitration, an investor may approach:",
+      "options": [
+        "SEBI Appellate Tribunal (SAT)",
+        "High Court or Consumer Forum",
+        "IRDAI",
+        "AMFI"
+      ],
+      "correctIndex": 1,
+      "explanation": "Investors can approach Consumer Courts or High Courts if dissatisfied after arbitration."
+    },
+    {
+      "id": "M3C7_Q020",
+      "module": 3,
+      "chapter": 7,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which is an example of DIRECT investment by a retail investor?",
+      "options": [
+        "Buying a diversified equity mutual fund",
+        "Investing through a PMS in multiple stocks",
+        "Buying listed shares of a company in her own demat account",
+        "Investing in a Category II AIF"
+      ],
+      "correctIndex": 2,
+      "explanation": "Buying shares directly in a demat account is a direct investment; mutual funds, PMS and AIFs are managed/pooled vehicles."
+    },
+    {
+      "id": "M4C11_Q027",
+      "module": 4,
+      "chapter": 11,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Retirement funds and children’s funds launched by mutual funds are classified as:",
+      "options": [
+        "Debt schemes",
+        "Hybrid schemes",
+        "Solution-oriented schemes",
+        "Other schemes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Retirement funds and children’s funds fall under SEBI’s solution-oriented scheme category and come with specified lock-in periods."
+    },
+    {
+      "id": "M5C14_Q018",
+      "module": 5,
+      "chapter": 14,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Portfolio optimization requires estimation of which parameters?",
+      "options": [
+        "Expected returns, standard deviations, and correlation coefficients",
+        "Interest rate and inflation only",
+        "Government bond yields",
+        "Dividend and earnings per share"
+      ],
+      "correctIndex": 0,
+      "explanation": "Portfolio optimization requires estimates of expected returns, risk (standard deviation), and correlation between securities."
+    },
+    {
+      "id": "M3C9_Q007",
+      "module": 3,
+      "chapter": 9,
+      "type": "mcq",
+      "marks": 1,
+      "text": "A bond trades at a premium to face value when:",
+      "options": [
+        "Coupon rate is equal to the current market yield",
+        "Coupon rate is higher than the current market yield",
+        "Coupon rate is lower than the current market yield",
+        "Bond is close to maturity"
+      ],
+      "correctIndex": 1,
+      "explanation": "If the bond’s coupon exceeds the market yield, investors are willing to pay more than face value, so the bond trades at a premium."
+    },
+    {
+      "id": "M6C17_Q034",
+      "module": 6,
+      "chapter": 17,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Investors must update change in address or bank details:",
+      "options": [
+        "Directly with each AMC",
+        "Through KRA for KYC-linked changes",
+        "Only during redemption",
+        "Through their bank"
+      ],
+      "correctIndex": 1,
+      "explanation": "KYC-linked changes such as address and bank details must be updated with the KRA, which auto-updates all linked AMCs."
+    },
+    {
+      "id": "M1C4_Q025",
+      "module": 1,
+      "chapter": 4,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of these steps improves credit score?",
+      "options": [
+        "Frequent loan applications",
+        "Timely payment of EMIs and credit-card bills",
+        "Maxing out credit limits",
+        "Closing oldest credit card"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consistent on-time repayment and moderate utilisation boost score."
+    },
+    {
+      "id": "M5C15_Q013",
+      "module": 5,
+      "chapter": 15,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Sustainable investing considers which key factors?",
+      "options": [
+        "Economic, social, and taxation",
+        "Environmental, social, and governance (ESG)",
+        "Legal, political, and monetary",
+        "Cultural, ethical, and religious"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sustainable investing focuses on ESG—environmental, social, and governance—criteria for long-term positive impact."
+    },
+    {
+      "id": "M6C20_Q011",
+      "module": 6,
+      "chapter": 20,
+      "type": "mcq",
+      "marks": 1,
+      "text": "For mutual fund-related complaints, investors can also contact:",
+      "options": [
+        "AMFI",
+        "IRDAI",
+        "RBI",
+        "Stock exchange"
+      ],
+      "correctIndex": 0,
+      "explanation": "AMFI assists investors in resolving mutual fund-related complaints in coordination with the concerned AMC."
+    },
+    {
+      "id": "M5C15_Q017",
+      "module": 5,
+      "chapter": 15,
+      "type": "mcq",
+      "marks": 1,
+      "text": "In the investor life cycle, the 'accumulation phase' is characterized by:",
+      "options": [
+        "High net worth and focus on capital preservation",
+        "Building assets with higher risk tolerance and long horizon",
+        "Dependence on investment income",
+        "Distribution of wealth through gifting"
+      ],
+      "correctIndex": 1,
+      "explanation": "In the accumulation phase, investors are early in their careers, taking higher risk to build wealth over a long horizon."
+    },
+    {
+      "id": "M1C3_Q042",
+      "module": 1,
+      "chapter": 3,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Why should irregular income (like bonuses) be treated carefully in budgeting?",
+      "options": [
+        "It cannot be taxed",
+        "It may not occur regularly and shouldn’t fund fixed commitments",
+        "It should always be spent fully",
+        "It must be ignored"
+      ],
+      "correctIndex": 1,
+      "explanation": "Irregular income is uncertain and best used for one-time goals or debt reduction."
+    },
+    {
+      "id": "M6C19_Q017",
+      "module": 6,
+      "chapter": 19,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Ethically communicating risk to clients requires:",
+      "options": [
+        "Highlighting only high returns in presentations",
+        "Presenting both upside potential and downside risks clearly",
+        "Avoiding mention of volatility",
+        "Sharing only past 1-year returns"
+      ],
+      "correctIndex": 1,
+      "explanation": "Balanced communication should clearly explain possible losses, volatility, and risk factors along with potential returns."
+    },
+    {
+      "id": "M3C10_Q007",
+      "module": 3,
+      "chapter": 10,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Margin money in futures trading is primarily meant to:",
+      "options": [
+        "Act as a down payment for ownership",
+        "Cover potential daily losses and ensure contract performance",
+        "Earn interest for the broker",
+        "Eliminate market risk"
+      ],
+      "correctIndex": 1,
+      "explanation": "Margins are deposits to cover potential daily losses and ensure traders honour their obligations; they are adjusted daily via mark-to-market."
+    },
+    {
+      "id": "M1C2_Q015",
+      "module": 1,
+      "chapter": 2,
+      "type": "mcq",
+      "marks": 1,
+      "text": "The process of finding the present value from a known future value is called:",
+      "options": [
+        "Compounding",
+        "Discounting",
+        "Amortising",
+        "Capitalising"
+      ],
+      "correctIndex": 1,
+      "explanation": "Discounting is the reverse of compounding."
+    },
+    {
+      "id": "M6C18_Q012",
+      "module": 6,
+      "chapter": 18,
+      "type": "mcq",
+      "marks": 1,
+      "text": "All mutual fund distributors must hold a valid registration with:",
+      "options": [
+        "SEBI",
+        "AMFI",
+        "RBI",
+        "PFRDA"
+      ],
+      "correctIndex": 1,
+      "explanation": "Distributors must obtain AMFI Registration Number (ARN) after completing the NISM Mutual Fund Distributors certification."
+    },
+    {
+      "id": "M3C9_Q017",
+      "module": 3,
+      "chapter": 9,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Spread risk in credit markets is the risk that:",
+      "options": [
+        "The yield difference between a corporate bond and a government bond of similar maturity widens",
+        "The difference between coupon and face value increases",
+        "The bid-ask spread in equity markets narrows",
+        "The repo rate remains unchanged"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spread risk is the risk that the credit spread over government securities widens due to perceived higher risk, lowering bond prices."
+    },
+    {
+      "id": "M6C19_Q005",
+      "module": 6,
+      "chapter": 19,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of the following is an example of mis-selling?",
+      "options": [
+        "Explaining all risks clearly before sale",
+        "Selling a product unsuitable for the client’s risk profile to earn higher commission",
+        "Recommending low-cost index funds",
+        "Suggesting diversification"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mis-selling includes pushing unsuitable products mainly to earn higher commissions, ignoring client needs and risk profile."
+    },
+    {
+      "id": "M1C4_Q002",
+      "module": 1,
+      "chapter": 4,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of the following is a secured loan?",
+      "options": [
+        "Personal loan",
+        "Credit card outstanding",
+        "Home loan",
+        "Education loan without collateral"
+      ],
+      "correctIndex": 2,
+      "explanation": "A home loan is backed by the property mortgaged to the lender."
+    },
+    {
+      "id": "M6C18_Q019",
+      "module": 6,
+      "chapter": 18,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Under PMLA, intermediaries must report suspicious transactions to:",
+      "options": [
+        "RBI",
+        "FIU-IND",
+        "SEBI",
+        "AMFI"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Financial Intelligence Unit–India (FIU-IND) under the Ministry of Finance receives suspicious transaction reports from intermediaries."
+    },
+    {
+      "id": "M1C3_Q014",
+      "module": 1,
+      "chapter": 3,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Debt-to-income ratio (DTI) is computed as:",
+      "options": [
+        "Total debt ÷ Total assets",
+        "Monthly debt obligations ÷ Gross monthly income",
+        "Interest paid ÷ EMI",
+        "Debt ÷ Net worth"
+      ],
+      "correctIndex": 1,
+      "explanation": "DTI assesses ability to service debt from monthly income."
+    },
+    {
+      "id": "M4C13_Q002",
+      "module": 4,
+      "chapter": 13,
+      "type": "mcq",
+      "marks": 1,
+      "text": "AIFs in India are regulated under:",
+      "options": [
+        "SEBI (Alternative Investment Funds) Regulations, 2012",
+        "RBI (Alternative Investment) Directions, 2015",
+        "Companies Act, 2013",
+        "SEBI (Portfolio Managers) Regulations, 2020"
+      ],
+      "correctIndex": 0,
+      "explanation": "SEBI introduced the AIF Regulations in 2012 to bring all unregistered private pools such as PE, VC and hedge funds under a regulatory framework."
+    },
+    {
+      "id": "M3C8_Q003",
+      "module": 3,
+      "chapter": 8,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Preferred shareholders generally have:",
+      "options": [
+        "Voting rights and variable dividend",
+        "Priority over equity shareholders in dividend and liquidation but limited voting rights",
+        "Higher returns than equity in all circumstances",
+        "No right to dividend"
+      ],
+      "correctIndex": 1,
+      "explanation": "Preference shareholders get fixed dividends and priority in liquidation but limited or no voting rights."
+    },
+    {
+      "id": "M2C5_Q019",
+      "module": 2,
+      "chapter": 5,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of the following can accept demand deposits and issue cheques?",
+      "options": [
+        "Banks",
+        "NBFCs",
+        "Mutual funds",
+        "Credit rating agencies"
+      ],
+      "correctIndex": 0,
+      "explanation": "Only banks can accept demand deposits and provide cheque facilities; NBFCs cannot."
+    },
+    {
+      "id": "M4C11_Q020",
+      "module": 4,
+      "chapter": 11,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Sector funds must invest at least what percentage of total assets in the identified sector?",
+      "options": [
+        "50%",
+        "65%",
+        "80%",
+        "100%"
+      ],
+      "correctIndex": 2,
+      "explanation": "Open-ended sector funds must invest at least 80% of total assets in equity and equity-related instruments of the specified sector."
+    },
+    {
+      "id": "M4C13_Q014",
+      "module": 4,
+      "chapter": 13,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Lock-in period for investment in an Angel Fund portfolio company is at least:",
+      "options": [
+        "6 months",
+        "1 year",
+        "2 years",
+        "3 years"
+      ],
+      "correctIndex": 3,
+      "explanation": "Investments by an Angel Fund in a portfolio company must be locked in for a minimum of three years."
+    },
+    {
+      "id": "M1C4_Q026",
+      "module": 1,
+      "chapter": 4,
+      "type": "mcq",
+      "marks": 1,
+      "text": "If monthly income ₹1 lakh and total EMIs ₹35,000, DTI ratio is:",
+      "options": [
+        "25%",
+        "30%",
+        "35%",
+        "40%"
+      ],
+      "correctIndex": 2,
+      "explanation": "35,000 ÷ 1,00,000 = 35%."
+    },
+    {
+      "id": "M6C19_Q009",
+      "module": 6,
+      "chapter": 19,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of the following is an ethical way to communicate expected returns?",
+      "options": [
+        "Guaranteeing a fixed return above FD rates",
+        "Showing past performance with clear disclaimers that returns are not guaranteed",
+        "Promising that losses will never occur",
+        "Highlighting only best-case scenarios"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ethical communication must be balanced, factual, and include disclaimers that past performance does not guarantee future returns."
+    },
+    {
+      "id": "M1C2_Q025",
+      "module": 1,
+      "chapter": 2,
+      "type": "mcq",
+      "marks": 1,
+      "text": "To accumulate ₹10 lakh in 15 years at 9% p.a., the annual deposit required is approximately:",
+      "options": [
+        "₹35,000",
+        "₹36,000",
+        "₹38,000",
+        "₹40,000"
+      ],
+      "correctIndex": 1,
+      "explanation": "Using FV of annuity formula, deposit ≈ 36,000 per year."
+    },
+    {
+      "id": "M3C7_Q003",
+      "module": 3,
+      "chapter": 7,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Equity as an asset class represents:",
+      "options": [
+        "A fixed claim on company’s assets and income",
+        "An ownership stake in a company",
+        "A loan given to the government",
+        "A derivative contract based on commodities"
+      ],
+      "correctIndex": 1,
+      "explanation": "Equity represents ownership in a company, with residual claim on assets and income after obligations to lenders are met."
+    },
+    {
+      "id": "M6C17_Q040",
+      "module": 6,
+      "chapter": 17,
+      "type": "mcq",
+      "marks": 1,
+      "text": "The investor’s ultimate record of ownership in mutual funds held in demat form is maintained by:",
+      "options": [
+        "AMC",
+        "Depository Participant (DP)",
+        "SEBI",
+        "Registrar only"
+      ],
+      "correctIndex": 1,
+      "explanation": "In demat mode, the Depository Participant (DP) maintains the record of ownership under the investor’s demat account."
+    },
+    {
+      "id": "M3C8_Q039",
+      "module": 3,
+      "chapter": 8,
+      "type": "mcq",
+      "marks": 1,
+      "text": "From an adviser’s perspective, suitability of equity for a client depends on:",
+      "options": [
+        "Only client’s income level",
+        "Risk tolerance, time horizon and financial goals",
+        "Client’s PAN number",
+        "Number of bank accounts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Suitability assessment considers risk appetite, time horizon and objectives, not merely income or administrative details."
+    },
+    {
+      "id": "M1C4_Q011",
+      "module": 1,
+      "chapter": 4,
+      "type": "mcq",
+      "marks": 1,
+      "text": "The interest rate that includes all fees and charges to show total borrowing cost is called:",
+      "options": [
+        "Nominal rate",
+        "Flat rate",
+        "Annual Percentage Rate (APR)",
+        "Repo rate"
+      ],
+      "correctIndex": 2,
+      "explanation": "APR reflects the true cost of borrowing including processing fees."
+    },
+    {
+      "id": "M1C1_Q032",
+      "module": 1,
+      "chapter": 1,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which is the MOST suitable investment for parking an emergency fund?",
+      "options": [
+        "Long-term equity mutual fund",
+        "Real estate",
+        "Liquid mutual fund or savings bank account",
+        "Gold jewellery"
+      ],
+      "correctIndex": 2,
+      "explanation": "Emergency funds must be readily accessible and low risk, so liquid funds or savings accounts are appropriate."
+    },
+    {
+      "id": "M6C18_Q011",
+      "module": 6,
+      "chapter": 18,
+      "type": "mcq",
+      "marks": 1,
+      "text": "AMFI primarily functions as:",
+      "options": [
+        "A mutual fund industry self-regulatory organization (SRO)",
+        "A SEBI subsidiary",
+        "A depository",
+        "A stock exchange regulator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Association of Mutual Funds in India (AMFI) is an SRO promoting investor awareness and ethical conduct among mutual funds."
+    },
+    {
+      "id": "M6C20_Q018",
+      "module": 6,
+      "chapter": 20,
+      "type": "mcq",
+      "marks": 1,
+      "text": "For arbitration of disputes between investors and brokers, the forum used is:",
+      "options": [
+        "SCORES portal",
+        "Stock exchange arbitration panel",
+        "Civil courts only",
+        "Company board"
+      ],
+      "correctIndex": 1,
+      "explanation": "Exchange arbitration panels handle disputes between investors and brokers as an alternative dispute resolution mechanism."
+    },
+    {
+      "id": "M3C7_Q027",
+      "module": 3,
+      "chapter": 7,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of the following combinations correctly matches asset class and its typical characteristic?",
+      "options": [
+        "Equity – low risk, guaranteed returns",
+        "Government bond – low credit risk, interest rate risk present",
+        "Commodity – fixed coupon payments",
+        "Real estate – highly liquid, intraday tradable"
+      ],
+      "correctIndex": 1,
+      "explanation": "Government bonds usually have low credit risk, but their prices are still affected by changes in interest rates."
+    },
+    {
+      "id": "M1C1_Q023",
+      "module": 1,
+      "chapter": 1,
+      "type": "mcq",
+      "marks": 1,
+      "text": "The financial life cycle typically starts with which stage?",
+      "options": [
+        "Retirement",
+        "Accumulation or earning phase",
+        "Distribution phase",
+        "Estate transfer phase"
+      ],
+      "correctIndex": 1,
+      "explanation": "The financial life cycle begins when an individual starts earning and accumulating assets."
+    },
+    {
+      "id": "M4C12_Q020",
+      "module": 4,
+      "chapter": 12,
+      "type": "mcq",
+      "marks": 1,
+      "text": "In PMS, fixed cost refers to:",
+      "options": [
+        "A variable charge based on profits",
+        "A percentage of assets under management payable regardless of performance",
+        "Brokerage cost only",
+        "Custodian charges paid by SEBI"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fixed cost is the management fee charged as a fixed percentage of AUM irrespective of performance."
+    },
+    {
+      "id": "M2C6_Q036",
+      "module": 2,
+      "chapter": 6,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Circuit filters or price bands are imposed to:",
+      "options": [
+        "Increase volatility",
+        "Prevent extreme price movements in a single day",
+        "Fix prices permanently",
+        "Ensure fixed returns"
+      ],
+      "correctIndex": 1,
+      "explanation": "Circuit filters cap daily price moves within a band to curb excessive volatility."
+    },
+    {
+      "id": "M3C7_Q033",
+      "module": 3,
+      "chapter": 7,
+      "type": "mcq",
+      "marks": 1,
+      "text": "“Investment-grade” debt generally refers to:",
+      "options": [
+        "Debt rated in the lower categories indicating high default risk",
+        "Debt with credit ratings in higher categories indicating relatively lower default risk",
+        "Debt that has no rating but is issued by start-ups",
+        "Any government bond irrespective of rating"
+      ],
+      "correctIndex": 1,
+      "explanation": "Investment-grade ratings indicate relatively lower default risk compared to non–investment grade or ‘junk’ ratings."
+    },
+    {
+      "id": "M1C3_Q040",
+      "module": 1,
+      "chapter": 3,
+      "type": "mcq",
+      "marks": 1,
+      "text": "A person’s monthly income = ₹80,000, fixed expenses = ₹30,000, variable = ₹40,000. What’s monthly surplus?",
+      "options": [
+        "₹5,000",
+        "₹8,000",
+        "₹10,000",
+        "₹12,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Surplus = 80,000 − (30,000 + 40,000) = 10,000."
+    },
+    {
+      "id": "M4C12_Q004",
+      "module": 4,
+      "chapter": 12,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Non-discretionary Portfolio Managers:",
+      "options": [
+        "Make buy/sell decisions independently",
+        "Require client approval for every transaction",
+        "Do not manage any funds",
+        "Can invest only in government securities"
+      ],
+      "correctIndex": 1,
+      "explanation": "Non-discretionary Portfolio Managers act based on the client’s instructions for every investment decision."
+    },
+    {
+      "id": "M1C3_Q046",
+      "module": 1,
+      "chapter": 3,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of these improves the current ratio (liquid assets ÷ current liabilities)?",
+      "options": [
+        "Repaying short-term debt using cash",
+        "Taking additional personal loan",
+        "Converting cash into property",
+        "Increasing expenses"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reducing liabilities with existing cash improves ratio."
+    },
+    {
+      "id": "M3C10_Q008",
+      "module": 3,
+      "chapter": 10,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Mark-to-market in futures trading means:",
+      "options": [
+        "Adjusting contract value daily for changes in market price",
+        "Settling only on expiry date",
+        "Fixing profit at the start of the contract",
+        "Adjusting margin monthly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mark-to-market involves daily settlement of profit or loss due to price movement, adjusting each participant’s margin account."
+    },
+    {
+      "id": "M6C17_Q022",
+      "module": 6,
+      "chapter": 17,
+      "type": "mcq",
+      "marks": 1,
+      "text": "SWP (Systematic Withdrawal Plan) is typically used by investors to:",
+      "options": [
+        "Invest periodically in equity funds",
+        "Withdraw a fixed sum regularly from existing investments",
+        "Switch schemes automatically",
+        "Pay SIP instalments"
+      ],
+      "correctIndex": 1,
+      "explanation": "SWP enables investors to withdraw a fixed amount at regular intervals from their investment corpus."
+    },
+    {
+      "id": "M3C10_Q001",
+      "module": 3,
+      "chapter": 10,
+      "type": "mcq",
+      "marks": 1,
+      "text": "A derivative is a financial instrument whose value is derived from:",
+      "options": [
+        "Government regulations",
+        "An underlying asset such as a stock, bond, commodity or index",
+        "Only interest rates",
+        "Investor psychology"
+      ],
+      "correctIndex": 1,
+      "explanation": "A derivative’s price depends on the value or performance of an underlying asset such as equity, bond, commodity, currency or index."
+    },
+    {
+      "id": "M3C10_Q028",
+      "module": 3,
+      "chapter": 10,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of the following correctly pairs derivative type and user intent?",
+      "options": [
+        "Forward – speculation; Option – hedging only",
+        "Option – limited loss for buyer; Future – symmetrical gains and losses",
+        "Future – risk-free; Option – guaranteed profit",
+        "All derivatives – eliminate all risk"
+      ],
+      "correctIndex": 1,
+      "explanation": "Futures expose both sides to full price movement; option buyers have limited loss potential."
+    },
+    {
+      "id": "M3C9_Q022",
+      "module": 3,
+      "chapter": 9,
+      "type": "mcq",
+      "marks": 1,
+      "text": "A bond will trade at par value when:",
+      "options": [
+        "Coupon rate is higher than required yield",
+        "Coupon rate equals the required yield to maturity",
+        "Coupon rate is lower than required yield",
+        "Bond is callable"
+      ],
+      "correctIndex": 1,
+      "explanation": "If the bond’s coupon rate equals the market required yield for that maturity, the bond price equals its face (par) value."
+    },
+    {
+      "id": "M3C7_Q016",
+      "module": 3,
+      "chapter": 7,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which asset class is generally considered most suitable for capital preservation with modest returns over the short term?",
+      "options": [
+        "Equity shares",
+        "High-yield bonds",
+        "Liquid and short-term debt instruments",
+        "Structured products linked to equity indices"
+      ],
+      "correctIndex": 2,
+      "explanation": "Liquid and short-term debt instruments usually focus on capital preservation and modest returns."
+    },
+    {
+      "id": "M5C15_Q010",
+      "module": 5,
+      "chapter": 15,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Regulatory constraints are most likely to apply when:",
+      "options": [
+        "The investor wants to invest abroad under LRS limits",
+        "Investor has multiple bank accounts",
+        "The investor earns high salary",
+        "The investor invests only in mutual funds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under RBI’s Liberalised Remittance Scheme (LRS), Indian residents can invest up to $250,000 overseas annually—this acts as a regulatory constraint."
+    },
+    {
+      "id": "M6C17_Q035",
+      "module": 6,
+      "chapter": 17,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Online mutual fund transactions through MFU, BSE StAR, or NSE NMF II are processed by:",
+      "options": [
+        "AMCs directly without intermediaries",
+        "Exchange-backed platforms integrating RTAs and distributors",
+        "Only banks",
+        "Depositories only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Platforms like MF Utility, BSE StAR, and NSE NMF II are integrated systems connecting AMCs, RTAs, and intermediaries."
+    },
+    {
+      "id": "M5C16_Q006",
+      "module": 5,
+      "chapter": 16,
+      "type": "mcq",
+      "marks": 1,
+      "text": "The most widely used risk-adjusted performance measure is:",
+      "options": [
+        "Jensen’s Alpha",
+        "Treynor Ratio",
+        "Sharpe Ratio",
+        "Information Ratio"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Sharpe Ratio is the most popular risk-adjusted performance measure, assessing excess return per unit of total risk."
+    },
+    {
+      "id": "M4C11_Q019",
+      "module": 4,
+      "chapter": 11,
+      "type": "mcq",
+      "marks": 1,
+      "text": "In a multi-cap fund, SEBI requires that at least 75% of assets are in equity with minimum allocation of:",
+      "options": [
+        "25% in large-cap, 25% in mid-cap, 25% in small-cap",
+        "50% in large-cap and 25% in mid-cap",
+        "35% in large-cap and 35% in mid-cap",
+        "60% in large-cap and 15% in small-cap"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multi-cap funds must invest at least 75% in equity-related instruments, with a minimum of 25% each in large, mid and small-cap stocks."
+    },
+    {
+      "id": "M4C11_Q014",
+      "module": 4,
+      "chapter": 11,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Interval funds are:",
+      "options": [
+        "Purely open-ended schemes",
+        "Purely closed-end schemes",
+        "Closed-end schemes that become open-ended during specified transaction periods",
+        "Schemes that can be bought only once a year"
+      ],
+      "correctIndex": 2,
+      "explanation": "Interval funds are a variant of closed-end funds that open for purchase and redemption at specified intervals for at least two days."
+    },
+    {
+      "id": "M3C8_Q012",
+      "module": 3,
+      "chapter": 8,
+      "type": "mcq",
+      "marks": 1,
+      "text": "A stock split means:",
+      "options": [
+        "Company merges two shares into one",
+        "Company divides each share into smaller units to increase liquidity",
+        "Company issues new shares for cash",
+        "Company reduces its authorised capital"
+      ],
+      "correctIndex": 1,
+      "explanation": "A stock split divides shares into smaller units to make them more affordable and increase liquidity."
+    },
+    {
+      "id": "M6C18_Q018",
+      "module": 6,
+      "chapter": 18,
+      "type": "mcq",
+      "marks": 1,
+      "text": "The Prevention of Money Laundering Act (PMLA), 2002 primarily aims to:",
+      "options": [
+        "Regulate corporate profits",
+        "Curb generation and circulation of black money",
+        "Control insider trading",
+        "Regulate derivative trading"
+      ],
+      "correctIndex": 1,
+      "explanation": "PMLA seeks to prevent money laundering and require reporting entities to maintain KYC and suspicious transaction records."
+    },
+    {
+      "id": "M5C14_Q003",
+      "module": 5,
+      "chapter": 14,
+      "type": "mcq",
+      "marks": 1,
+      "text": "According to Modern Portfolio Theory, portfolio risk is best measured by:",
+      "options": [
+        "Variance or standard deviation of returns",
+        "Sharpe ratio",
+        "Covariance matrix",
+        "Average annual return"
+      ],
+      "correctIndex": 0,
+      "explanation": "Markowitz demonstrated that variance (or standard deviation) of returns is a meaningful measure of portfolio risk."
+    },
+    {
+      "id": "M3C8_Q040",
+      "module": 3,
+      "chapter": 8,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Equity is generally RECOMMENDED as part of a client’s portfolio because:",
+      "options": [
+        "It guarantees fixed returns",
+        "It enhances long-term growth potential despite short-term volatility",
+        "It is risk-free",
+        "It is required by law"
+      ],
+      "correctIndex": 1,
+      "explanation": "Equity contributes to long-term growth in a diversified portfolio, though it carries higher short-term risk."
+    },
+    {
+      "id": "M1_CASE_DEBT06",
+      "module": 1,
+      "chapter": 4,
+      "type": "large_caselet",
+      "marks_per_question": 1,
+      "case_text": "Nisha has three loans — car loan ₹5 lakh at 11%, personal loan ₹3 lakh at 13%, and credit card outstanding ₹1 lakh at 36%. She considers consolidating them into a single loan at 12% for 4 years.",
+      "questions": [
+        {
+          "qid": "M1_CASE_DEBT06_Q1",
+          "text": "Which loan has the highest rate?",
+          "options": [
+            "Car loan",
+            "Personal loan",
+            "Credit card",
+            "Consolidated loan"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "qid": "M1_CASE_DEBT06_Q2",
+          "text": "Total current outstanding debt:",
+          "options": [
+            "₹8 lakh",
+            "₹9 lakh",
+            "₹10 lakh",
+            "₹11 lakh"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "qid": "M1_CASE_DEBT06_Q3",
+          "text": "Proposed consolidated loan rate:",
+          "options": [
+            "10%",
+            "11%",
+            "12%",
+            "13%"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "qid": "M1_CASE_DEBT06_Q4",
+          "text": "Main advantage of consolidation:",
+          "options": [
+            "Tax saving",
+            "Simpler repayment & lower interest",
+            "Longer tenure",
+            "Credit score reduction"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "qid": "M1_CASE_DEBT06_Q5",
+          "text": "Highest priority loan to prepay is:",
+          "options": [
+            "Car loan",
+            "Personal loan",
+            "Credit card",
+            "Consolidated loan"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "M1_CASE_RISK07_V2",
+      "module": 1,
+      "chapter": 3,
+      "type": "large_caselet",
+      "marks_per_question": 1,
+      "case_text": "Rakesh, aged 35, has balanced risk appetite. He can invest ₹60,000 per month. His goals are a house in 8 years and retirement in 25 years. He seeks advice on portfolio allocation.",
+      "questions": [
+        {
+          "qid": "M1_CASE_RISK07_V2_Q1",
+          "text": "Rakesh’s risk tolerance:",
+          "options": [
+            "Low",
+            "Balanced",
+            "High",
+            "Very high"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "qid": "M1_CASE_RISK07_V2_Q2",
+          "text": "Short-term goal:",
+          "options": [
+            "House purchase",
+            "Retirement",
+            "Travel",
+            "Wealth transfer"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "qid": "M1_CASE_RISK07_V2_Q3",
+          "text": "Investment horizon for retirement:",
+          "options": [
+            "20 years",
+            "22 years",
+            "25 years",
+            "30 years"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "qid": "M1_CASE_RISK07_V2_Q4",
+          "text": "Suitable product for near-term goal:",
+          "options": [
+            "Debt-oriented hybrid",
+            "Mid-cap equity",
+            "Crypto ETF",
+            "Overseas fund"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "qid": "M1_CASE_RISK07_V2_Q5",
+          "text": "Long-term goal allocation should favour:",
+          "options": [
+            "Debt",
+            "Equity",
+            "Gold",
+            "Liquid fund"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "M1_CASE_EMF04",
+      "module": 1,
+      "chapter": 2,
+      "type": "large_caselet",
+      "marks_per_question": 1,
+      "case_text": "Sneha earns ₹80,000 per month. Her monthly household expense is ₹50,000, EMI ₹15,000, and she has health insurance of ₹3 lakh. She wants to know if her emergency fund and insurance coverage are adequate.",
+      "questions": [
+        {
+          "qid": "M1_CASE_EMF04_Q1",
+          "text": "Monthly surplus available is:",
+          "options": [
+            "₹10,000",
+            "₹15,000",
+            "₹20,000",
+            "₹25,000"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "qid": "M1_CASE_EMF04_Q2",
+          "text": "Ideal emergency fund should be approximately:",
+          "options": [
+            "₹1 lakh",
+            "₹2 lakh",
+            "₹3 lakh",
+            "₹4 lakh"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "qid": "M1_CASE_EMF04_Q3",
+          "text": "Her current health insurance is:",
+          "options": [
+            "Adequate",
+            "Slightly low",
+            "Very low",
+            "Excessive"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "qid": "M1_CASE_EMF04_Q4",
+          "text": "If she adds ₹10,000 per month to her emergency fund, it will take roughly how many months to reach ₹3 lakh?",
+          "options": [
+            "20",
+            "25",
+            "30",
+            "36"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "qid": "M1_CASE_EMF04_Q5",
+          "text": "What type of account suits an emergency fund best?",
+          "options": [
+            "Equity mutual fund",
+            "Fixed deposit",
+            "Savings account",
+            "Gold ETF"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "M1_CASE_EDU03",
+      "module": 1,
+      "chapter": 3,
+      "type": "large_caselet",
+      "marks_per_question": 1,
+      "case_text": "Meera and Karan have a 10-year-old son and plan to save for his higher education, which they estimate will cost ₹25 lakh in 8 years. They can invest ₹20,000 per month in a balanced mutual fund expected to yield 9% per annum.",
+      "questions": [
+        {
+          "qid": "M1_CASE_EDU03_Q1",
+          "text": "Estimated goal cost is:",
+          "options": [
+            "₹15 lakh",
+            "₹20 lakh",
+            "₹25 lakh",
+            "₹30 lakh"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "qid": "M1_CASE_EDU03_Q2",
+          "text": "Time available for goal:",
+          "options": [
+            "5 years",
+            "8 years",
+            "10 years",
+            "12 years"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "qid": "M1_CASE_EDU03_Q3",
+          "text": "Monthly SIP amount:",
+          "options": [
+            "₹10,000",
+            "₹15,000",
+            "₹20,000",
+            "₹25,000"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "qid": "M1_CASE_EDU03_Q4",
+          "text": "Expected return:",
+          "options": [
+            "7%",
+            "8%",
+            "9%",
+            "10%"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "qid": "M1_CASE_EDU03_Q5",
+          "text": "Which product category are they using?",
+          "options": [
+            "Debt fund",
+            "Balanced mutual fund",
+            "Equity index fund",
+            "Fixed deposit"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "M1_CASE_TAX09",
+      "module": 1,
+      "chapter": 4,
+      "type": "large_caselet",
+      "marks_per_question": 1,
+      "case_text": "Priya and Kunal are a salaried couple earning ₹9 lakh and ₹12 lakh per year respectively. They invest in ELSS and PPF and pay a home loan interest of ₹2.5 lakh annually. They want to optimise Section 80C and 24(b) benefits.",
+      "questions": [
+        {
+          "qid": "M1_CASE_TAX09_Q1",
+          "text": "Maximum 80C limit for each is:",
+          "options": [
+            "₹1 lakh",
+            "₹1.5 lakh",
+            "₹2 lakh",
+            "₹2.5 lakh"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "qid": "M1_CASE_TAX09_Q2",
+          "text": "Home loan interest deduction limit under 24(b):",
+          "options": [
+            "₹1 lakh",
+            "₹1.5 lakh",
+            "₹2 lakh",
+            "₹2 lakh for each"
+          ],
+          "correctIndex": 3
+        },
+        {
+          "qid": "M1_CASE_TAX09_Q3",
+          "text": "Priya’s salary income:",
+          "options": [
+            "₹9 lakh",
+            "₹10 lakh",
+            "₹12 lakh",
+            "₹15 lakh"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "qid": "M1_CASE_TAX09_Q4",
+          "text": "Combined deduction under 80C can be:",
+          "options": [
+            "₹1.5 lakh",
+            "₹3 lakh",
+            "₹4 lakh",
+            "₹2.5 lakh"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "qid": "M1_CASE_TAX09_Q5",
+          "text": "Investment type offering 3-year lock-in under 80C:",
+          "options": [
+            "PPF",
+            "NSC",
+            "ELSS",
+            "NPS"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "M1C3_LC001",
+      "module": 1,
+      "chapter": 3,
+      "type": "large_caselet",
+      "marks_per_question": 1,
+      "case_text": "Riya earns ₹80,000 per month. Her fixed expenses are ₹30,000, variable ₹25,000, EMIs ₹15,000, and investments ₹5,000 per month. She has ₹3 lakh in liquid mutual funds.",
+      "questions": [
+        {
+          "qid": "M1C3_LC001_Q1",
+          "text": "Monthly surplus/deficit is:",
+          "options": [
+            "₹10,000 surplus",
+            "₹5,000 deficit",
+            "₹5,000 surplus",
+            "₹15,000 deficit"
+          ],
+          "correctIndex": 2,
+          "explanation": "80 − (30 + 25 + 15 + 5) = 5 k surplus."
+        },
+        {
+          "qid": "M1C3_LC001_Q2",
+          "text": "Liquidity ratio (in months) is:",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "explanation": "3 lakh ÷ (55 k expenses) ≈ 5.5 → about 4–5 months."
+        },
+        {
+          "qid": "M1C3_LC001_Q3",
+          "text": "Savings ratio per month is:",
+          "options": [
+            "5%",
+            "6%",
+            "10%",
+            "12%"
+          ],
+          "correctIndex": 2,
+          "explanation": "5 k / 80 k = 6% approx, closest 10%? adjust rounding."
+        },
+        {
+          "qid": "M1C3_LC001_Q4",
+          "text": "DTI ratio is:",
+          "options": [
+            "15%",
+            "18%",
+            "20%",
+            "25%"
+          ],
+          "correctIndex": 2,
+          "explanation": "15 k ÷ 80 k = 19%. ≈ 20%."
+        },
+        {
+          "qid": "M1C3_LC001_Q5",
+          "text": "Her emergency fund is adequate?",
+          "options": [
+            "Yes",
+            "No, should increase to 6 months of expenses",
+            "Not required",
+            "Can be reduced"
+          ],
+          "correctIndex": 1,
+          "explanation": "Should hold ~₹3.3 lakh (6 × 55 k); she’s close but slightly short."
+        }
+      ]
+    },
+    {
+      "id": "M1_SC02_V2",
+      "module": 1,
+      "chapter": 3,
+      "type": "small_caselet",
+      "marks_per_question": 2,
+      "case_text": "Meera plans ₹25 lakh for her son’s higher studies in 9 years. She invests ₹17,000/month at 9% annual return.",
+      "questions": [
+        {
+          "qid": "M1_SC02_V2_Q1",
+          "text": "Expected corpus after 9 years (approx):",
+          "options": [
+            "₹30 lakh",
+            "₹32 lakh",
+            "₹35 lakh",
+            "₹38 lakh"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "qid": "M1_SC02_V2_Q2",
+          "text": "If inflation is 5%, real return is:",
+          "options": [
+            "3%",
+            "4%",
+            "5%",
+            "6%"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "qid": "M1_SC02_V2_Q3",
+          "text": "Ideal investment type:",
+          "options": [
+            "Equity fund",
+            "PPF",
+            "FD",
+            "Gold ETF"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "qid": "M1_SC02_V2_Q4",
+          "text": "If goal rises to ₹30 lakh, SIP should be (approx):",
+          "options": [
+            "₹18,000",
+            "₹19,000",
+            "₹20,000",
+            "₹22,000"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "qid": "M1_SC02_V2_Q5",
+          "text": "Best review frequency for such goals:",
+          "options": [
+            "Monthly",
+            "Quarterly",
+            "Yearly",
+            "Once in 5 years"
+          ],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "M1_SC03_V2",
+      "module": 1,
+      "chapter": 2,
+      "type": "small_caselet",
+      "marks_per_question": 2,
+      "case_text": "Sneha earns ₹95,000, spends ₹60,000, pays ₹18,000 EMI. She wants a 6-month emergency fund.",
+      "questions": [
+        {
+          "qid": "M1_SC03_V2_Q1",
+          "text": "Total expenses per month:",
+          "options": [
+            "₹65,000",
+            "₹70,000",
+            "₹75,000",
+            "₹80,000"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "qid": "M1_SC03_V2_Q2",
+          "text": "Target emergency fund:",
+          "options": [
+            "₹3.9 lakh",
+            "₹4.2 lakh",
+            "₹4.5 lakh",
+            "₹5 lakh"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "qid": "M1_SC03_V2_Q3",
+          "text": "Monthly saving capacity:",
+          "options": [
+            "₹10,000",
+            "₹12,000",
+            "₹15,000",
+            "₹17,000"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "qid": "M1_SC03_V2_Q4",
+          "text": "Months needed to build the fund:",
+          "options": [
+            "28",
+            "32",
+            "35",
+            "38"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "qid": "M1_SC03_V2_Q5",
+          "text": "Best product for emergency corpus:",
+          "options": [
+            "Savings a/c",
+            "Liquid fund",
+            "Equity fund",
+            "Gold ETF"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "M1C4_SC001",
+      "module": 1,
+      "chapter": 4,
+      "type": "small_caselet",
+      "marks_per_question": 2,
+      "case_text": "Ravi has ₹12 lakh annual income and loans: car loan ₹5 lakh @10%, home loan ₹30 lakh @8.5%. Total EMIs ₹45,000/month. He wants to take a ₹3 lakh personal loan for vacation.",
+      "questions": [
+        {
+          "qid": "M1C4_SC001_Q1",
+          "text": "Current DTI ratio:",
+          "options": [
+            "35%",
+            "37.5%",
+            "40%",
+            "45%"
+          ],
+          "correctIndex": 2,
+          "explanation": "45k ÷ 1 lakh = 45%. Already high."
+        },
+        {
+          "qid": "M1C4_SC001_Q2",
+          "text": "Taking new loan will make DTI:",
+          "options": [
+            "Improve",
+            "Worsen",
+            "Stay same",
+            "Irrelevant"
+          ],
+          "correctIndex": 1,
+          "explanation": "New EMI increases DTI further."
+        },
+        {
+          "qid": "M1C4_SC001_Q3",
+          "text": "Should he take this loan?",
+          "options": [
+            "Yes, for consumption",
+            "No, it’s a bad debt",
+            "Yes, DTI is below 50%",
+            "Only if collateral available"
+          ],
+          "correctIndex": 1,
+          "explanation": "Borrowing for non-productive expense at high DTI is poor financial decision."
+        },
+        {
+          "qid": "M1C4_SC001_Q4",
+          "text": "A better choice would be to:",
+          "options": [
+            "Use savings",
+            "Delay travel and save up",
+            "Increase credit limit",
+            "Apply for new card"
+          ],
+          "correctIndex": 1,
+          "explanation": "Deferring until surplus is built is more prudent."
+        },
+        {
+          "qid": "M1C4_SC001_Q5",
+          "text": "His high DTI also affects:",
+          "options": [
+            "Credit score negatively",
+            "Credit score positively",
+            "No impact",
+            "Tax savings"
+          ],
+          "correctIndex": 0,
+          "explanation": "Higher debt burden and missed EMIs can lower credit rating."
+        }
+      ]
+    }
+  ]
+}

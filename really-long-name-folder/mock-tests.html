@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>NISM XA Mock Test Package | NISM Gym</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial;
+    }
+    :root {
+      --primary: #2563eb;
+      --primary-soft: #eff6ff;
+      --bg: #f5f7fb;
+      --card-bg: #ffffff;
+      --text-main: #111827;
+      --text-muted: #6b7280;
+      --border-soft: #e5e7eb;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text-main);
+    }
+    .wrapper {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px 16px 32px;
+    }
+    .page-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .page-header h1 {
+      margin: 0 0 8px;
+      font-size: 1.8rem;
+    }
+    .page-header p {
+      margin: 4px 0;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+    .info-box {
+      background: var(--card-bg);
+      border-radius: 10px;
+      padding: 14px 16px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+      border: 1px solid var(--border-soft);
+      margin-bottom: 20px;
+      font-size: 0.92rem;
+    }
+    .info-box strong {
+      color: var(--primary);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+    }
+    .test-card {
+      display: block;
+      text-decoration: none;
+      background: var(--card-bg);
+      border-radius: 10px;
+      padding: 14px;
+      border: 1px solid var(--border-soft);
+      box-shadow: 0 2px 5px rgba(15,23,42,0.04);
+      transition: transform 0.08s ease-out, box-shadow 0.08s ease-out, border-color 0.08s;
+    }
+    .test-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--primary);
+      box-shadow: 0 6px 14px rgba(37,99,235,0.15);
+    }
+    .test-title {
+      font-weight: 600;
+      margin-bottom: 4px;
+      font-size: 0.98rem;
+      color: var(--text-main);
+    }
+    .test-meta {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      background: var(--primary-soft);
+      color: var(--primary);
+      margin-top: 6px;
+    }
+    .footer-note {
+      margin-top: 20px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+    @media (min-width: 768px) {
+      .page-header h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Top Bar -->
+  <header class="bg-white border-b border-gray-200">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+      <a href="https://nismgym.com/" class="flex items-center space-x-3 group">
+        <div class="flex items-center justify-center w-9 h-9 rounded-xl bg-gray-900 text-white font-bold transition-transform group-hover:scale-105">
+          NG
+        </div>
+        <span class="text-xl font-semibold tracking-tight text-gray-900">NISM&nbsp;Gym</span>
+      </a>
+      <nav class="hidden sm:flex items-center gap-6 text-sm">
+        <a href="https://nismgym.com/" class="hover:text-gray-700">Home</a>
+        <a href="https://nismgym.com/" class="hover:text-gray-700">Courses</a>
+        <a href="https://www.youtube.com/@permabullish" target="_blank" rel="noopener" class="hover:text-gray-700">YouTube</a>
+        <a href="https://t.me/becomeRIA/1" target="_blank" rel="noopener" class="hover:text-gray-700">Telegram</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="wrapper">
+    <div class="page-header">
+      <h1>NISM XA Mock Test Package</h1>
+      <p>Access all 20 full-length mocks from one place.</p>
+      <p><strong>Tip:</strong> Attempt one test at a time, just like the real 3-hour exam.</p>
+    </div>
+
+    <div class="info-box">
+      <p><strong>How to use this page:</strong></p>
+      <p>
+        • Each mock simulates the real exam experience with a timer and question navigator.<br>
+        • You can start any test, move question-by-question, mark for review, and submit when ready.<br>
+        • All links open in a new tab so you can return here easily.
+      </p>
+    </div>
+
+    <section class="grid">
+      <!-- 20 static mock links -->
+      <a class="test-card" href="mock-test-1.html" target="_blank">
+        <div class="test-title">Mock Test 1</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+
+      <a class="test-card" href="mock-test-2.html" target="_blank">
+        <div class="test-title">Mock Test 2</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+
+      <a class="test-card" href="mock-test-3.html" target="_blank">
+        <div class="test-title">Mock Test 3</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+
+      <a class="test-card" href="mock-test-4.html" target="_blank">
+        <div class="test-title">Mock Test 4</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+
+      <a class="test-card" href="mock-test-5.html" target="_blank">
+        <div class="test-title">Mock Test 5</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+
+      <a class="test-card" href="mock-test-6.html" target="_blank">
+        <div class="test-title">Mock Test 6</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+
+      <a class="test-card" href="mock-test-7.html" target="_blank">
+        <div class="test-title">Mock Test 7</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+
+      <a class="test-card" href="mock-test-8.html" target="_blank">
+        <div class="test-title">Mock Test 8</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+
+      <a class="test-card" href="mock-test-9.html" target="_blank">
+        <div class="test-title">Mock Test 9</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+
+      <a class="test-card" href="mock-test-10.html" target="_blank">
+        <div class="test-title">Mock Test 10</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+
+      <a class="test-card" href="mock-test-11.html" target="_blank">
+        <div class="test-title">Mock Test 11</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+
+      <a class="test-card" href="mock-test-12.html" target="_blank">
+        <div class="test-title">Mock Test 12</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+
+      <a class="test-card" href="mock-test-13.html" target="_blank">
+        <div class="test-title">Mock Test 13</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+
+      <a class="test-card" href="mock-test-14.html" target="_blank">
+        <div class="test-title">Mock Test 14</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+
+      <a class="test-card" href="mock-test-15.html" target="_blank">
+        <div class="test-title">Mock Test 15</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+
+      <a class="test-card" href="mock-test-16.html" target="_blank">
+        <div class="test-title">Mock Test 16</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+
+      <a class="test-card" href="mock-test-17.html" target="_blank">
+        <div class="test-title">Mock Test 17</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+
+      <a class="test-card" href="mock-test-18.html" target="_blank">
+        <div class="test-title">Mock Test 18</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+
+      <a class="test-card" href="mock-test-19.html" target="_blank">
+        <div class="test-title">Mock Test 19</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+
+      <a class="test-card" href="mock-test-20.html" target="_blank">
+        <div class="test-title">Mock Test 20</div>
+        <div class="test-meta">Full-length | 3 hours | 150 marks</div>
+        <div class="badge">Active</div>
+      </a>
+    </section>
+
+    <div class="footer-note">
+      Bookmark this page — your home base for all NISM XA mock tests.
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="mt-10 border-t border-gray-200 bg-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-sm text-gray-600">
+      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div>
+          <p class="font-medium text-gray-700">NISM Gym</p>
+          <p class="mt-1">© <span id="year"></span> NISM Gym. All rights reserved.</p>
+          <p class="mt-1">Owned &amp; operated by <strong>Pranshumaan Singh</strong>.</p>
+        </div>
+        <div class="flex gap-6">
+          <a href="https://nismgym.com/terms-and-conditions.html" class="hover:text-gray-800">Terms &amp; Conditions</a>
+          <a href="https://nismgym.com/refund-and-cancellation-policy.html" class="hover:text-gray-800">Refund &amp; Cancellation Policy</a>
+          <a href="mailto:mail@mayaskara.com" class="hover:text-gray-800">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
