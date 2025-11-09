@@ -1,0 +1,1868 @@
+{
+  "title": "NISM XB Mock Test 03",
+  "exam": "NISM Series XB",
+  "durationMinutes": 180,
+  "negativeMarking": 0.25,
+  "questions": [
+    {
+      "id": "M7C1_Q015",
+      "module": 7,
+      "chapter": 1,
+      "type": "mcq",
+      "marks": 1,
+      "text": "According to the 2015 amendment, a beneficial nominee in life insurance is:",
+      "options": [
+        "Always the executor of the will",
+        "Legally entitled to the claim amount ahead of legal heirs",
+        "A trustee for all heirs",
+        "Only applicable to corporate policies"
+      ],
+      "correctIndex": 1,
+      "explanation": "Under Section 39(7) of the Insurance Act, a beneficial nominee (spouse, parents, or children) is entitled to receive proceeds fully."
+    },
+    {
+      "id": "M7C1_Q005",
+      "module": 7,
+      "chapter": 1,
+      "type": "mcq",
+      "marks": 1,
+      "text": "The principle that insurance restores the insured’s financial position to where it was before loss is known as:",
+      "options": [
+        "Utmost good faith",
+        "Indemnity",
+        "Subrogation",
+        "Contribution"
+      ],
+      "correctIndex": 1,
+      "explanation": "The principle of indemnity ensures the insured is compensated for the actual loss suffered, without profit."
+    },
+    {
+      "id": "M7C1_Q022",
+      "module": 7,
+      "chapter": 1,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Under-insurance implies:",
+      "options": [
+        "The insured pays excess premium",
+        "The insured retains part of the risk",
+        "The insurer covers unlimited liability",
+        "The policy has lapsed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Under-insurance means the coverage is less than the actual risk exposure, leaving part of the risk with the insured."
+    },
+    {
+      "id": "M7C1_Q002",
+      "module": 7,
+      "chapter": 1,
+      "type": "mcq",
+      "marks": 1,
+      "text": "In the merchant ship example, the risk covered was:",
+      "options": [
+        "Damage to goods carried by the ship",
+        "Loss of ship due to accident or storm",
+        "Loss of profit from trade",
+        "Theft of goods in port"
+      ],
+      "correctIndex": 1,
+      "explanation": "The example illustrated insurance against the risk of a ship being lost at sea."
+    },
+    {
+      "id": "M7C1_Q038",
+      "module": 7,
+      "chapter": 1,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of the following risks is NOT insurable?",
+      "options": [
+        "Death of a person",
+        "Fire in a factory",
+        "Loss in stock market speculation",
+        "Accidental injury"
+      ],
+      "correctIndex": 2,
+      "explanation": "Speculative risks such as stock market fluctuations are not insurable because they can lead to profit or loss."
+    },
+    {
+      "id": "M7C2_Q036",
+      "module": 7,
+      "chapter": 2,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which is the most important criterion in evaluating a life insurance policy?",
+      "options": [
+        "Highest maturity value",
+        "Adequacy of life cover",
+        "Tax benefits only",
+        "Number of riders"
+      ],
+      "correctIndex": 1,
+      "explanation": "The primary purpose of life insurance is protection; adequacy of cover comes before investment benefits."
+    },
+    {
+      "id": "M7C2_Q015",
+      "module": 7,
+      "chapter": 2,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Endowment plans provide:",
+      "options": [
+        "Only death cover",
+        "Lump-sum payout on survival or death, whichever occurs first",
+        "Monthly pension",
+        "Equity-linked returns only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Endowment plans pay lump-sum on maturity if the insured survives or on death during the term."
+    },
+    {
+      "id": "M7C2_Q038",
+      "module": 7,
+      "chapter": 2,
+      "type": "mcq",
+      "marks": 1,
+      "text": "ULIP maturity proceeds are tax-exempt only if:",
+      "options": [
+        "Premium ≤ ₹2.5 lakh per year (for policies issued after Feb 2021) and sum assured ≥10× annual premium",
+        "It is a group ULIP",
+        "Policy term is over 10 years",
+        "Nominee is spouse"
+      ],
+      "correctIndex": 0,
+      "explanation": "ULIP maturity proceeds remain tax-free only if annual premium ≤ ₹2.5 lakh and sum assured ≥10× premium."
+    },
+    {
+      "id": "M7C2_Q001",
+      "module": 7,
+      "chapter": 2,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Life insurance primarily provides protection against:",
+      "options": [
+        "Investment losses",
+        "Loss of income due to death",
+        "Stock market volatility",
+        "Business risk"
+      ],
+      "correctIndex": 1,
+      "explanation": "Life insurance protects dependents from loss of income due to the death of the insured."
+    },
+    {
+      "id": "M7C2_Q005",
+      "module": 7,
+      "chapter": 2,
+      "type": "mcq",
+      "marks": 1,
+      "text": "A guaranteed bonus in life insurance is:",
+      "options": [
+        "Declared at insurer’s discretion",
+        "Fixed percentage of sum assured for initial policy years",
+        "Applicable only to non-participating policies",
+        "Based on market performance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Guaranteed bonus is a fixed percentage declared for the first few years, forming part of contractual benefits."
+    },
+    {
+      "id": "M7C3_Q004",
+      "module": 7,
+      "chapter": 3,
+      "type": "mcq",
+      "marks": 1,
+      "text": "In non-life insurance, the premium payable is primarily a function of:",
+      "options": [
+        "Policyholder’s PAN and Aadhaar",
+        "Sum insured and assessed risk",
+        "Number of dependants",
+        "Number of bank accounts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Premium is based on sum insured and risk factors such as age, health, vehicle type, or property details."
+    },
+    {
+      "id": "M7C3_Q015",
+      "module": 7,
+      "chapter": 3,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Critical illness insurance is best described as:",
+      "options": [
+        "An indemnity policy that reimburses hospital bills",
+        "A defined benefit policy that pays lump sum on diagnosis of specified illnesses",
+        "A rider available only with motor policies",
+        "A compulsory cover under health plans"
+      ],
+      "correctIndex": 1,
+      "explanation": "Critical illness cover pays a fixed lump sum on diagnosis of listed illnesses, usually after a survival period."
+    },
+    {
+      "id": "M7C3_Q005",
+      "module": 7,
+      "chapter": 3,
+      "type": "mcq",
+      "marks": 1,
+      "text": "In health insurance, a deductible refers to:",
+      "options": [
+        "The maximum amount the insurer will pay",
+        "Portion of claim that must be borne by the insured",
+        "Penalty for late premium payment",
+        "Bonus added to the sum insured"
+      ],
+      "correctIndex": 1,
+      "explanation": "Deductible is the part of the claim that the insured has to pay before the insurer’s liability starts."
+    },
+    {
+      "id": "M7C3_Q003",
+      "module": 7,
+      "chapter": 3,
+      "type": "mcq",
+      "marks": 1,
+      "text": "The typical term of a non-life insurance policy is:",
+      "options": [
+        "One month",
+        "Six months",
+        "One year",
+        "Ten years"
+      ],
+      "correctIndex": 2,
+      "explanation": "Most non-life policies, such as health and motor, are annual contracts, usually for one year."
+    },
+    {
+      "id": "M7C3_Q022",
+      "module": 7,
+      "chapter": 3,
+      "type": "mcq",
+      "marks": 1,
+      "text": "When claim amount is less than the sum insured of one chosen health policy, the insurer:",
+      "options": [
+        "Must apply contribution from all policies",
+        "Cannot invoke contribution clause and must settle full admissible claim",
+        "Can pay only half the claim",
+        "Must reject the claim"
+      ],
+      "correctIndex": 1,
+      "explanation": "Contribution applies only when claim exceeds sum insured of the chosen policy; otherwise that insurer pays in full."
+    },
+    {
+      "id": "M8C4_Q005",
+      "module": 8,
+      "chapter": 4,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which stage of retirement is associated with building assets, family responsibilities and recognising the impact of ageing?",
+      "options": [
+        "Initial retirement stage",
+        "Final retirement stage",
+        "Preparation (pre-retirement accumulation) stage",
+        "Post-retirement distribution stage only"
+      ],
+      "correctIndex": 2,
+      "explanation": "The preparation stage covers working years when people handle goals like housing, children’s education and insurance while saving for retirement."
+    },
+    {
+      "id": "M8C4_Q033",
+      "module": 8,
+      "chapter": 4,
+      "type": "mcq",
+      "marks": 1,
+      "text": "To mitigate sequence risk, retirees can:",
+      "options": [
+        "Maintain cash buffer for near-term expenses",
+        "Invest fully in small caps",
+        "Withdraw entire corpus early",
+        "Rely only on fixed deposits"
+      ],
+      "correctIndex": 0,
+      "explanation": "Keeping a buffer of liquid assets prevents forced withdrawals during market downturns."
+    },
+    {
+      "id": "M8C4_Q016",
+      "module": 8,
+      "chapter": 4,
+      "type": "mcq",
+      "marks": 1,
+      "text": "When estimating retirement corpus, a higher expected return on the corpus during retirement will:",
+      "options": [
+        "Increase the required corpus",
+        "Reduce the required corpus, all else equal",
+        "Have no effect on corpus requirement",
+        "Eliminate the need for planning"
+      ],
+      "correctIndex": 1,
+      "explanation": "Higher returns from the corpus allow a lower starting corpus to support the same inflation-linked income, given the risks."
+    },
+    {
+      "id": "M8C4_Q018",
+      "module": 8,
+      "chapter": 4,
+      "type": "mcq",
+      "marks": 1,
+      "text": "The corpus required for retirement depends primarily on:",
+      "options": [
+        "Expected inflation, post-retirement returns, and longevity",
+        "Current tax rates only",
+        "Choice of bank account",
+        "Employer contribution rate"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inflation, longevity and post-retirement investment returns are the key inputs that determine corpus requirement."
+    },
+    {
+      "id": "M8C4_Q032",
+      "module": 8,
+      "chapter": 4,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Sequence of returns risk refers to:",
+      "options": [
+        "Order of returns affecting long-term corpus sustainability",
+        "Order of fund selection by investor",
+        "Tax order in withdrawals",
+        "Risk of missing market rallies"
+      ],
+      "correctIndex": 0,
+      "explanation": "Negative returns early in retirement can damage sustainability even if average returns remain similar."
+    },
+    {
+      "id": "M8C4_Q014",
+      "module": 8,
+      "chapter": 4,
+      "type": "mcq",
+      "marks": 1,
+      "text": "If inflation is 6% p.a., approximately how much would an item costing ₹100 today cost after 30 years?",
+      "options": [
+        "Around ₹320",
+        "Around ₹574",
+        "Around ₹1,000",
+        "Around ₹200"
+      ],
+      "correctIndex": 1,
+      "explanation": "At 6% inflation, ₹100 becomes roughly ₹574 in 30 years, illustrating how inflation multiplies future costs."
+    },
+    {
+      "id": "M8C5_Q035",
+      "module": 8,
+      "chapter": 5,
+      "type": "mcq",
+      "marks": 1,
+      "text": "The typical risk-return hierarchy for retirement products places which highest on safety?",
+      "options": [
+        "Equity mutual funds",
+        "EPF/PPF",
+        "Corporate bonds",
+        "Hybrid funds"
+      ],
+      "correctIndex": 1,
+      "explanation": "EPF and PPF are government-backed and rank highest on safety among retirement products."
+    },
+    {
+      "id": "M8C5_Q009",
+      "module": 8,
+      "chapter": 5,
+      "type": "mcq",
+      "marks": 1,
+      "text": "An employee becomes eligible for gratuity payment after:",
+      "options": [
+        "1 year of service",
+        "3 years of service",
+        "5 years of continuous service",
+        "10 years of service"
+      ],
+      "correctIndex": 2,
+      "explanation": "Employees completing at least 5 years of continuous service become eligible for gratuity."
+    },
+    {
+      "id": "M8C5_Q037",
+      "module": 8,
+      "chapter": 5,
+      "type": "mcq",
+      "marks": 1,
+      "text": "An ideal pre-retirement product portfolio focuses on:",
+      "options": [
+        "Short-term returns only",
+        "Growth-oriented, tax-efficient investments",
+        "Fixed deposits exclusively",
+        "Speculative trading"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pre-retirement investments should aim for long-term growth and tax efficiency."
+    },
+    {
+      "id": "M8C5_Q038",
+      "module": 8,
+      "chapter": 5,
+      "type": "mcq",
+      "marks": 1,
+      "text": "An ideal post-retirement portfolio primarily focuses on:",
+      "options": [
+        "Wealth maximisation only",
+        "Capital protection and steady income",
+        "High-risk leveraged products",
+        "Only real estate investments"
+      ],
+      "correctIndex": 1,
+      "explanation": "During retirement, focus shifts to capital safety and stable income generation."
+    },
+    {
+      "id": "M8C5_Q031",
+      "module": 8,
+      "chapter": 5,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Annuity products primarily help in managing which risk?",
+      "options": [
+        "Credit risk",
+        "Liquidity risk",
+        "Longevity risk",
+        "Inflation risk"
+      ],
+      "correctIndex": 2,
+      "explanation": "Annuities provide income for life, mitigating the risk of outliving one's resources."
+    },
+    {
+      "id": "M8C5_Q016",
+      "module": 8,
+      "chapter": 5,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Tax-free withdrawal allowed from NPS corpus at exit is:",
+      "options": [
+        "20%",
+        "40%",
+        "60%",
+        "80%"
+      ],
+      "correctIndex": 2,
+      "explanation": "Up to 60% of the corpus is tax-free on withdrawal; 40% must be used for annuity purchase."
+    },
+    {
+      "id": "M8C6_Q016",
+      "module": 8,
+      "chapter": 6,
+      "type": "mcq",
+      "marks": 1,
+      "text": "In the retirement stage, the two key evaluation parameters for products are:",
+      "options": [
+        "Inflation protection and capital safety",
+        "Liquidity and volatility",
+        "High risk and low tax",
+        "Complexity and return potential"
+      ],
+      "correctIndex": 0,
+      "explanation": "Products during retirement should balance capital safety with inflation-beating income potential."
+    },
+    {
+      "id": "M8C6_Q014",
+      "module": 8,
+      "chapter": 6,
+      "type": "mcq",
+      "marks": 1,
+      "text": "When evaluating retirement products, which factor reduces real long-term gains the most?",
+      "options": [
+        "Low cost",
+        "High taxation",
+        "Inflation protection",
+        "Risk diversification"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tax inefficiency erodes long-term real returns, so tax treatment is a key selection criterion."
+    },
+    {
+      "id": "M8C6_Q007",
+      "module": 8,
+      "chapter": 6,
+      "type": "mcq",
+      "marks": 1,
+      "text": "In retirement planning, the PMT function is used to calculate:",
+      "options": [
+        "The corpus required at retirement",
+        "Monthly savings required to reach the goal",
+        "Post-retirement income",
+        "Inflation-adjusted rate of return"
+      ],
+      "correctIndex": 1,
+      "explanation": "The PMT function estimates periodic savings required to achieve a desired retirement corpus."
+    },
+    {
+      "id": "M8C6_Q004",
+      "module": 8,
+      "chapter": 6,
+      "type": "mcq",
+      "marks": 1,
+      "text": "A good adviser should recommend withdrawal rates that:",
+      "options": [
+        "Maximise short-term cash flows",
+        "Exhaust corpus within 10 years",
+        "Are sustainable over the retiree’s lifetime",
+        "Eliminate annuity needs"
+      ],
+      "correctIndex": 2,
+      "explanation": "Withdrawal rates should ensure that the corpus lasts for the entire expected lifetime of the retiree."
+    },
+    {
+      "id": "M8C6_Q017",
+      "module": 8,
+      "chapter": 6,
+      "type": "mcq",
+      "marks": 1,
+      "text": "For retirees above 75 years, which factor becomes most important?",
+      "options": [
+        "Capital protection and liquidity",
+        "Equity growth",
+        "Aggressive asset allocation",
+        "Foreign investment exposure"
+      ],
+      "correctIndex": 0,
+      "explanation": "In later life, focus shifts to capital safety, liquidity, and legacy planning."
+    },
+    {
+      "id": "M8C6_Q011",
+      "module": 8,
+      "chapter": 6,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Stepping up investments during accumulation years helps because:",
+      "options": [
+        "It compensates for early low contributions and rising income",
+        "It increases tax liability",
+        "It delays compounding",
+        "It reduces total savings"
+      ],
+      "correctIndex": 0,
+      "explanation": "Increasing contributions as income rises helps harness compounding and meet corpus goals efficiently."
+    },
+    {
+      "id": "M9C7_Q028",
+      "module": 9,
+      "chapter": 7,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of the following incomes is fully exempt under Section 10?",
+      "options": [
+        "Agricultural income",
+        "Dividend income",
+        "Interest on savings account",
+        "Lottery winnings"
+      ],
+      "correctIndex": 0,
+      "explanation": "Agricultural income is fully exempt under Section 10 of the Income Tax Act."
+    },
+    {
+      "id": "M9C7_Q023",
+      "module": 9,
+      "chapter": 7,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Under the new regime from FY 2025–26, rebate of ₹60,000 is available for income up to:",
+      "options": [
+        "₹7 lakh",
+        "₹10 lakh",
+        "₹12 lakh",
+        "₹15 lakh"
+      ],
+      "correctIndex": 2,
+      "explanation": "From FY 2025–26, individuals opting for the new regime can claim a ₹60,000 rebate for income up to ₹12 lakh."
+    },
+    {
+      "id": "M9C8_Q014",
+      "module": 9,
+      "chapter": 8,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Long-term capital gains under the new regime are taxed at:",
+      "options": [
+        "10%",
+        "12.5%",
+        "15%",
+        "20%"
+      ],
+      "correctIndex": 1,
+      "explanation": "Under the new provisions applicable from 23 July 2024, long-term capital gains are taxed at 12.5%."
+    },
+    {
+      "id": "M9C8_Q020",
+      "module": 9,
+      "chapter": 8,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of these sections applies to exemption on investment of capital gains in specified start-ups?",
+      "options": [
+        "Section 54GA",
+        "Section 54GB",
+        "Section 54D",
+        "Section 115F"
+      ],
+      "correctIndex": 1,
+      "explanation": "Section 54GB allows exemption if net consideration from sale of residential property is invested in equity shares of eligible start-ups."
+    },
+    {
+      "id": "M9C9_Q015",
+      "module": 9,
+      "chapter": 9,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Advance money received and forfeited for sale of a capital asset is taxable under:",
+      "options": [
+        "Capital gains",
+        "House property",
+        "Income from other sources",
+        "Exempt income"
+      ],
+      "correctIndex": 2,
+      "explanation": "Forfeited advance money from a failed capital asset transaction is taxable under 'Income from Other Sources'."
+    },
+    {
+      "id": "M9C9_Q002",
+      "module": 9,
+      "chapter": 9,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of these incomes is always taxable under 'Income from Other Sources'?",
+      "options": [
+        "Dividend income",
+        "Rental income from house property",
+        "Capital gains on shares",
+        "Business income"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dividend income is always taxable under 'Income from Other Sources' unless specifically exempt."
+    },
+    {
+      "id": "M9C10_Q004",
+      "module": 9,
+      "chapter": 10,
+      "type": "mcq",
+      "marks": 1,
+      "text": "As per Finance Act 2024, unlisted bonds and market-linked debentures are always treated as:",
+      "options": [
+        "Long-term assets",
+        "Short-term assets",
+        "Exempt assets",
+        "Speculative assets"
+      ],
+      "correctIndex": 1,
+      "explanation": "Unlisted bonds and MLDs are always taxed as short-term capital assets, regardless of holding period."
+    },
+    {
+      "id": "M9C10_Q002",
+      "module": 9,
+      "chapter": 10,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Under Section 145, income from debt products is computed using which systems of accounting?",
+      "options": [
+        "Cash and Mercantile",
+        "Accrual and Deferred",
+        "Single entry and Double entry",
+        "FIFO and LIFO"
+      ],
+      "correctIndex": 0,
+      "explanation": "Section 145 allows computation under either cash or mercantile system of accounting, whichever is regularly followed."
+    },
+    {
+      "id": "M9C11_Q013",
+      "module": 9,
+      "chapter": 11,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Equity-oriented mutual funds qualify as long-term capital assets after holding for:",
+      "options": [
+        "6 months",
+        "12 months",
+        "24 months",
+        "36 months"
+      ],
+      "correctIndex": 1,
+      "explanation": "Units of equity-oriented mutual funds are long-term if held for more than 12 months."
+    },
+    {
+      "id": "M9C11_Q011",
+      "module": 9,
+      "chapter": 11,
+      "type": "mcq",
+      "marks": 1,
+      "text": "When share warrants are converted into shares, the gain is treated as:",
+      "options": [
+        "Dividend income",
+        "Short-term or long-term capital gain depending on holding",
+        "Business income",
+        "Speculative gain"
+      ],
+      "correctIndex": 1,
+      "explanation": "Conversion of share warrants into shares triggers capital gains depending on holding period."
+    },
+    {
+      "id": "M9C12_Q004",
+      "module": 9,
+      "chapter": 12,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Interest on Sovereign Gold Bonds is taxed under which head?",
+      "options": [
+        "Capital Gains",
+        "Other Sources",
+        "Business Income",
+        "Exempt Income"
+      ],
+      "correctIndex": 1,
+      "explanation": "Interest on SGBs is taxable under 'Income from Other Sources' and no TDS is deducted."
+    },
+    {
+      "id": "M9C13_Q008",
+      "module": 9,
+      "chapter": 13,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Cost of acquisition for rights entitlement is:",
+      "options": [
+        "Market value on issue date",
+        "Nil",
+        "Subscription price paid",
+        "Book value"
+      ],
+      "correctIndex": 1,
+      "explanation": "The cost of acquisition for rights entitlement is taken as nil for computing capital gains."
+    },
+    {
+      "id": "M10C14_Q013",
+      "module": 10,
+      "chapter": 14,
+      "type": "mcq",
+      "marks": 1,
+      "text": "What is ‘Probate’?",
+      "options": [
+        "A certificate issued to validate a Will",
+        "A trust creation process",
+        "An insurance claim settlement",
+        "A property registration document"
+      ],
+      "correctIndex": 0,
+      "explanation": "Probate is a legal process validating the authenticity of a Will."
+    },
+    {
+      "id": "M10C14_Q040",
+      "module": 10,
+      "chapter": 14,
+      "type": "mcq",
+      "marks": 1,
+      "text": "The key principle of estate planning is:",
+      "options": [
+        "Tax evasion",
+        "Equal wealth distribution",
+        "Clarity, legality, and intent",
+        "Asset secrecy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Estate planning ensures clarity, legal compliance, and proper intent for asset transfer."
+    },
+    {
+      "id": "M10C14_Q035",
+      "module": 10,
+      "chapter": 14,
+      "type": "mcq",
+      "marks": 1,
+      "text": "In case of intestate death, distribution of assets among heirs is governed by:",
+      "options": [
+        "Succession laws based on religion",
+        "The nearest court order",
+        "Nominee’s declaration",
+        "Executor’s decision"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intestate succession depends on religion-specific laws like Hindu Succession Act or Indian Succession Act."
+    },
+    {
+      "id": "M10C14_Q029",
+      "module": 10,
+      "chapter": 14,
+      "type": "mcq",
+      "marks": 1,
+      "text": "A 'codicil' refers to:",
+      "options": [
+        "Supplement to a will altering its terms",
+        "An annuity agreement",
+        "A revocable trust",
+        "An inheritance tax form"
+      ],
+      "correctIndex": 0,
+      "explanation": "A codicil is an addition or alteration made to an existing will."
+    },
+    {
+      "id": "M10C14_Q009",
+      "module": 10,
+      "chapter": 14,
+      "type": "mcq",
+      "marks": 1,
+      "text": "The person who executes a will is known as:",
+      "options": [
+        "Beneficiary",
+        "Testator",
+        "Executor",
+        "Nominee"
+      ],
+      "correctIndex": 1,
+      "explanation": "A testator is the person who makes a will."
+    },
+    {
+      "id": "M10C14_Q028",
+      "module": 10,
+      "chapter": 14,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Who can be a nominee under the Companies Act for shares?",
+      "options": [
+        "Any individual",
+        "Only a blood relative",
+        "Any person authorized in the demat account",
+        "Registered shareholder"
+      ],
+      "correctIndex": 2,
+      "explanation": "A shareholder can nominate anyone by recording nomination in the demat account."
+    },
+    {
+      "id": "M10C15_Q012",
+      "module": 10,
+      "chapter": 15,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Under which Act are beneficial nominees recognized?",
+      "options": [
+        "Indian Succession Act, 1925",
+        "Insurance Act, 1938",
+        "Indian Trust Act, 1882",
+        "Income Tax Act, 1961"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Insurance Act, 1938 allows beneficial nominees (spouse, parents, children) to claim proceeds directly."
+    },
+    {
+      "id": "M10C15_Q018",
+      "module": 10,
+      "chapter": 15,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of the following is taxed at the maximum marginal rate?",
+      "options": [
+        "Private Determinate Trust",
+        "Public Charitable Trust",
+        "Discretionary Trust",
+        "Revocable Trust"
+      ],
+      "correctIndex": 2,
+      "explanation": "Discretionary trusts are taxed at the maximum marginal rate unless exempted."
+    },
+    {
+      "id": "M10C15_Q030",
+      "module": 10,
+      "chapter": 15,
+      "type": "mcq",
+      "marks": 1,
+      "text": "A natural guardian is automatically assigned to:",
+      "options": [
+        "Any adult relative",
+        "Parents of a minor",
+        "Sibling of a deceased",
+        "Court-appointed trustee"
+      ],
+      "correctIndex": 1,
+      "explanation": "Parents are natural guardians of their minor children."
+    },
+    {
+      "id": "M10C15_Q016",
+      "module": 10,
+      "chapter": 15,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of the following is a disadvantage of a trust?",
+      "options": [
+        "Complex structure and maintenance cost",
+        "Low legal protection",
+        "High probate cost",
+        "Unrecognized under law"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trusts can be expensive and complex to maintain, though legally recognized."
+    },
+    {
+      "id": "M10C15_Q005",
+      "module": 10,
+      "chapter": 15,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Under which section is registration of Wills optional?",
+      "options": [
+        "Section 17 of Registration Act, 1908",
+        "Section 18 of Registration Act, 1908",
+        "Section 62 of Indian Succession Act, 1925",
+        "Section 2(h) of Indian Succession Act, 1925"
+      ],
+      "correctIndex": 1,
+      "explanation": "Registration of Will is optional as per Section 18 of the Registration Act, 1908."
+    },
+    {
+      "id": "M10C15_Q029",
+      "module": 10,
+      "chapter": 15,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Guardianship of the Estate relates to:",
+      "options": [
+        "Custody of children",
+        "Managing financial affairs of the ward",
+        "Healthcare decisions",
+        "Property registration"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Guardian of the Estate manages financial and property affairs."
+    },
+    {
+      "id": "M11C16_Q036",
+      "module": 11,
+      "chapter": 16,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of the following biases contributes to excessive portfolio concentration?",
+      "options": [
+        "Overconfidence",
+        "Loss aversion",
+        "Framing",
+        "Regret aversion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Overconfidence often leads to concentrated positions in sectors or stocks perceived as 'known'."
+    },
+    {
+      "id": "M11C16_Q007",
+      "module": 11,
+      "chapter": 16,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Who introduced the concept of Bounded Rationality?",
+      "options": [
+        "Daniel Kahneman",
+        "Herbert Simon",
+        "Richard Thaler",
+        "Robert Shiller"
+      ],
+      "correctIndex": 1,
+      "explanation": "Herbert Simon proposed Bounded Rationality, explaining how limited information leads to satisficing decisions."
+    },
+    {
+      "id": "M11C16_Q004",
+      "module": 11,
+      "chapter": 16,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which Nobel laureates popularised Behavioural Finance?",
+      "options": [
+        "Eugene Fama and Kenneth French",
+        "Daniel Kahneman and Richard Thaler",
+        "John Maynard Keynes and Milton Friedman",
+        "Robert Merton and Myron Scholes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Daniel Kahneman and Richard Thaler received Nobel Prizes for their pioneering work in Behavioural Economics and Finance."
+    },
+    {
+      "id": "M11C17_Q035",
+      "module": 11,
+      "chapter": 17,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Overconfidence among investors can arise from:",
+      "options": [
+        "Luck being mistaken as skill",
+        "Diversification",
+        "Following expert advice",
+        "Balanced asset allocation"
+      ],
+      "correctIndex": 0,
+      "explanation": "A single successful investment often leads investors to overestimate their skill."
+    },
+    {
+      "id": "M11C17_Q001",
+      "module": 11,
+      "chapter": 17,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Retail therapy as described in behavioural finance refers to:",
+      "options": [
+        "Investing in retail sector stocks",
+        "Shopping to relieve emotional stress",
+        "Selling investments under pressure",
+        "Budgeting for essential expenses"
+      ],
+      "correctIndex": 1,
+      "explanation": "Retail therapy means going on a shopping spree to cope with stress or negative emotions."
+    },
+    {
+      "id": "M11C17_Q006",
+      "module": 11,
+      "chapter": 17,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Home country bias leads investors to:",
+      "options": [
+        "Diversify globally",
+        "Prefer domestic securities due to familiarity",
+        "Invest in multiple foreign currencies",
+        "Rely on foreign funds for safety"
+      ],
+      "correctIndex": 1,
+      "explanation": "Investors tend to invest only in their home country due to comfort and familiarity, missing global diversification benefits."
+    },
+    {
+      "id": "M12C18_Q008",
+      "module": 12,
+      "chapter": 18,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of the following describes a conservative investor?",
+      "options": [
+        "Seeks only capital appreciation",
+        "Prefers low risk and steady returns",
+        "Willing to take high risk for short-term gains",
+        "Trades actively in derivatives"
+      ],
+      "correctIndex": 1,
+      "explanation": "Conservative investors prioritize capital protection and stable income over high returns."
+    },
+    {
+      "id": "M12C18_Q006",
+      "module": 12,
+      "chapter": 18,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which personality trait is most associated with high risk-taking ability?",
+      "options": [
+        "Conservative and cautious",
+        "Daring and adventurous",
+        "Methodical and analytical",
+        "Rigid and traditional"
+      ],
+      "correctIndex": 1,
+      "explanation": "Daring and adventurous individuals are psychologically more open to investment risks."
+    },
+    {
+      "id": "M12C18_Q014",
+      "module": 12,
+      "chapter": 18,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Tactical Asset Allocation refers to:",
+      "options": [
+        "Adjusting asset mix based on expected market behaviour",
+        "Maintaining static portfolios for long-term goals",
+        "Periodic rebalancing without market influence",
+        "Ignoring short-term opportunities"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tactical allocation uses market forecasts to temporarily change asset weights for potential gain."
+    },
+    {
+      "id": "M12C18_Q016",
+      "module": 12,
+      "chapter": 18,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Asset allocation primarily aims to:",
+      "options": [
+        "Maximize returns only",
+        "Reduce portfolio risk through diversification",
+        "Eliminate all losses",
+        "Track benchmark indices"
+      ],
+      "correctIndex": 1,
+      "explanation": "Asset allocation spreads risk across asset classes to stabilize returns and minimize loss exposure."
+    },
+    {
+      "id": "M12C18_Q017",
+      "module": 12,
+      "chapter": 18,
+      "type": "mcq",
+      "marks": 1,
+      "text": "An investor near retirement should ideally have:",
+      "options": [
+        "High equity exposure",
+        "Balanced mix with higher debt allocation",
+        "All money in gold",
+        "Short-term trading positions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Retirees prioritize safety and income stability, so debt-heavy portfolios suit them better."
+    },
+    {
+      "id": "M12C18_Q004",
+      "module": 12,
+      "chapter": 18,
+      "type": "mcq",
+      "marks": 1,
+      "text": "In the coin toss example, the difference in people's decisions highlights:",
+      "options": [
+        "Market inefficiency",
+        "Individual risk appetite differences",
+        "Wealth effect on spending",
+        "Portfolio correlation"
+      ],
+      "correctIndex": 1,
+      "explanation": "The example illustrates how individuals differ in their risk appetite despite similar expected returns."
+    },
+    {
+      "id": "M12C18_Q018",
+      "module": 12,
+      "chapter": 18,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Diversification works best when asset classes have:",
+      "options": [
+        "High correlation",
+        "No correlation or negative correlation",
+        "Identical risk-return ratios",
+        "Uniform tax treatment"
+      ],
+      "correctIndex": 1,
+      "explanation": "Low or negative correlation among asset classes ensures smoother portfolio performance."
+    },
+    {
+      "id": "M12C18_Q007",
+      "module": 12,
+      "chapter": 18,
+      "type": "mcq",
+      "marks": 1,
+      "text": "What is the primary limitation of self-assessment risk profiling tools?",
+      "options": [
+        "They are costly to use",
+        "Investors may guess socially desirable answers",
+        "They require certified professionals",
+        "They cannot calculate scores"
+      ],
+      "correctIndex": 1,
+      "explanation": "Investors may attempt to 'guess' the right answers instead of responding truthfully, reducing accuracy."
+    },
+    {
+      "id": "M12C18_Q001",
+      "module": 12,
+      "chapter": 18,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Risk profiling primarily helps an investment adviser to:",
+      "options": [
+        "Predict future market movements",
+        "Determine the client’s ability and willingness to take risk",
+        "Calculate expected portfolio returns",
+        "Recommend only low-risk products"
+      ],
+      "correctIndex": 1,
+      "explanation": "Risk profiling helps determine both the financial ability and psychological willingness of a client to take investment risk."
+    },
+    {
+      "id": "M12C18_Q003",
+      "module": 12,
+      "chapter": 18,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Risk profiling involves assessing which three factors?",
+      "options": [
+        "Age, Gender, Geography",
+        "Ability, Willingness, and Need to take risk",
+        "Education, Salary, and Profession",
+        "Tax rate, Portfolio value, and Tenure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Risk profiling considers ability (financial capacity), willingness (psychological comfort), and need (goal requirement)."
+    },
+    {
+      "id": "M12C18_Q013",
+      "module": 12,
+      "chapter": 18,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Strategic Asset Allocation is based on:",
+      "options": [
+        "Market timing",
+        "Long-term goals and investor’s risk profile",
+        "Short-term price trends",
+        "Temporary market expectations"
+      ],
+      "correctIndex": 1,
+      "explanation": "Strategic asset allocation aligns long-term goals, time horizon, and risk tolerance."
+    },
+    {
+      "id": "M12C18_Q012",
+      "module": 12,
+      "chapter": 18,
+      "type": "mcq",
+      "marks": 1,
+      "text": "A valid risk profiling questionnaire should be:",
+      "options": [
+        "Complex and technical",
+        "Fair, clear, and not misleading",
+        "Designed for product promotion",
+        "Vague and open-ended"
+      ],
+      "correctIndex": 1,
+      "explanation": "SEBI mandates that questionnaires should be simple, objective, and unbiased to ensure reliability."
+    },
+    {
+      "id": "M12C18_Q010",
+      "module": 12,
+      "chapter": 18,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Aggressive investors are most likely to:",
+      "options": [
+        "Avoid volatility completely",
+        "Focus only on short-term savings",
+        "Take active exposure to equities and growth assets",
+        "Rely solely on fixed deposits"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aggressive investors are experienced and willing to accept higher volatility for long-term gains."
+    },
+    {
+      "id": "M12C18_Q011",
+      "module": 12,
+      "chapter": 18,
+      "type": "mcq",
+      "marks": 1,
+      "text": "SEBI requires that a client’s risk profile must be:",
+      "options": [
+        "Created only once",
+        "Updated periodically or after major life changes",
+        "Ignored if goals are short-term",
+        "Performed by third parties only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Regulations mandate regular review, especially after life or financial changes, to ensure suitability."
+    },
+    {
+      "id": "M12C19_Q015",
+      "module": 12,
+      "chapter": 19,
+      "type": "mcq",
+      "marks": 1,
+      "text": "REITs primarily invest in:",
+      "options": [
+        "Infrastructure projects like bridges and roads",
+        "Commercial real estate generating rental income",
+        "Residential housing",
+        "Agricultural land"
+      ],
+      "correctIndex": 1,
+      "explanation": "REITs (Real Estate Investment Trusts) mainly invest in income-generating commercial properties."
+    },
+    {
+      "id": "M12C19_Q010",
+      "module": 12,
+      "chapter": 19,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of the following has the lowest cost of management?",
+      "options": [
+        "Actively Managed Funds",
+        "Index Funds",
+        "PMS",
+        "AIF Category III"
+      ],
+      "correctIndex": 1,
+      "explanation": "Index funds have the lowest expense ratios as they passively track a benchmark index."
+    },
+    {
+      "id": "M12C19_Q014",
+      "module": 12,
+      "chapter": 19,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which form of gold investment does NOT attract GST?",
+      "options": [
+        "Physical Gold",
+        "Gold ETFs",
+        "Gold Mutual Funds",
+        "Sovereign Gold Bonds"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sovereign Gold Bonds are paper-based and exempt from GST."
+    },
+    {
+      "id": "M12C19_Q016",
+      "module": 12,
+      "chapter": 19,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of the following offers exposure to infrastructure assets?",
+      "options": [
+        "REITs",
+        "INVITs",
+        "Debt Mutual Funds",
+        "Index Funds"
+      ],
+      "correctIndex": 1,
+      "explanation": "Infrastructure Investment Trusts (InvITs) invest in infrastructure projects like roads, ports, and power plants."
+    },
+    {
+      "id": "M12C19_Q005",
+      "module": 12,
+      "chapter": 19,
+      "type": "mcq",
+      "marks": 1,
+      "text": "What is the lock-in period for investments in PPF?",
+      "options": [
+        "3 years",
+        "5 years",
+        "10 years",
+        "15 years"
+      ],
+      "correctIndex": 3,
+      "explanation": "PPF has a lock-in of 15 years, with partial withdrawals allowed after 5 years."
+    },
+    {
+      "id": "M12C19_Q004",
+      "module": 12,
+      "chapter": 19,
+      "type": "mcq",
+      "marks": 1,
+      "text": "In National Pension System (NPS) Tier 1, what percentage of corpus can be withdrawn tax-free at age 60?",
+      "options": [
+        "40%",
+        "50%",
+        "60%",
+        "80%"
+      ],
+      "correctIndex": 2,
+      "explanation": "At retirement, 60% of NPS corpus can be withdrawn tax-free; 40% must be used to buy an annuity."
+    },
+    {
+      "id": "M12C19_Q017",
+      "module": 12,
+      "chapter": 19,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Fixed Maturity Plans (FMPs) are similar to:",
+      "options": [
+        "Open-ended Debt Funds",
+        "Closed-ended Debt Schemes",
+        "Recurring Deposits",
+        "Equity Index Funds"
+      ],
+      "correctIndex": 1,
+      "explanation": "FMPs are closed-ended debt mutual funds with fixed tenure, often compared to FDs."
+    },
+    {
+      "id": "M12C19_Q020",
+      "module": 12,
+      "chapter": 19,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Between Company Deposits and Debentures, which is riskier?",
+      "options": [
+        "Company Debentures",
+        "Company Deposits",
+        "Both equally risky",
+        "Neither carries risk"
+      ],
+      "correctIndex": 1,
+      "explanation": "Company deposits are unsecured, whereas debentures are usually secured; hence deposits carry higher risk."
+    },
+    {
+      "id": "M12C19_Q001",
+      "module": 12,
+      "chapter": 19,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Which of the following is a SEBI-mandated product that must disclose performance data publicly?",
+      "options": [
+        "Equity Shares",
+        "Mutual Funds",
+        "Insurance Policies",
+        "Gold ETFs"
+      ],
+      "correctIndex": 1,
+      "explanation": "SEBI mandates performance disclosure for Mutual Funds and Portfolio Management Services."
+    },
+    {
+      "id": "M12C19_Q019",
+      "module": 12,
+      "chapter": 19,
+      "type": "mcq",
+      "marks": 1,
+      "text": "In comparison of debt instruments, liquidity is highest in:",
+      "options": [
+        "Debt Mutual Funds",
+        "Fixed Maturity Plans",
+        "Company Debentures",
+        "Bank Fixed Deposits"
+      ],
+      "correctIndex": 3,
+      "explanation": "Bank FDs offer instant liquidity, albeit with penalties for premature withdrawal."
+    },
+    {
+      "id": "M12C19_Q009",
+      "module": 12,
+      "chapter": 19,
+      "type": "mcq",
+      "marks": 1,
+      "text": "ULIPs issued after February 1, 2021 lose Section 10(10D) exemption if annual premium exceeds:",
+      "options": [
+        "₹1.5 lakh",
+        "₹2 lakh",
+        "₹2.5 lakh",
+        "₹5 lakh"
+      ],
+      "correctIndex": 2,
+      "explanation": "ULIPs with premiums above ₹2.5 lakh per year no longer qualify for tax exemption under Section 10(10D)."
+    },
+    {
+      "id": "M12C19_Q012",
+      "module": 12,
+      "chapter": 19,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Exchange Traded Funds (ETFs) differ from Index Funds because:",
+      "options": [
+        "They are sold only by AMCs",
+        "They are traded on stock exchanges like shares",
+        "They offer guaranteed returns",
+        "They are only available for debt instruments"
+      ],
+      "correctIndex": 1,
+      "explanation": "ETFs are listed and traded on exchanges, unlike index funds which are transacted at NAV with AMCs."
+    },
+    {
+      "id": "M12C19_Q006",
+      "module": 12,
+      "chapter": 19,
+      "type": "mcq",
+      "marks": 1,
+      "text": "Minimum investment amount for a Portfolio Management Service (PMS) is:",
+      "options": [
+        "₹5 lakh",
+        "₹25 lakh",
+        "₹50 lakh",
+        "₹1 crore"
+      ],
+      "correctIndex": 2,
+      "explanation": "As per SEBI norms, the minimum investment in PMS is ₹50 lakh."
+    },
+    {
+      "id": "XB_LC004",
+      "module": 7,
+      "chapter": 2,
+      "type": "large_caselet",
+      "marks_per_question": 2,
+      "case_text": "Amit has a base family floater health insurance of ₹5 lakh and a super top-up plan of ₹10 lakh with a ₹5 lakh deductible. He incurs two hospitalizations in a year with bills of ₹3 lakh and ₹6 lakh respectively. He wants to know how much each policy will pay and how the deductible works.",
+      "questions": [
+        {
+          "qid": "XB_LC004_Q1",
+          "text": "How much of the FIRST claim of ₹3 lakh will the base policy pay?",
+          "options": [
+            "₹1 lakh",
+            "₹2 lakh",
+            "₹3 lakh",
+            "Zero"
+          ],
+          "correctIndex": 2,
+          "explanation": "The first claim is within the ₹5 lakh base sum insured, so the base policy pays the full ₹3 lakh, and the top-up is not triggered."
+        },
+        {
+          "qid": "XB_LC004_Q2",
+          "text": "After the first claim, how much base SUM INSURED remains for the year?",
+          "options": [
+            "₹1 lakh",
+            "₹2 lakh",
+            "₹3 lakh",
+            "₹5 lakh"
+          ],
+          "correctIndex": 1,
+          "explanation": "Base cover remaining = 5 lakh – 3 lakh = ₹2 lakh."
+        },
+        {
+          "qid": "XB_LC004_Q3",
+          "text": "For the SECOND claim of ₹6 lakh, how will it be settled?",
+          "options": [
+            "₹6 lakh by base policy",
+            "₹2 lakh by base + ₹4 lakh by super top-up",
+            "₹5 lakh by super top-up only",
+            "Entirely out of pocket"
+          ],
+          "correctIndex": 1,
+          "explanation": "The remaining base cover of ₹2 lakh pays part of the second claim; total claims (3+2=5 lakh) meet the deductible and the super top-up pays the balance ₹4 lakh."
+        },
+        {
+          "qid": "XB_LC004_Q4",
+          "text": "What is the role of the DEDUCTIBLE in a super top-up policy?",
+          "options": [
+            "It increases the sum insured",
+            "It is the total family income",
+            "It is the threshold of total claims before the top-up starts paying",
+            "It is an additional premium"
+          ],
+          "correctIndex": 2,
+          "explanation": "In a super top-up, the insurer pays only after aggregate claims in a year exceed the deductible amount, which must be met by the insured or base policy."
+        },
+        {
+          "qid": "XB_LC004_Q5",
+          "text": "How does a SUPER TOP-UP differ from a REGULAR TOP-UP?",
+          "options": [
+            "Super top-up has no deductible",
+            "Super top-up applies deductible on aggregate claims in a year",
+            "Regular top-up applies deductible on total lifetime claims",
+            "There is no difference"
+          ],
+          "correctIndex": 1,
+          "explanation": "In a regular top-up, the deductible applies per claim, whereas in a super top-up the deductible is applied on total claims made during the policy year."
+        }
+      ]
+    },
+    {
+      "id": "XB_LC060",
+      "module": 12,
+      "chapter": 20,
+      "type": "large_caselet",
+      "marks_per_question": 2,
+      "case_text": "The Sharma family has reached out to a financial planner because they feel trapped in debt. They have a home loan EMI of ₹35,000, car loan EMI of ₹12,000 and outstanding credit card dues with minimum payments of ₹10,000 per month. Their combined monthly income is ₹1,20,000 and expenses (excluding EMIs) are ₹55,000. They have almost no emergency fund and minimal investments. They want a comprehensive plan to get out of the debt cycle and start investing for the future.",
+      "questions": [
+        {
+          "qid": "XB_LC060_Q1",
+          "text": "What is their TOTAL monthly EMI and minimum payment burden?",
+          "options": [
+            "₹35,000",
+            "₹47,000",
+            "₹57,000",
+            "₹77,000"
+          ],
+          "correctIndex": 2,
+          "explanation": "Total monthly outgo on loans and card dues = 35,000 (home) + 12,000 (car) + 10,000 (card) = ₹57,000."
+        },
+        {
+          "qid": "XB_LC060_Q2",
+          "text": "What is their DEBT-SERVICING RATIO (EMIs as % of income) approximately?",
+          "options": [
+            "20%",
+            "30%",
+            "47%",
+            "60%"
+          ],
+          "correctIndex": 2,
+          "explanation": "Debt servicing ratio ≈ 57,000 ÷ 1,20,000 ≈ 47%. This is high and leaves limited room to manage emergencies or start meaningful investments."
+        },
+        {
+          "qid": "XB_LC060_Q3",
+          "text": "Which debt should typically be TARGETED FIRST for repayment?",
+          "options": [
+            "Home loan",
+            "Car loan",
+            "Credit card dues with highest interest rate",
+            "None; all are equal"
+          ],
+          "correctIndex": 2,
+          "explanation": "Credit card debt usually carries the highest interest rate and compounds quickly. Accelerating repayment of such high-cost debt is crucial to breaking the debt cycle."
+        },
+        {
+          "qid": "XB_LC060_Q4",
+          "text": "What should be the FIRST priority in their financial plan alongside debt restructuring?",
+          "options": [
+            "Investing in volatile equities immediately",
+            "Building at least a small emergency fund while cutting discretionary spending",
+            "Taking additional personal loans",
+            "Ignoring insurance"
+          ],
+          "correctIndex": 1,
+          "explanation": "Even while repaying debt, setting aside a basic emergency buffer (even one month’s expenses to start with) reduces the risk of further borrowing when unexpected expenses arise. This should go hand-in-hand with strict expense control."
+        },
+        {
+          "qid": "XB_LC060_Q5",
+          "text": "Once high-cost debt is under control, how should investments be introduced?",
+          "options": [
+            "Suddenly invest all surplus into a single product",
+            "Start with systematic investments (SIPs) aligned to goals and risk profile, gradually increasing as their balance sheet improves",
+            "Avoid investing and keep all money in cash",
+            "Use only speculative options"
+          ],
+          "correctIndex": 1,
+          "explanation": "A gradual, goal-linked SIP approach builds discipline and wealth over time. Investments should be introduced after stabilizing cash flows, creating emergency fund, and securing adequate insurance, not before."
+        }
+      ]
+    },
+    {
+      "id": "XB_LC038",
+      "module": 12,
+      "chapter": 20,
+      "type": "large_caselet",
+      "marks_per_question": 2,
+      "case_text": "A high net-worth individual (HNI), Mr. Jain, is approached by multiple product sellers with complex structured products promising high returns with “capital protection”. His RIA is concerned that Mr. Jain may not fully understand the risks.",
+      "questions": [
+        {
+          "qid": "XB_LC038_Q1",
+          "text": "Complex structured products are typically suitable for:",
+          "options": [
+            "All retail investors",
+            "Only tax-saving purposes",
+            "Investors who understand underlying risks and can afford potential loss",
+            "Government employees only"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sophisticated products should be used only by investors who comprehend their structure and risk-return profile."
+        },
+        {
+          "qid": "XB_LC038_Q2",
+          "text": "“Capital protection” in such products often means:",
+          "options": [
+            "Government guarantee",
+            "Protection subject to issuer credit risk and conditions",
+            "Zero risk forever",
+            "Insurance guarantee"
+          ],
+          "correctIndex": 1,
+          "explanation": "Capital is protected only if the issuer remains solvent and product terms are met; it is not risk-free."
+        },
+        {
+          "qid": "XB_LC038_Q3",
+          "text": "From an RIA’s perspective, recommending these products without adequate explanation would:",
+          "options": [
+            "Be consistent with fiduciary duty",
+            "Create potential mis-selling and conflict-of-interest issues",
+            "Always reduce risk",
+            "Be mandatory"
+          ],
+          "correctIndex": 1,
+          "explanation": "RIAs must avoid mis-selling and ensure clients fully understand the product’s complexity and risk."
+        },
+        {
+          "qid": "XB_LC038_Q4",
+          "text": "What is a prudent first step before investing in such products?",
+          "options": [
+            "Rely only on marketing material",
+            "Read detailed offer documents and assess risk vs traditional alternatives",
+            "Invest maximum amount",
+            "Ignore product features"
+          ],
+          "correctIndex": 1,
+          "explanation": "Proper due diligence involves studying product documents and comparing them to simpler, transparent options."
+        },
+        {
+          "qid": "XB_LC038_Q5",
+          "text": "In comprehensive advice, HNIs like Mr. Jain should:",
+          "options": [
+            "Concentrate all wealth in one complex product",
+            "Maintain diversified portfolios aligned to goals and risk tolerance",
+            "Avoid all regulated products",
+            "Trade only in derivatives"
+          ],
+          "correctIndex": 1,
+          "explanation": "Even HNIs benefit from diversification and goal-based allocation rather than concentration in complex instruments."
+        }
+      ]
+    },
+    {
+      "id": "XB_LC031",
+      "module": 12,
+      "chapter": 18,
+      "type": "large_caselet",
+      "marks_per_question": 2,
+      "case_text": "Mr. Arora, 45, has the following situation: home loan EMI of ₹40,000, car loan EMI of ₹15,000, monthly income of ₹1,50,000 and household expenses of ₹60,000. He has ₹3 lakh in savings account and investments worth ₹10 lakh in balanced funds. He has term insurance of ₹50 lakh. He wants to know if his risk profile is compatible with his current liabilities and investments.",
+      "questions": [
+        {
+          "qid": "XB_LC031_Q1",
+          "text": "What is his TOTAL EMI burden per month?",
+          "options": [
+            "₹40,000",
+            "₹55,000",
+            "₹60,000",
+            "₹75,000"
+          ],
+          "correctIndex": 1,
+          "explanation": "Total EMI = 40,000 (home) + 15,000 (car) = ₹55,000."
+        },
+        {
+          "qid": "XB_LC031_Q2",
+          "text": "What is his DEBT-TO-INCOME (DTI) ratio approximately?",
+          "options": [
+            "20%",
+            "30%",
+            "35%–40%",
+            "50%+"
+          ],
+          "correctIndex": 2,
+          "explanation": "DTI ≈ 55,000 ÷ 1,50,000 ≈ 36–37%; this is moderately high and needs monitoring."
+        },
+        {
+          "qid": "XB_LC031_Q3",
+          "text": "Which risk is MOST relevant given his high EMIs?",
+          "options": [
+            "Liquidity risk and job loss impact",
+            "Currency risk only",
+            "Regulatory risk only",
+            "No risk at all"
+          ],
+          "correctIndex": 0,
+          "explanation": "High fixed EMI commitments increase vulnerability to income shocks and liquidity shortages."
+        },
+        {
+          "qid": "XB_LC031_Q4",
+          "text": "Is his term insurance of ₹50 lakh likely adequate?",
+          "options": [
+            "Certainly yes",
+            "Likely inadequate given income, EMIs and dependents",
+            "Not relevant",
+            "Determined only by bank"
+          ],
+          "correctIndex": 1,
+          "explanation": "Considering his income and liabilities, ₹50 lakh sum assured appears low; typically much higher cover is needed."
+        },
+        {
+          "qid": "XB_LC031_Q5",
+          "text": "What should be the adviser’s PRIORITY recommendation?",
+          "options": [
+            "Encourage more loans",
+            "Strengthen emergency fund and enhance life cover",
+            "Increase leverage in equity",
+            "Close all investments"
+          ],
+          "correctIndex": 1,
+          "explanation": "Strengthening risk management through adequate insurance and liquidity is critical before adding more risk."
+        }
+      ]
+    },
+    {
+      "id": "XB_LC033",
+      "module": 12,
+      "chapter": 19,
+      "type": "large_caselet",
+      "marks_per_question": 2,
+      "case_text": "A client, Mr. Verma, has multiple insurance-cum-investment products, scattered mutual funds, and several loans. He is confused and cannot see how these link to his goals. The adviser proposes to consolidate his investments and restructure his insurance and loans.",
+      "questions": [
+        {
+          "qid": "XB_LC033_Q1",
+          "text": "What is the FIRST step in giving comprehensive advice to Mr. Verma?",
+          "options": [
+            "Sell all products immediately",
+            "Gather complete data on assets, liabilities, income, expenses and goals",
+            "Select new mutual funds",
+            "Focus only on tax deductions"
+          ],
+          "correctIndex": 1,
+          "explanation": "A holistic view of his current situation is necessary before suggesting changes."
+        },
+        {
+          "qid": "XB_LC033_Q2",
+          "text": "Why might consolidation of mutual funds be beneficial?",
+          "options": [
+            "To increase number of statements",
+            "To simplify tracking, reduce overlap and focus on well-chosen funds",
+            "To avoid diversification",
+            "To hide returns"
+          ],
+          "correctIndex": 1,
+          "explanation": "Too many similar funds can create duplication; a concise portfolio is easier to monitor and align with goals."
+        },
+        {
+          "qid": "XB_LC033_Q3",
+          "text": "Replacing insurance-cum-investment products with TERM insurance and separate investments aims to:",
+          "options": [
+            "Increase complexity",
+            "Separate risk protection from wealth creation for clarity and efficiency",
+            "Reduce overall cover",
+            "Increase agent commission only"
+          ],
+          "correctIndex": 1,
+          "explanation": "Term plans provide pure risk cover; investments in mutual funds or other vehicles can then target returns without embedded costs."
+        },
+        {
+          "qid": "XB_LC033_Q4",
+          "text": "Which loans should generally be targeted for prepayment first?",
+          "options": [
+            "Lowest interest cost loans",
+            "Highest interest cost, unsecured loans like personal loans or credit card debt",
+            "Home loans with tax benefits first",
+            "Education loans first always"
+          ],
+          "correctIndex": 1,
+          "explanation": "High-cost unsecured debt increases financial burden; prepaying them frees up cash flow quickly."
+        },
+        {
+          "qid": "XB_LC033_Q5",
+          "text": "A comprehensive review should be done:",
+          "options": [
+            "Once in a lifetime",
+            "Never after initial plan",
+            "Periodically (e.g., annually) or when major life events occur",
+            "Only when markets crash"
+          ],
+          "correctIndex": 2,
+          "explanation": "Regular reviews ensure the plan stays relevant to changing circumstances and market conditions."
+        }
+      ]
+    },
+    {
+      "id": "XB_LC055",
+      "module": 10,
+      "chapter": 15,
+      "type": "large_caselet",
+      "marks_per_question": 2,
+      "case_text": "Mr. Deshmukh, 58, remarried after the death of his first wife. He has a son from his first marriage and a daughter from his second marriage. He owns a house, mutual funds and a small business. He wants to ensure that his current spouse and both children are taken care of without disputes after his death, especially since the son and stepmother do not get along well.",
+      "questions": [
+        {
+          "qid": "XB_LC055_Q1",
+          "text": "In a blended family situation like this, which estate planning tool is MOST important to avoid ambiguity?",
+          "options": [
+            "Oral instructions only",
+            "Properly drafted and updated Will",
+            "Only nominations",
+            "No documentation"
+          ],
+          "correctIndex": 1,
+          "explanation": "A clear Will specifying how assets are to be divided among spouse and children helps reduce uncertainty and potential conflict in blended families."
+        },
+        {
+          "qid": "XB_LC055_Q2",
+          "text": "Why might a TRUST be considered in this case?",
+          "options": [
+            "To hide wealth",
+            "To hold assets for the benefit of spouse and children with rules on timing and conditions of distribution",
+            "To avoid Will",
+            "To evade tax"
+          ],
+          "correctIndex": 1,
+          "explanation": "A private trust can provide structured distribution (e.g., income to spouse for life, corpus to children later), protect against mismanagement and ensure long-term continuity according to the settlor’s wishes."
+        },
+        {
+          "qid": "XB_LC055_Q3",
+          "text": "What role can life insurance play in such blended family estate planning?",
+          "options": [
+            "None at all",
+            "Create a separate corpus earmarked for one branch of the family to balance inheritances",
+            "Only provide tax benefit",
+            "Cover only business debts"
+          ],
+          "correctIndex": 1,
+          "explanation": "Life insurance can be used to create an additional pool of funds so that, for example, the spouse can retain the house while the child from the first marriage receives a fair share via policy proceeds, reducing conflict."
+        },
+        {
+          "qid": "XB_LC055_Q4",
+          "text": "Why is it especially important for Deshmukh to COMMUNICATE his plan to family members?",
+          "options": [
+            "To obtain their legal consent",
+            "To minimize surprises and resentment, though they cannot dictate his decisions",
+            "Because law requires family approval",
+            "To avoid making any Will"
+          ],
+          "correctIndex": 1,
+          "explanation": "While he has freedom to distribute his estate, explaining the rationale may reduce emotional friction and build understanding among beneficiaries."
+        },
+        {
+          "qid": "XB_LC055_Q5",
+          "text": "From a planner’s perspective, the KEY objective in this case is to:",
+          "options": [
+            "Favor only one heir completely",
+            "Ensure fair and practical distribution considering emotional dynamics, legal rules and financial security of all dependents",
+            "Ignore family relationships",
+            "Only minimize tax"
+          ],
+          "correctIndex": 1,
+          "explanation": "Estate planning must combine technical considerations with sensitivity to family relationships, aiming for fairness, clarity and security for all dependents."
+        }
+      ]
+    }
+  ]
+}
