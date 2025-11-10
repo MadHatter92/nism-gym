@@ -1,0 +1,1213 @@
+{
+  "title": "NISM XV Mock Test 11",
+  "durationMinutes": 180,
+  "negativeMarking": 0.25,
+  "questions": [
+    {
+      "id": "Q1",
+      "type": "mcq",
+      "text": "Which of the following is true about communication of research findings to clients?",
+      "options": [
+        "Reports should omit assumptions to avoid legal risk",
+        "Analysts should be realistic and base suggestions on facts; assumptions must be stated",
+        "Analysts should use technical jargon to increase perceived value",
+        "All communications must be verbal only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q2",
+      "type": "mcq",
+      "text": "Which of these is a recommended practice when recording interviews with management?",
+      "options": [
+        "Record without consent to ensure accuracy",
+        "Use recording devices only after obtaining due consent",
+        "Never record under any circumstance",
+        "Only record competitors' discussions"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q3",
+      "type": "mcq",
+      "text": "Which of the following is an appropriate disclosure in a research report?",
+      "options": [
+        "Assumptions used in valuation and any conflicts of interest",
+        "Names of private contacts who provided confidential information",
+        "Personal investment history of every analyst in the team",
+        "Internal salary structures of the firm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q4",
+      "type": "mcq",
+      "text": "Qualified Institutional Placement (QIP) refers to:",
+      "options": [
+        "Private placement of shares by a listed company to institutional buyers like mutual funds and banks",
+        "Sale of government bonds to public",
+        "Employee share purchase schemes",
+        "Foreign issue of Indian securities"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q5",
+      "type": "mcq",
+      "text": "The main function of the securities market is to:",
+      "options": [
+        "Help the government control inflation",
+        "Channel savings into productive investments by connecting investors and borrowers",
+        "Assist banks in maintaining liquidity",
+        "Determine interest rates for the economy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q6",
+      "type": "mcq",
+      "text": "In the context of trading, hedging refers to:",
+      "options": [
+        "Taking speculative positions for short-term gains",
+        "Taking an offsetting position to limit potential losses",
+        "Investing only in risk-free assets",
+        "Borrowing funds to increase returns"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q7",
+      "type": "mcq",
+      "text": "Which of the following is TRUE about Sweat Equity?",
+      "options": [
+        "Issued to employees or promoters as reward for their contribution",
+        "Issued to raise capital from the public",
+        "Issued to underwriters of IPOs",
+        "Issued to government institutions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q8",
+      "type": "mcq",
+      "text": "Convertible Bonds combine features of:",
+      "options": [
+        "Debt and equity",
+        "Equity and preference shares",
+        "Government and corporate securities",
+        "Money market and derivatives"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q9",
+      "type": "mcq",
+      "text": "A high P/E ratio generally indicates:",
+      "options": [
+        "Undervaluation",
+        "Expectation of higher future earnings growth",
+        "Low investor interest",
+        "Financial distress"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q10",
+      "type": "mcq",
+      "text": "When intrinsic value exceeds market price, the share is said to be:",
+      "options": [
+        "Overvalued",
+        "Undervalued",
+        "Fairly valued",
+        "Illiquid"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q11",
+      "type": "mcq",
+      "text": "Price-to-Sales (P/S) ratio measures:",
+      "options": [
+        "Price investors pay for each rupee of earnings",
+        "Price investors pay for each rupee of sales",
+        "Dividend yield per share",
+        "Debt to equity ratio"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q12",
+      "type": "mcq",
+      "text": "Technical analysis focuses mainly on:",
+      "options": [
+        "Historical price and volume data",
+        "Company’s management analysis",
+        "Economic policies",
+        "Fund flow data only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q13",
+      "type": "mcq",
+      "text": "Technical analysis assumes that:",
+      "options": [
+        "All fundamental and external information is already reflected in stock prices",
+        "Stock prices are random and unpredictable",
+        "Only company fundamentals affect stock prices",
+        "Trading volume is irrelevant to price movement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q14",
+      "type": "mcq",
+      "text": "Passive investing primarily aims to:",
+      "options": [
+        "Earn returns above the benchmark index",
+        "Replicate returns of a chosen index or asset class",
+        "Focus only on speculative trading",
+        "Avoid all forms of diversification"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q15",
+      "type": "mcq",
+      "text": "Industry analysis focuses on:",
+      "options": [
+        "Company-level cash flows",
+        "Competition intensity and regulatory environment within an industry",
+        "Fiscal deficit trends",
+        "Foreign exchange reserves"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q16",
+      "type": "mcq",
+      "text": "Which of the following is NOT a research constraint?",
+      "options": [
+        "Limited access to non-public information",
+        "Availability of reliable data sources",
+        "Analyst bias",
+        "Publicly disclosed annual reports"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "Q17",
+      "type": "mcq",
+      "text": "Seasonal trends differ from cyclical trends because they are:",
+      "options": [
+        "Highly predictable and occur regularly every year",
+        "Completely random",
+        "Driven by policy actions only",
+        "Unrelated to consumption patterns"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q18",
+      "type": "mcq",
+      "text": "Which of the following represents globalization?",
+      "options": [
+        "Restriction of trade between countries",
+        "Ability to produce and sell goods and services across borders freely",
+        "Limiting FDI inflows",
+        "Isolating domestic markets"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q19",
+      "type": "mcq",
+      "text": "Which of the following is an effect of rising unemployment?",
+      "options": [
+        "Increase in consumer spending",
+        "Decrease in national output and aggregate demand",
+        "Reduction in savings",
+        "Improvement in GDP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q20",
+      "type": "mcq",
+      "text": "Which of the following is NOT a function of fiscal policy?",
+      "options": [
+        "Influencing aggregate demand",
+        "Regulating interest rates directly",
+        "Promoting investment",
+        "Managing public expenditure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q21",
+      "type": "mcq",
+      "text": "Macroeconomics primarily focuses on:",
+      "options": [
+        "Household expenditure patterns",
+        "Aggregate variables like GDP, inflation, and unemployment",
+        "Cost structure of small firms",
+        "Individual investment decisions"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q22",
+      "type": "mcq",
+      "text": "A major negative of globalization is:",
+      "options": [
+        "Access to global markets",
+        "Technology transfer",
+        "Widening income inequality and job displacement",
+        "Increase in consumer choice"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "Q23",
+      "type": "mcq",
+      "text": "Which of the following is a better measure of standard of living?",
+      "options": [
+        "Gross National Product",
+        "Per Capita Income",
+        "Fiscal Deficit",
+        "Government Borrowing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q24",
+      "type": "mcq",
+      "text": "Which phase of the business cycle is characterized by rising GDP, employment, and demand?",
+      "options": [
+        "Recession",
+        "Recovery",
+        "Expansion",
+        "Slowdown"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "Q25",
+      "type": "mcq",
+      "text": "Which of the following correctly differentiates microeconomics and macroeconomics?",
+      "options": [
+        "Microeconomics studies individual decision-making units; macroeconomics studies the entire economy",
+        "Microeconomics deals with national income; macroeconomics deals with individual firms",
+        "Both study aggregate demand only",
+        "Microeconomics focuses on fiscal policy; macroeconomics focuses on consumer behavior"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q26",
+      "type": "mcq",
+      "text": "Which of the following industries is an example of a cyclical industry?",
+      "options": [
+        "FMCG",
+        "Utilities",
+        "Automobile",
+        "Pharmaceuticals"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "Q27",
+      "type": "mcq",
+      "text": "Industry attractiveness increases when:",
+      "options": [
+        "Entry barriers are low and substitutes are many",
+        "Entry barriers are high and rivalry is moderate",
+        "Buyers have high bargaining power",
+        "Suppliers are concentrated"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q28",
+      "type": "mcq",
+      "text": "In cyclical industries, performance is closely linked to:",
+      "options": [
+        "Stock market volatility",
+        "Overall economic and business cycles",
+        "Exchange rate movements",
+        "Demographic trends"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q29",
+      "type": "mcq",
+      "text": "Which of the following is NOT a structural barrier to entry?",
+      "options": [
+        "Economies of scale",
+        "Brand loyalty",
+        "High switching costs",
+        "Low market share of incumbents"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "Q30",
+      "type": "mcq",
+      "text": "The life cycle stage characterized by rapid sales growth and new entrants is called:",
+      "options": [
+        "Introduction",
+        "Growth",
+        "Maturity",
+        "Decline"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q31",
+      "type": "mcq",
+      "text": "Which of the following industries is likely to have high entry barriers?",
+      "options": [
+        "Retail grocery",
+        "Aviation",
+        "E-commerce",
+        "Small-scale handicrafts"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q32",
+      "type": "mcq",
+      "text": "Which of the following industries is most likely to benefit from declining interest rates?",
+      "options": [
+        "Automobile and Housing",
+        "Utilities",
+        "Pharmaceuticals",
+        "FMCG"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q33",
+      "type": "mcq",
+      "text": "Which of the following frameworks is commonly used for industry analysis?",
+      "options": [
+        "Porter’s Five Forces Model",
+        "SWOT Analysis only",
+        "GDP Multiplier Model",
+        "Demand-Supply Curve Model"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q34",
+      "type": "mcq",
+      "text": "The first step in industry analysis is to:",
+      "options": [
+        "Select companies within the industry",
+        "Understand the structure, characteristics, and key drivers of the industry",
+        "Estimate company-level profits",
+        "Review government budgets"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q35",
+      "type": "mcq",
+      "text": "Which of the following is a key question in evaluating management competency?",
+      "options": [
+        "What is the dividend yield of the company?",
+        "Does the management have a clear vision and experience to execute the strategy?",
+        "What is the company’s shareholding pattern?",
+        "Who are the company’s external auditors?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q36",
+      "type": "mcq",
+      "text": "Which of the following factors can improve a company’s pricing power?",
+      "options": [
+        "Brand loyalty and low cost base",
+        "High competition and weak demand",
+        "Unregulated industry and high input costs",
+        "Excessive government control"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q37",
+      "type": "mcq",
+      "text": "High percentage of pledged promoter shares may indicate:",
+      "options": [
+        "Strong corporate governance",
+        "Potential market risk if prices fall",
+        "High profitability",
+        "Reduced liquidity risk"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q38",
+      "type": "mcq",
+      "text": "SWOT stands for:",
+      "options": [
+        "Systematic, Weighted, Objective, Target",
+        "Strengths, Weaknesses, Opportunities, Threats",
+        "Strategy, Work, Objectives, Tactics",
+        "Standards, Worth, Options, Trends"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q39",
+      "type": "mcq",
+      "text": "Product differentiation as a competitive advantage arises primarily from:",
+      "options": [
+        "Strong R&D and innovation culture",
+        "High taxation rates",
+        "Government subsidy support",
+        "Weak customer base"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q40",
+      "type": "mcq",
+      "text": "Pledged promoter shares represent:",
+      "options": [
+        "Collateral given by promoters to raise funds",
+        "Shares issued to employees",
+        "Government-held shares",
+        "Shares bought by mutual funds"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q41",
+      "type": "mcq",
+      "text": "Execution capability of a company can be best evaluated through:",
+      "options": [
+        "Advertising expenditure",
+        "Past track record and management efficiency",
+        "Dividend payout ratio",
+        "Auditor’s remuneration"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q42",
+      "type": "mcq",
+      "text": "Dividend history is important because it:",
+      "options": [
+        "Indicates company’s ability and willingness to reward shareholders",
+        "Reflects company’s taxation compliance",
+        "Determines company’s cash burn",
+        "Predicts inflation trends"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q43",
+      "type": "mcq",
+      "text": "EBITDA stands for:",
+      "options": [
+        "Earnings Before Interest, Tax, Depreciation and Amortisation",
+        "Earnings Before Income Tax, Dividends and Assets",
+        "Expenses Before Interest, Tax and Depreciation",
+        "Equity Before Interest, Tax and Dividend Allocation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q44",
+      "type": "mcq",
+      "text": "A company with a D/E ratio above 2 may indicate:",
+      "options": [
+        "Low leverage risk",
+        "High dependence on borrowed funds",
+        "Excess cash reserves",
+        "Strong liquidity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q45",
+      "type": "mcq",
+      "text": "Core working capital is computed as:",
+      "options": [
+        "Inventory plus receivables minus payables",
+        "Cash plus short-term investments",
+        "Equity plus reserves minus liabilities",
+        "Total assets minus fixed assets"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q46",
+      "type": "mcq",
+      "text": "Which of the following is NOT part of a company’s complete set of financial statements under IndAS 1?",
+      "options": [
+        "Statement of Financial Position",
+        "Statement of Profit and Loss",
+        "Statement of Marketing Expenditure",
+        "Statement of Cash Flows"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "Q47",
+      "type": "mcq",
+      "text": "Which of the following items is classified under non-current assets?",
+      "options": [
+        "Cash and bank balances",
+        "Trade receivables",
+        "Property, plant and equipment",
+        "Inventory"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "Q48",
+      "type": "mcq",
+      "text": "Dupont analysis decomposes ROE into which three components?",
+      "options": [
+        "Profit Margin, Asset Turnover, and Financial Leverage",
+        "Sales, Assets, and Liabilities",
+        "Revenue, Expenses, and Equity",
+        "Debt, Tax, and Interest"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q49",
+      "type": "mcq",
+      "text": "Quick ratio excludes which component from current assets?",
+      "options": [
+        "Cash and cash equivalents",
+        "Receivables",
+        "Inventories",
+        "Short-term investments"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "Q50",
+      "type": "mcq",
+      "text": "Peer comparison in financial analysis helps in:",
+      "options": [
+        "Assessing company’s performance relative to industry competitors",
+        "Comparing accounting standards of countries",
+        "Studying only economic cycles",
+        "Identifying management’s salary levels"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q51",
+      "type": "mcq",
+      "text": "Deferred revenue represents:",
+      "options": [
+        "Income already earned and received",
+        "Obligation to deliver goods or services for which payment has been received in advance",
+        "Revenue that is exempt from tax",
+        "Profit from sale of fixed assets"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q52",
+      "type": "mcq",
+      "text": "Which of the following assets cannot be recognized in a balance sheet?",
+      "options": [
+        "Acquired patents",
+        "Internally developed brand name",
+        "Purchased software",
+        "Copyrights"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q53",
+      "type": "mcq",
+      "text": "Working capital is calculated as:",
+      "options": [
+        "Total assets minus total liabilities",
+        "Current assets minus current liabilities",
+        "Long-term assets minus long-term liabilities",
+        "Operating profit minus depreciation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q54",
+      "type": "mcq",
+      "text": "Contingent liabilities are reported in:",
+      "options": [
+        "Balance Sheet under current liabilities",
+        "Notes to accounts",
+        "Cash Flow statement",
+        "P&L statement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q55",
+      "type": "mcq",
+      "text": "Asset Turnover Ratio measures:",
+      "options": [
+        "Efficiency of asset utilization to generate revenue",
+        "Profitability per unit of sales",
+        "Debt repayment ability",
+        "Dividend payout potential"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q56",
+      "type": "mcq",
+      "text": "Off-balance sheet items include:",
+      "options": [
+        "Inventory and receivables",
+        "Operating leases and contingent liabilities",
+        "Share capital",
+        "Depreciation and amortisation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q57",
+      "type": "mcq",
+      "text": "Which of the following is NOT a type of corporate action?",
+      "options": [
+        "Dividend declaration",
+        "Bonus issue",
+        "Credit rating revision",
+        "Rights issue"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "Q58",
+      "type": "mcq",
+      "text": "A company cannot issue bonus shares if:",
+      "options": [
+        "It has surplus reserves",
+        "It has defaulted on payment of principal or interest",
+        "It has increased its dividend payout",
+        "It has repaid all loans"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q59",
+      "type": "mcq",
+      "text": "The main purpose of a stock split is to:",
+      "options": [
+        "Increase share price",
+        "Improve liquidity and make shares affordable to investors",
+        "Raise fresh capital",
+        "Reduce promoter holding"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q60",
+      "type": "mcq",
+      "text": "Record date in a corporate action refers to:",
+      "options": [
+        "Date when dividend is paid to shareholders",
+        "Date on which eligible shareholders are identified for the benefit",
+        "Date when company files its annual report",
+        "Date of board meeting"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q61",
+      "type": "mcq",
+      "text": "Which of the following methods uses accounting book values directly in valuation?",
+      "options": [
+        "Asset-based valuation",
+        "DCF valuation",
+        "Market multiple valuation",
+        "CAPM"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q62",
+      "type": "mcq",
+      "text": "The Price-to-Earnings (P/E) ratio is computed as:",
+      "options": [
+        "Earnings per share / Market price per share",
+        "Market price per share / Earnings per share",
+        "Revenue / Net income",
+        "Market capitalization / Total equity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q63",
+      "type": "mcq",
+      "text": "Valuation in equity research primarily aims to determine:",
+      "options": [
+        "The historical cost of a company’s assets",
+        "The fair value of a company’s shares based on expected future performance",
+        "The total debt outstanding",
+        "The accounting profit of the company"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q64",
+      "type": "mcq",
+      "text": "In relative valuation, comparable companies are chosen based on:",
+      "options": [
+        "Industry, size, growth, and risk profile",
+        "Only revenue size",
+        "Geographical location only",
+        "Stock price movements"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q65",
+      "type": "mcq",
+      "text": "Which of the following metrics is least likely used in valuation of financial institutions?",
+      "options": [
+        "P/E ratio",
+        "P/B ratio",
+        "EV/EBITDA",
+        "Dividend Yield"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "Q66",
+      "type": "mcq",
+      "text": "Which of the following is NOT a commonly used valuation multiple?",
+      "options": [
+        "P/E ratio",
+        "EV/EBITDA",
+        "Price-to-Book ratio",
+        "Debt Coverage Ratio"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "Q67",
+      "type": "mcq",
+      "text": "Dividend Discount Model (DDM) is best suited for:",
+      "options": [
+        "Companies that do not pay dividends",
+        "Companies with stable and predictable dividend payouts",
+        "Cyclical industries",
+        "High-growth startups"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q68",
+      "type": "mcq",
+      "text": "The intrinsic value derived from valuation should ideally be compared with:",
+      "options": [
+        "Market price of the stock",
+        "Par value of the share",
+        "Face value of bonds",
+        "Dividend per share"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q69",
+      "type": "mcq",
+      "text": "A lower EV/EBITDA ratio compared to peers indicates:",
+      "options": [
+        "Potential undervaluation",
+        "Overvaluation",
+        "Higher debt levels",
+        "Weak cash flow generation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q70",
+      "type": "mcq",
+      "text": "Which of the following represents a top-down valuation approach?",
+      "options": [
+        "Starting with company analysis and moving to macro trends",
+        "Starting from economic and industry outlook, then company valuation",
+        "Focusing only on peer comparison",
+        "Analyzing accounting ratios first"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q71",
+      "type": "mcq",
+      "text": "The purpose of sensitivity analysis in valuation is to:",
+      "options": [
+        "Measure how valuation changes with key input variations",
+        "Estimate average tax rate",
+        "Predict next quarter’s earnings",
+        "Fix the intrinsic value precisely"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q72",
+      "type": "mcq",
+      "text": "According to the DDM, intrinsic value of a share equals:",
+      "options": [
+        "Sum of all future expected dividends discounted to present value",
+        "Sum of past dividends",
+        "Earnings per share multiplied by growth rate",
+        "Market capitalization divided by EPS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q73",
+      "type": "mcq",
+      "text": "In DCF valuation, the discount rate represents:",
+      "options": [
+        "Expected inflation rate",
+        "Investor’s required rate of return or cost of capital",
+        "Average dividend payout ratio",
+        "Risk-free rate only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q74",
+      "type": "mcq",
+      "text": "A P/B ratio below 1 may indicate:",
+      "options": [
+        "Company is overvalued",
+        "Company may be trading below its book value",
+        "Strong profitability",
+        "High future growth expectation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q75",
+      "type": "mcq",
+      "text": "Which of the following valuation methods is most sensitive to assumptions about growth rate and discount rate?",
+      "options": [
+        "P/E method",
+        "DCF method",
+        "P/B method",
+        "EV/EBITDA method"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q76",
+      "type": "mcq",
+      "text": "Beta measures:",
+      "options": [
+        "Company’s profitability",
+        "Sensitivity of stock to overall market movement",
+        "Liquidity of the stock",
+        "Default probability"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q77",
+      "type": "mcq",
+      "text": "A beta of 1.2 implies:",
+      "options": [
+        "Stock is 20% more volatile than the market",
+        "Stock is 20% less volatile than the market",
+        "Stock is risk-free",
+        "Stock moves opposite to market"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q78",
+      "type": "mcq",
+      "text": "Business risk is also known as:",
+      "options": [
+        "Financial risk",
+        "Operating risk",
+        "Market risk",
+        "Liquidity risk"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q79",
+      "type": "mcq",
+      "text": "Interest rate risk and bond prices have what type of relationship?",
+      "options": [
+        "Direct",
+        "Inverse",
+        "No relationship",
+        "Constant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q80",
+      "type": "mcq",
+      "text": "A company’s research report that contains too many complex details and no clear argument is likely to:",
+      "options": [
+        "Attract institutional investors",
+        "Fail to capture attention",
+        "Be ranked higher by SEBI",
+        "Generate more trades"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q81",
+      "type": "mcq",
+      "text": "Which of these is NOT a common reason for failure of research reports?",
+      "options": [
+        "Long sentences",
+        "No proper structure",
+        "Clarity of ideas",
+        "Complex language"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "Q82",
+      "type": "mcq",
+      "text": "Which of the following is NOT an advantage of using a checklist?",
+      "options": [
+        "Avoids lazy mistakes",
+        "Encourages emotional decisions",
+        "Helps maintain objectivity",
+        "Ensures methodical work"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q83",
+      "type": "mcq",
+      "text": "View-based sections in a research report are derived from:",
+      "options": [
+        "Annual reports and financial statements",
+        "Communication with management and personal understanding of the business",
+        "Credit rating reports",
+        "Stock market data only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q84",
+      "type": "mcq",
+      "text": "Research analysts cannot trade in securities they cover within how many days before publishing a report?",
+      "options": [
+        "30 days",
+        "15 days",
+        "10 days",
+        "45 days"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q85",
+      "type": "mcq",
+      "text": "What does GSM stand for in exchange surveillance?",
+      "options": [
+        "Graded Surveillance Measure",
+        "Global Security Mechanism",
+        "General Stock Monitoring",
+        "Government Securities Market"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q86",
+      "type": "mcq",
+      "text": "Under SEBI RA Regulations, which officer ensures compliance?",
+      "options": [
+        "Compliance Officer",
+        "Chief Financial Officer",
+        "Company Secretary",
+        "Investor Relations Head"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q87",
+      "type": "mcq",
+      "text": "What is the minimum record retention period for research entities as per SEBI regulations?",
+      "options": [
+        "3 years",
+        "5 years",
+        "7 years",
+        "10 years"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q88",
+      "type": "mcq",
+      "text": "The SEBI Investor Charter for Research Analysts must be:",
+      "options": [
+        "Filed annually with SEBI only",
+        "Displayed prominently on websites or sent to clients via email",
+        "Printed on all invoices",
+        "Maintained internally for audit use only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q89",
+      "type": "mcq",
+      "text": "What is the main purpose of a 'Chinese Wall' policy?",
+      "options": [
+        "To block insider communication between departments",
+        "To prevent data loss",
+        "To enhance teamwork",
+        "To promote client acquisition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "Q90",
+      "type": "mcq",
+      "text": "The Reserve Bank of India’s main objective as stated in its preamble is to:",
+      "options": [
+        "Ensure stability of foreign exchange reserves",
+        "Regulate issue of banknotes and ensure monetary stability",
+        "Oversee capital markets",
+        "Finance government projects"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q91",
+      "type": "mcq",
+      "text": "ASM mechanism is primarily designed to monitor:",
+      "options": [
+        "Corporate governance quality",
+        "Unusual price and volume movements",
+        "Dividend announcements",
+        "IPO subscriptions"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "Q92",
+      "type": "mcq",
+      "text": "Which entity monitors GSM and ASM securities jointly with SEBI?",
+      "options": [
+        "RBI",
+        "Stock Exchanges",
+        "IRDAI",
+        "PFRDA"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "type": "large_caselet",
+      "case_text": "GreenVolt Energy Ltd. operates wind farms and solar parks across India. Due to delays in payments from state utilities, it faces working capital stress. The company is now exploring corporate PPAs with industrial clients to ensure steady cash inflows.",
+      "marks_per_question": 2,
+      "questions": [
+        {
+          "qid": "C11_1",
+          "text": "The main challenge for GreenVolt is:",
+          "options": [
+            "Cash flow mismatch due to delayed receivables",
+            "Rising fuel cost",
+            "Foreign exchange volatility",
+            "Higher interest rates"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "qid": "C11_2",
+          "text": "Corporate PPAs will help the company by:",
+          "options": [
+            "Reducing payment delays and improving liquidity",
+            "Raising leverage",
+            "Decreasing plant load factor",
+            "Increasing regulatory risk"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "qid": "C11_3",
+          "text": "The working capital stress affects which ratio most?",
+          "options": [
+            "Current ratio",
+            "Debt-equity ratio",
+            "EPS",
+            "Interest coverage ratio"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "qid": "C11_4",
+          "text": "GreenVolt’s business model represents:",
+          "options": [
+            "Capital-intensive infrastructure with regulated tariffs",
+            "Light-asset digital platform",
+            "Service aggregation",
+            "Retail-focused expansion"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "type": "large_caselet",
+      "case_text": "EcoCem Ltd. has installed a waste heat recovery system in its cement plants to lower energy costs and carbon footprint. Initial investment is high, but the payback period is estimated at four years. Analysts expect margin improvement over time.",
+      "marks_per_question": 2,
+      "questions": [
+        {
+          "qid": "C11_1",
+          "text": "The new initiative represents:",
+          "options": [
+            "Operational efficiency and sustainability improvement",
+            "Backward integration",
+            "Acquisition of competitors",
+            "Diversification into services"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "qid": "C11_2",
+          "text": "Payback period indicates:",
+          "options": [
+            "Time to recover investment through cash flows",
+            "Project IRR",
+            "NPV of project",
+            "EBIT margin"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "qid": "C11_3",
+          "text": "A decline in energy costs improves which metric?",
+          "options": [
+            "EBITDA margin",
+            "Debt ratio",
+            "Current ratio",
+            "Asset turnover"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "qid": "C11_4",
+          "text": "The initiative supports ESG investors because it:",
+          "options": [
+            "Reduces carbon emissions",
+            "Raises leverage",
+            "Increases debt servicing cost",
+            "Adds to pollution"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    }
+  ]
+}
