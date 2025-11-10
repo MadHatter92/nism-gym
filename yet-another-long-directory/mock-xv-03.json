@@ -1,6 +1,6 @@
 {
   "title": "NISM XV Mock Test 03",
-  "durationMinutes": 180,
+  "durationMinutes": 120,
   "negativeMarking": 0.25,
   "questions": [
     {
@@ -1210,4 +1210,5 @@
       ]
     }
   ]
+
 }
