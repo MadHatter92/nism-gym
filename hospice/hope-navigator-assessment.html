@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HOPE Navigator – Hospice Readiness Assessment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      width: 100%;
+      background: #020617;
+      border-radius: 18px;
+      padding: 40px 28px 32px;
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.8);
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        padding: 48px 64px 40px;
+      }
+    }
+
+    .header {
+      margin-bottom: 24px;
+    }
+
+    .title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #f9fafb;
+      margin-bottom: 6px;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      color: #9ca3af;
+    }
+
+    .progress-row {
+      margin: 16px 0 24px;
+      font-size: 0.95rem;
+      color: #9ca3af;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .progress-bar {
+      flex: 1;
+      height: 6px;
+      background: #1f2937;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #38bdf8, #22c55e);
+      transition: width 0.25s ease-out;
+    }
+
+    .intro,
+    .step,
+    .result {
+      display: none;
+      min-height: 220px;
+      animation: fadeInUp 0.35s ease;
+    }
+
+    .intro.active,
+    .step.active,
+    .result.active {
+      display: block;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .intro-title {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #f9fafb;
+    }
+
+    .intro-text {
+      font-size: 1rem;
+      color: #d1d5db;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+
+    .intro-list {
+      margin-bottom: 18px;
+      padding-left: 18px;
+      color: #9ca3af;
+      font-size: 0.95rem;
+    }
+
+    .intro-list li {
+      margin-bottom: 6px;
+    }
+
+    .intro-note {
+      font-size: 0.85rem;
+      color: #6b7280;
+      margin-top: 4px;
+    }
+
+    .question-label {
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #e5e7eb;
+    }
+
+    .scale-note {
+      font-size: 0.95rem;
+      color: #9ca3af;
+      margin-bottom: 18px;
+    }
+
+    .options {
+      display: grid;
+      gap: 14px;
+      margin-top: 10px;
+    }
+
+    .option {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 14px 16px;
+      border-radius: 12px;
+      background: #020617;
+      border: 1px solid #1f2937;
+      cursor: pointer;
+      transition: border 0.15s ease, background 0.15s ease, transform 0.1s ease;
+    }
+
+    .option:hover {
+      border-color: #38bdf8;
+      background: #020617;
+      transform: translateY(-1px);
+    }
+
+    .option input {
+      margin-top: 3px;
+      transform: scale(1.2);
+      cursor: pointer;
+    }
+
+    .option-text {
+      font-size: 1.05rem;
+      line-height: 1.4;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 28px;
+      gap: 12px;
+    }
+
+    .btn {
+      border-radius: 999px;
+      border: none;
+      padding: 12px 22px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: background 0.15s ease, transform 0.1s ease, box-shadow 0.1s ease;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background: linear-gradient(90deg, #38bdf8, #22c55e);
+      color: #0b1120;
+      box-shadow: 0 10px 28px rgba(34, 197, 94, 0.25);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 14px 34px rgba(34, 197, 94, 0.35);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: #9ca3af;
+      border: 1px solid #1f2937;
+    }
+
+    .btn-secondary:hover {
+      border-color: #4b5563;
+      background: #020617;
+    }
+
+    .btn[disabled] {
+      opacity: 0.4;
+      cursor: default;
+      transform: none;
+      box-shadow: none;
+    }
+
+    .result-title {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #f9fafb;
+    }
+
+    .score {
+      font-size: 1.1rem;
+      margin-bottom: 14px;
+      color: #e5e7eb;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+
+    .badge-high-risk {
+      background: rgba(248, 113, 113, 0.15);
+      color: #fecaca;
+      border: 1px solid rgba(248, 113, 113, 0.3);
+    }
+
+    .badge-developing {
+      background: rgba(250, 204, 21, 0.12);
+      color: #facc15;
+      border: 1px solid rgba(250, 204, 21, 0.3);
+    }
+
+    .badge-high-ready {
+      background: rgba(34, 197, 94, 0.15);
+      color: #bbf7d0;
+      border: 1px solid rgba(34, 197, 94, 0.3);
+    }
+
+    .result-text {
+      font-size: 1rem;
+      color: #d1d5db;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+
+    .result-list {
+      margin-top: 12px;
+      padding-left: 18px;
+      color: #9ca3af;
+      font-size: 0.95rem;
+    }
+
+    .result-list li {
+      margin-bottom: 6px;
+    }
+
+    .cta-box {
+      margin-top: 20px;
+      padding: 14px 16px;
+      border-radius: 14px;
+      border: 1px dashed #334155;
+      background: rgba(15, 23, 42, 0.8);
+      font-size: 0.96rem;
+      color: #e5e7eb;
+    }
+
+    .cta-box strong {
+      color: #f9fafb;
+    }
+
+    .footer-note {
+      margin-top: 16px;
+      font-size: 0.8rem;
+      color: #6b7280;
+    }
+
+    .email-section {
+      margin-top: 24px;
+      padding-top: 14px;
+      border-top: 1px solid #1f2937;
+    }
+
+    .email-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #f9fafb;
+    }
+
+    .email-text {
+      font-size: 0.95rem;
+      color: #d1d5db;
+      margin-bottom: 14px;
+    }
+
+    .email-form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .email-input {
+      flex: 1 1 220px;
+      padding: 10px 12px;
+      border-radius: 999px;
+      border: 1px solid #1f2937;
+      background: #020617;
+      color: #e5e7eb;
+      font-size: 0.95rem;
+      outline: none;
+    }
+
+    .email-input:focus {
+      border-color: #38bdf8;
+    }
+
+    .schedule-section {
+      margin-top: 16px;
+      padding: 12px 14px;
+      border-radius: 12px;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid #1f2937;
+      font-size: 0.95rem;
+      color: #d1d5db;
+      display: none;
+    }
+
+    .schedule-link {
+      display: inline-block;
+      margin-top: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      color: #38bdf8;
+    }
+
+    .schedule-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="title">HOPE Navigator – Hospice Readiness Assessment</h1>
+      <p class="subtitle">
+        A 10-question snapshot of how ready your hospice is for admission, eligibility, and audit pressure.
+      </p>
+      <div class="progress-row" id="progressRow">
+        <span id="progressLabel">Question 1 of 10</span>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- INTRO SCREEN -->
+    <div class="intro active" id="introPanel">
+      <h2 class="intro-title">Before we begin…</h2>
+      <p class="intro-text">
+        This quick assessment is designed for hospice leaders and clinical teams who want a brutally honest view of how
+        tight their admission and eligibility workflows really are.
+      </p>
+      <ul class="intro-list">
+        <li>10 focused questions – one per screen.</li>
+        <li>2–3 minutes to complete, no preparation needed.</li>
+        <li>Instant readiness score with a simple interpretation.</li>
+      </ul>
+      <p class="intro-text">
+        Answer as you are today, not how you’d like things to be. The more candid you are, the more useful your score
+        will be.
+      </p>
+      <p class="intro-note">
+        No PHI is collected. This is a directional tool, not a formal compliance review.
+      </p>
+      <div style="margin-top: 22px;">
+        <button type="button" class="btn btn-primary" id="startBtn">
+          Start Assessment →
+        </button>
+      </div>
+    </div>
+
+    <!-- QUESTIONS -->
+    <form id="assessmentForm">
+      <!-- Step 1 -->
+      <div class="step" data-step="0">
+        <div class="question-label">
+          1. How standardized is your referral & intake tracking process?
+        </div>
+        <p class="scale-note">Choose the option that best describes your organization.</p>
+        <div class="options">
+          <label class="option">
+            <input type="radio" name="q0" value="1" />
+            <div class="option-text">We handle referrals ad hoc with no standard tracking.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q0" value="2" />
+            <div class="option-text">We have a basic spreadsheet or log, but it’s not always updated.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q0" value="3" />
+            <div class="option-text">We use a defined process, but staff don’t always follow it.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q0" value="4" />
+            <div class="option-text">We use a consistent process and review it periodically.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q0" value="5" />
+            <div class="option-text">We have a fully standardized, audited intake workflow with clear ownership.</div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="step" data-step="1">
+        <div class="question-label">
+          2. How confident are you in your documentation of hospice eligibility?
+        </div>
+        <p class="scale-note">Think about clinical notes, supporting documentation, and survey readiness.</p>
+        <div class="options">
+          <label class="option">
+            <input type="radio" name="q1" value="1" />
+            <div class="option-text">We often scramble to assemble eligibility documentation after the fact.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q1" value="2" />
+            <div class="option-text">We have templates, but they are inconsistently used by clinicians.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q1" value="3" />
+            <div class="option-text">Most admissions have adequate documentation, but gaps still show up in audits.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q1" value="4" />
+            <div class="option-text">We proactively ensure documentation is complete for almost all patients.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q1" value="5" />
+            <div class="option-text">Eligibility documentation is standardized, pre-checked, and regularly audited.</div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="step" data-step="2">
+        <div class="question-label">
+          3. How structured is your physician certification and recertification process?
+        </div>
+        <p class="scale-note">Focus on timeliness, completeness, and tracking.</p>
+        <div class="options">
+          <label class="option">
+            <input type="radio" name="q2" value="1" />
+            <div class="option-text">We rely on manual reminders and sometimes miss deadlines.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q2" value="2" />
+            <div class="option-text">We track due dates informally but occasionally scramble near recertification.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q2" value="3" />
+            <div class="option-text">We track recertification dates but don’t have robust controls or alerts.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q2" value="4" />
+            <div class="option-text">We have a reliable system with advance alerts and clear accountability.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q2" value="5" />
+            <div class="option-text">Our process is automated, audited, and rarely requires manual intervention.</div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="step" data-step="3">
+        <div class="question-label">
+          4. How well coordinated is your interdisciplinary team (IDT) around new admissions?
+        </div>
+        <p class="scale-note">Consider communication between nursing, social work, chaplaincy, and medical staff.</p>
+        <div class="options">
+          <label class="option">
+            <input type="radio" name="q3" value="1" />
+            <div class="option-text">Communication is mostly via ad hoc calls, texts, or sticky notes.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q3" value="2" />
+            <div class="option-text">We have a rough process, but the right people aren’t always in the loop.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q3" value="3" />
+            <div class="option-text">IDT communication is decent, but handoffs still fall through occasionally.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q3" value="4" />
+            <div class="option-text">Our IDT process is structured, with set touchpoints around admission.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q3" value="5" />
+            <div class="option-text">We have a well-orchestrated, visible workflow for every new admission.</div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Step 5 -->
+      <div class="step" data-step="4">
+        <div class="question-label">
+          5. How consistent is your communication with families at the point of admission?
+        </div>
+        <p class="scale-note">Think about expectations, services, hospice philosophy, and after-hours support.</p>
+        <div class="options">
+          <label class="option">
+            <input type="radio" name="q4" value="1" />
+            <div class="option-text">It depends heavily on who is admitting; there’s no standard script or guide.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q4" value="2" />
+            <div class="option-text">We have an admission packet, but conversations vary widely.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q4" value="3" />
+            <div class="option-text">We generally cover the key points, but families sometimes feel unprepared.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q4" value="4" />
+            <div class="option-text">We have a structured conversation and written materials for all families.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q4" value="5" />
+            <div class="option-text">Our communication is standardized, clear, and consistently rated highly by families.</div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Step 6 -->
+      <div class="step" data-step="5">
+        <div class="question-label">
+          6. How mature is your symptom assessment and documentation at admission?
+        </div>
+        <p class="scale-note">Consider tools like pain scales, symptom inventories, and initial care plans.</p>
+        <div class="options">
+          <label class="option">
+            <input type="radio" name="q5" value="1" />
+            <div class="option-text">We rely mainly on free-text notes with limited structured data.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q5" value="2" />
+            <div class="option-text">We have symptom tools, but their use varies by clinician.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q5" value="3" />
+            <div class="option-text">We capture basic symptoms, but not always in a structured, trackable way.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q5" value="4" />
+            <div class="option-text">We use standardized tools and integrate them into our care planning.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q5" value="5" />
+            <div class="option-text">Our symptom assessment is standardized, data-driven, and drives rapid interventions.</div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Step 7 -->
+      <div class="step" data-step="6">
+        <div class="question-label">
+          7. How effectively do you use your EHR or digital tools for the admission workflow?
+        </div>
+        <p class="scale-note">Think beyond data storage – focus on workflow support and visibility.</p>
+        <div class="options">
+          <label class="option">
+            <input type="radio" name="q6" value="1" />
+            <div class="option-text">We mostly treat the EHR as a place to park notes for compliance.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q6" value="2" />
+            <div class="option-text">Some features are used, but many staff still work around the system.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q6" value="3" />
+            <div class="option-text">We use standard templates, but workflows aren’t fully optimized.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q6" value="4" />
+            <div class="option-text">Our EHR supports most of the admission process effectively.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q6" value="5" />
+            <div class="option-text">Our digital tools actively guide, track, and surface risks during admission.</div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Step 8 -->
+      <div class="step" data-step="7">
+        <div class="question-label">
+          8. How prepared do you feel for an external audit focused on admission & eligibility?
+        </div>
+        <p class="scale-note">Imagine a surveyor opening 10 random charts from the last 60 days.</p>
+        <div class="options">
+          <label class="option">
+            <input type="radio" name="q7" value="1" />
+            <div class="option-text">We would be nervous; we know there are gaps.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q7" value="2" />
+            <div class="option-text">Some charts are strong, but others would likely raise questions.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q7" value="3" />
+            <div class="option-text">We’d probably be fine, but we don’t review charts proactively.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q7" value="4" />
+            <div class="option-text">We periodically review and fix issues in recent admissions.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q7" value="5" />
+            <div class="option-text">We actively audit admissions and maintain a high level of survey readiness.</div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Step 9 -->
+      <div class="step" data-step="8">
+        <div class="question-label">
+          9. How strong is your staff training around Medicare hospice regulations and documentation?
+        </div>
+        <p class="scale-note">Consider onboarding, refreshers, and practical, case-based training.</p>
+        <div class="options">
+          <label class="option">
+            <input type="radio" name="q8" value="1" />
+            <div class="option-text">Training is mostly one-time or informal; staff learn on the job.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q8" value="2" />
+            <div class="option-text">We provide occasional training, but it isn’t tied to real cases or audits.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q8" value="3" />
+            <div class="option-text">We have some structured training, but it’s not consistently reinforced.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q8" value="4" />
+            <div class="option-text">We run regular, structured training with good participation.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q8" value="5" />
+            <div class="option-text">Training is continuous, case-based, and linked to measured improvements.</div>
+          </label>
+        </div>
+      </div>
+
+      <!-- Step 10 -->
+      <div class="step" data-step="9">
+        <div class="question-label">
+          10. How clearly defined is your after-hours escalation and first-72-hours follow-up process?
+        </div>
+        <p class="scale-note">Think about symptom flares, urgent calls, and rapid stabilization.</p>
+        <div class="options">
+          <label class="option">
+            <input type="radio" name="q9" value="1" />
+            <div class="option-text">After-hours and early follow-up are handled reactively as issues arise.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q9" value="2" />
+            <div class="option-text">We have a rough process, but it’s not consistently followed.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q9" value="3" />
+            <div class="option-text">We usually manage well, but it’s dependent on individual clinicians.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q9" value="4" />
+            <div class="option-text">We have clear protocols and expectations for the first 72 hours.</div>
+          </label>
+          <label class="option">
+            <input type="radio" name="q9" value="5" />
+            <div class="option-text">Our early-days process is clearly defined, monitored, and continually refined.</div>
+          </label>
+        </div>
+      </div>
+    </form>
+
+    <!-- RESULTS -->
+    <div class="result" id="resultPanel">
+      <h2 class="result-title">Your HOPE Navigator Readiness Score</h2>
+      <p class="score" id="scoreText"></p>
+      <div id="badgeContainer"></div>
+      <p class="result-text" id="resultSummary"></p>
+      <ul class="result-list" id="resultBullets"></ul>
+
+      <div class="cta-box">
+        <strong>Next step:</strong> Use this snapshot as a starting point. In a full HOPE Navigator session, we would
+        dive into your admission workflows, audit exposure, and practical interventions that reduce risk and staff
+        burnout while improving patient and family experience.
+      </div>
+      <p class="footer-note">
+        This quick assessment is directional, not a formal compliance review.
+      </p>
+
+      <!-- EMAIL CAPTURE + SCHEDULING -->
+      <div class="email-section">
+        <h3 class="email-title">Get a free 20-minute debrief call</h3>
+        <p class="email-text">
+          If you’d like to walk through this score with us and see where HOPE Navigator can help, leave your email
+          below. We’ll take you straight to a scheduling link for a quick discussion.
+        </p>
+        <form id="emailForm" class="email-form">
+          <input
+            type="email"
+            id="emailInput"
+            class="email-input"
+            placeholder="Your work email (e.g., director@yourhospice.org)"
+            required
+          />
+          <button type="submit" class="btn btn-primary">Send &amp; View Slots →</button>
+        </form>
+
+        <div class="schedule-section" id="scheduleSection">
+          <p>
+            Thank you. Here’s the link to schedule your debrief call. Pick a time that works for you, and we’ll be ready
+            with a tailored walkthrough of your results.
+          </p>
+          <!-- Replace the href below with your actual scheduling link (Calendly, Motion, etc.) -->
+          <a href="https://calendly.com/your-scheduling-link" target="_blank" class="schedule-link">
+            Schedule a HOPE Navigator Discussion Call →
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAV BUTTONS -->
+    <div class="buttons" id="buttonsBar">
+      <button type="button" class="btn btn-secondary" id="prevBtn">← Previous</button>
+      <button type="button" class="btn btn-primary" id="nextBtn">Next →</button>
+    </div>
+  </div>
+
+  <script>
+    const steps = document.querySelectorAll(".step");
+    const resultPanel = document.getElementById("resultPanel");
+    const progressLabel = document.getElementById("progressLabel");
+    const progressFill = document.getElementById("progressFill");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+    const buttonsBar = document.getElementById("buttonsBar");
+    const progressRow = document.getElementById("progressRow");
+    const introPanel = document.getElementById("introPanel");
+    const startBtn = document.getElementById("startBtn");
+
+    const scoreText = document.getElementById("scoreText");
+    const badgeContainer = document.getElementById("badgeContainer");
+    const resultSummary = document.getElementById("resultSummary");
+    const resultBullets = document.getElementById("resultBullets");
+
+    const emailForm = document.getElementById("emailForm");
+    const emailInput = document.getElementById("emailInput");
+    const scheduleSection = document.getElementById("scheduleSection");
+
+    let currentStep = 0;
+    const totalSteps = steps.length;
+
+    function updateProgress() {
+      const displayStep = currentStep + 1;
+      progressLabel.textContent = `Question ${displayStep} of ${totalSteps}`;
+      const percentage = (displayStep / totalSteps) * 100;
+      progressFill.style.width = percentage + "%";
+      prevBtn.disabled = currentStep === 0;
+      nextBtn.textContent = currentStep === totalSteps - 1 ? "See Results →" : "Next →";
+    }
+
+    function showStep(index) {
+      steps.forEach((step, i) => {
+        step.classList.toggle("active", i === index);
+      });
+      resultPanel.classList.remove("active");
+      currentStep = index;
+      updateProgress();
+    }
+
+    function getSelectedValue(stepIndex) {
+      const name = "q" + stepIndex;
+      const checked = document.querySelector(`input[name="${name}"]:checked`);
+      return checked ? parseInt(checked.value, 10) : null;
+    }
+
+    function validateCurrentStep() {
+      const value = getSelectedValue(currentStep);
+      if (value === null) {
+        alert("Please select an option before continuing.");
+        return false;
+      }
+      return true;
+    }
+
+    function calculateResult() {
+      let totalScore = 0;
+      let answeredCount = 0;
+
+      for (let i = 0; i < totalSteps; i++) {
+        const value = getSelectedValue(i);
+        if (value !== null) {
+          totalScore += value;
+          answeredCount++;
+        }
+      }
+
+      if (answeredCount !== totalSteps) {
+        alert("Please answer all questions before viewing your result.");
+        return;
+      }
+
+      const minScore = totalSteps * 1;
+      const maxScore = totalSteps * 5;
+      scoreText.textContent = `Score: ${totalScore} (Range: ${minScore} – ${maxScore})`;
+
+      badgeContainer.innerHTML = "";
+      resultBullets.innerHTML = "";
+
+      let badge = document.createElement("span");
+      let bullets = [];
+
+      if (totalScore <= 24) {
+        badge.className = "badge badge-high-risk";
+        badge.textContent = "High Risk / Low Readiness";
+        resultSummary.textContent =
+          "Your admission and eligibility workflows show significant variability and risk. You may be relying heavily on individual heroes rather than standardized, visible processes.";
+        bullets = [
+          "Prioritize tightening eligibility documentation and physician certification workflows.",
+          "Introduce simple checklists or templates for new admissions.",
+          "Begin periodic internal chart reviews focused on the first 72 hours of care."
+        ];
+      } else if (totalScore <= 37) {
+        badge.className = "badge badge-developing";
+        badge.textContent = "Developing / Moderate Readiness";
+        resultSummary.textContent =
+          "You have many of the right pieces in place, but there are still notable gaps in standardization, documentation, and audit readiness.";
+        bullets = [
+          "Focus on making good practices consistent across all clinicians and locations.",
+          "Use your EHR more proactively to guide and track admission steps.",
+          "Formalize IDT communication and early follow-up for every new admission."
+        ];
+      } else {
+        badge.className = "badge badge-high-ready";
+        badge.textContent = "Ready / High Performing";
+        resultSummary.textContent =
+          "Your hospice shows strong readiness, with structured workflows and a good foundation for scaling, quality improvement, and deeper analytics.";
+        bullets = [
+          "Consider targeted audits to ensure your strong practices are sustainable over time.",
+          "Use your data to identify patterns in length of stay, recertifications, and early-days interventions.",
+          "Explore tools that further reduce manual work and highlight outlier cases before they become problems."
+        ];
+      }
+
+      badgeContainer.appendChild(badge);
+
+      bullets.forEach((b) => {
+        const li = document.createElement("li");
+        li.textContent = b;
+        resultBullets.appendChild(li);
+      });
+
+      steps.forEach((step) => step.classList.remove("active"));
+      resultPanel.classList.add("active");
+      nextBtn.textContent = "Retake Assessment";
+    }
+
+    // Intro start button
+    startBtn.addEventListener("click", () => {
+      introPanel.classList.remove("active");
+      buttonsBar.style.display = "flex";
+      progressRow.style.display = "flex";
+      showStep(0);
+    });
+
+    prevBtn.addEventListener("click", () => {
+      if (resultPanel.classList.contains("active")) {
+        // go back to last question
+        resultPanel.classList.remove("active");
+        showStep(totalSteps - 1);
+        return;
+      }
+      if (currentStep > 0) {
+        showStep(currentStep - 1);
+      }
+    });
+
+    nextBtn.addEventListener("click", () => {
+      // If result is active, reset assessment
+      if (resultPanel.classList.contains("active")) {
+        document.getElementById("assessmentForm").reset();
+        emailForm.reset();
+        scheduleSection.style.display = "none";
+        showStep(0);
+        return;
+      }
+
+      if (!validateCurrentStep()) return;
+
+      if (currentStep < totalSteps - 1) {
+        showStep(currentStep + 1);
+      } else {
+        calculateResult();
+      }
+    });
+
+    // Email form handler
+    emailForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const email = emailInput.value.trim();
+      if (!email) {
+        alert("Please enter your email.");
+        return;
+      }
+      scheduleSection.style.display = "block";
+      scheduleSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+
+    // Initial state: intro visible, progress + nav hidden
+    buttonsBar.style.display = "none";
+    progressRow.style.display = "none";
+  </script>
+</body>
+</html>
