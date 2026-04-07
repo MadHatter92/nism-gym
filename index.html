@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l][l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WLWP35J3');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16518566247"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16518566247');
+    </script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NISM Gym — Start Your Career in Finance Here</title>
+    <meta name="description" content="NISM XA, XB, XV courses with clear paths to RIA and RA careers. Join the Telegram group and learn from Pranshumaan Singh." />
+    <meta name="theme-color" content="#0f172a" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- React 18 -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <!-- Babel for in-browser JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <style>
+      body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    </style>
+  </head>
+
+  <body class="bg-white text-slate-900">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLWP35J3" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="root"></div>
+
+    <script type="text/babel">
+      function CourseCard({ tag, title, description, bullets, onLearn, joinLink, priceOriginal, priceDiscount, className = "" }) {
+        const imgSrc =
+          title.includes("NISM XA") ? "nismxa.png" :
+          title.includes("NISM XB") ? "nismxb.png" :
+          title.includes("NISM XV") ? "nismxv.png" :
+          title.includes("Combo") ? "combo.png" : null;
+
+        return (
+          <div className={`rounded-2xl border border-slate-200 bg-white p-7 shadow-sm hover:shadow-md transition-shadow ${className}`}>
+            <div className="text-xs font-semibold text-slate-700 bg-slate-100 inline-flex px-3 py-1 rounded-full">{tag}</div>
+            <h3 className="mt-3 text-lg font-bold">{title}</h3>
+            <p className="mt-2 text-slate-600 text-sm">{description}</p>
+
+            {imgSrc && <img src={imgSrc} alt={title} className="w-full h-44 object-cover rounded-xl mt-4" />}
+
+            {(priceOriginal && priceDiscount) && (
+              <div className="mt-4 flex items-baseline gap-2">
+                <span className="text-sm text-slate-500 line-through">₹{priceOriginal}</span>
+                <span className="text-xl font-extrabold text-slate-900">₹{priceDiscount}</span>
+              </div>
+            )}
+
+            <ul className="mt-4 space-y-2 text-sm text-slate-700 list-disc list-inside">
+              {bullets.map((b, i) => <li key={i}>{b}</li>)}
+            </ul>
+
+            <div className="mt-5 flex gap-3">
+              <button onClick={onLearn} className="inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold bg-slate-100 text-slate-900 hover:bg-slate-200 border border-slate-300">
+                Learn More
+              </button>
+              <a href={joinLink} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold bg-slate-900 text-white hover:bg-slate-800">
+                Join Now
+              </a>
+            </div>
+          </div>
+        );
+      }
+
+      function NismGymLanding() {
+        const [showPopup, setShowPopup] = React.useState(false);
+        const year = new Date().getFullYear();
+
+        return (
+          <div className="min-h-screen bg-white text-slate-900 relative">
+            {/* Header */}
+            <header className="relative overflow-hidden">
+              <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20 text-center">
+                <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight">
+                  Start Your Career in Finance Here
+                </h1>
+                <p className="mt-4 text-base sm:text-lg text-slate-600 max-w-2xl mx-auto">
+                  40 crore Indians are looking for financial advice. Start earning by becoming a SEBI Registered Investment Professional.
+                </p>
+                <div className="mt-8 flex items-center justify-center gap-3">
+                  <a href="#courses" className="rounded-2xl px-5 py-3 text-sm font-semibold bg-slate-900 text-white shadow hover:shadow-md">
+                    Explore Courses
+                  </a>
+                  <a href="#careers" className="rounded-2xl px-5 py-3 text-sm font-semibold border border-slate-300 text-slate-800 hover:bg-slate-50">
+                    RIA vs RA (What’s the difference?)
+                  </a>
+<a href="/ebook/ebook.html"
+                    className="inline-flex items-center justify-center rounded-xl bg-emerald-600 text-white font-semibold px-6 py-3 text-sm hover:bg-emerald-700 shadow-md"
+                  >
+                    Get Free ebook Sample
+                  </a>
+                </div>
+              </div>
+            </header>
+
+            {/* Courses Section */}
+            <section id="courses" className="py-12 sm:py-16 bg-slate-50">
+              <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+                <h2 className="text-xl sm:text-2xl font-bold mb-6 sm:mb-8 text-center">Choose Your Course (Mock Tests Also Included)</h2>
+
+                {/* 2x2 grid: XA, XB / XV, Combo */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 xl:gap-10">
+                  <CourseCard
+                    tag="Beginner"
+                    title="NISM XA — Investment Adviser (Level 1)"
+                    description="Master foundations: products, risk profiling, asset allocation, and compliant advice delivery. Ideal starting point for aspiring advisors."
+                    bullets={['Foundations of personal finance', 'Client risk profiling & suitability', 'Practical advisory frameworks']}
+                    onLearn={() => setShowPopup(true)}
+                    joinLink="https://payments.cashfree.com/forms/nismxa"
+                    priceOriginal="5,000"
+                    priceDiscount="1,999"
+                  />
+                  <CourseCard
+                    tag="Advanced"
+                    title="NISM XB — Investment Adviser (Level 2)"
+                    description="Advance to full-fledged RIA readiness: regulations, practice management, and advanced planning techniques."
+                    bullets={['SEBI regulations & compliance', 'Practice setup & fee models', 'Advanced planning & review']}
+                    onLearn={() => setShowPopup(true)}
+                    joinLink="https://payments.cashfree.com/forms/nismxb"
+                    priceOriginal="5,000"
+                    priceDiscount="1,999"
+                  />
+                  <CourseCard
+                    tag="Specialization"
+                    title="NISM XV — Research Analyst"
+                    description="Deep dive into equity research: business analysis, valuation basics, report writing, and RA-compliant processes."
+                    bullets={['Research process & templates', 'Valuation building blocks', 'RA code of conduct & filings']}
+                    onLearn={() => setShowPopup(true)}
+                    joinLink="https://payments.cashfree.com/forms/nismxv"
+                    priceOriginal="5,000"
+                    priceDiscount="1,999"
+                  />
+                  <CourseCard
+                    tag="Combo"
+                    title="Combo — All Three Courses (XA + XB + XV)"
+                    description="Get the complete pathway: Level 1, Level 2, and Research Analyst — bundled for maximum value."
+                    bullets={['NISM XA, XB & XV included', 'Single purchase convenience', 'Best value for full career track']}
+                    onLearn={() => setShowPopup(true)}
+                    joinLink="https://payments.cashfree.com/forms/nismgym-combo"
+                    priceOriginal="15,000"
+                    priceDiscount="2,999"
+                  />
+                </div>
+              </div>
+            </section>
+
+            {/* Mock Tests Section */}
+            <section id="mocks" className="py-12 sm:py-16 bg-white">
+              <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+                <h2 className="text-xl sm:text-2xl font-bold mb-6 sm:mb-8 text-center">20 Mock Exam Bundles</h2>
+                <p className="text-center text-slate-600 max-w-2xl mx-auto mb-8 text-sm sm:text-base">
+                  20 full-length timed papers for each exam, with auto-grading and explanations — to get you fully exam ready.
+                </p>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 xl:gap-10">
+                  {/* XA Mock Bundle */}
+                  <div className="rounded-2xl border border-slate-200 bg-slate-50 p-7 shadow-sm hover:shadow-md transition-shadow">
+                    <div className="text-xs font-semibold text-amber-700 bg-amber-50 inline-flex px-3 py-1 rounded-full">
+                      Mock Pack • NISM XA
+                    </div>
+                    <h3 className="mt-3 text-lg font-bold">NISM XA — 20 Mock Question Papers Bundle</h3>
+                    <p className="mt-2 text-slate-600 text-sm">
+                      Complete practice set for exam readiness with 20 full-length online mock tests.
+                    </p>
+                    <img src="xa-mock.png" alt="NISM XA Mock Exams Bundle" className="w-full h-44 object-cover rounded-xl mt-4" />
+                    <div className="mt-4 flex items-baseline gap-2">
+                      <span className="text-sm text-slate-500 line-through">₹3,000</span>
+                      <span className="text-xl font-extrabold text-slate-900">₹999</span>
+                    </div>
+                    <ul className="mt-4 space-y-2 text-sm text-slate-700 list-disc list-inside">
+                      <li>Full-length timed mock tests</li>
+                      <li>Covers all modules and caselets</li>
+                      <li>Auto-grading and explanations</li>
+                    </ul>
+                    <div className="mt-5 flex gap-3">
+                      <a href="https://payments.cashfree.com/forms/xamocktests" className="inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold bg-slate-900 text-white hover:bg-slate-800">
+                        Buy Mock Pack
+                      </a>
+                    </div>
+                  </div>
+
+                  {/* XB Mock Bundle */}
+                  <div className="rounded-2xl border border-slate-200 bg-slate-50 p-7 shadow-sm hover:shadow-md transition-shadow">
+                    <div className="text-xs font-semibold text-indigo-700 bg-indigo-50 inline-flex px-3 py-1 rounded-full">
+                      Mock Pack • NISM XB
+                    </div>
+                    <h3 className="mt-3 text-lg font-bold">NISM XB — 20 Mock Question Papers Bundle</h3>
+                    <p className="mt-2 text-slate-600 text-sm">
+                      20 full-length timed mocks to practice regulations, cases, and advisory scenarios for NISM XB.
+                    </p>
+                    <img src="xb-mock.png" alt="NISM XB Mock Exams Bundle" className="w-full h-44 object-cover rounded-xl mt-4" />
+                    <div className="mt-4 flex items-baseline gap-2">
+                      <span className="text-sm text-slate-500 line-through">₹3,000</span>
+                      <span className="text-xl font-extrabold text-slate-900">₹999</span>
+                    </div>
+                    <ul className="mt-4 space-y-2 text-sm text-slate-700 list-disc list-inside">
+                      <li>Full-length timed mock tests</li>
+                      <li>Covers all modules and caselets</li>
+                      <li>Auto-grading and explanations</li>
+                    </ul>
+                    <div className="mt-5 flex gap-3">
+                      <a href="https://payments.cashfree.com/forms/xbmocktest" className="inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold bg-slate-900 text-white hover:bg-slate-800">
+                        Buy Mock Pack
+                      </a>
+                    </div>
+                  </div>
+
+                  {/* XV Mock Bundle */}
+                  <div className="rounded-2xl border border-slate-200 bg-slate-50 p-7 shadow-sm hover:shadow-md transition-shadow">
+                    <div className="text-xs font-semibold text-emerald-700 bg-emerald-50 inline-flex px-3 py-1 rounded-full">
+                      Mock Pack • NISM XV
+                    </div>
+                    <h3 className="mt-3 text-lg font-bold">NISM XV — 20 Mock Question Papers Bundle</h3>
+                    <p className="mt-2 text-slate-600 text-sm">
+                      20 research-focused mock papers to drill valuation, analysis, and RA-style questions.
+                    </p>
+                    <img src="xv-mock.png" alt="NISM XV Mock Exams Bundle" className="w-full h-44 object-cover rounded-xl mt-4" />
+                    <div className="mt-4 flex items-baseline gap-2">
+                      <span className="text-sm text-slate-500 line-through">₹3,000</span>
+                      <span className="text-xl font-extrabold text-slate-900">₹999</span>
+                    </div>
+                    <ul className="mt-4 space-y-2 text-sm text-slate-700 list-disc list-inside">
+                      <li>Full-length timed mock tests</li>
+                      <li>Covers all modules and caselets</li>
+                      <li>Auto-grading and explanations</li>
+                    </ul>
+                    <div className="mt-5 flex gap-3">
+                      <a href="https://payments.cashfree.com/forms/xvmocktest" className="inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold bg-slate-900 text-white hover:bg-slate-800">
+                        Buy Mock Pack
+                      </a>
+                    </div>
+                  </div>
+
+                  {/* Combo Mock Bundle */}
+                  <div className="rounded-2xl border border-slate-200 bg-slate-50 p-7 shadow-sm hover:shadow-md transition-shadow">
+                    <div className="text-xs font-semibold text-rose-700 bg-rose-50 inline-flex px-3 py-1 rounded-full">
+                      Best Value • Combo Pack
+                    </div>
+                    <h3 className="mt-3 text-lg font-bold">NISM XA + XB + XV — 60 Mock Question Papers Combo</h3>
+                    <p className="mt-2 text-slate-600 text-sm">
+                      All three 20-paper bundles in one combo — 60 full-length mocks for complete NISM exam prep.
+                    </p>
+                    <img src="mock-test-combo.png" alt="NISM Mock Exams Combo Bundle" className="w-full h-44 object-cover rounded-xl mt-4" />
+                    <div className="mt-4 flex items-baseline gap-2">
+                      <span className="text-sm text-slate-500 line-through">₹9,000</span>
+                      <span className="text-xl font-extrabold text-slate-900">₹1,999</span>
+                    </div>
+                    <ul className="mt-4 space-y-2 text-sm text-slate-700 list-disc list-inside">
+                      <li>All 3 exams covered in one pack</li>
+                      <li>60 full-length timed mock tests</li>
+                      <li>Covers all modules and caselets with explanations</li>
+                    </ul>
+                    <div className="mt-5 flex gap-3">
+                      <a href="https://payments.cashfree.com/forms/mocktestcombo" className="inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold bg-slate-900 text-white hover:bg-slate-800">
+                        Buy Combo Pack
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            {/* YouTube Section */}
+            <section id="intro-video" className="py-12 sm:py-16 bg-white">
+              <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 text-center">
+                <h2 className="text-xl sm:text-2xl font-bold mb-6">
+                  How to Use This Course to Kickstart Your Earnings
+                </h2>
+                <div className="relative">
+                  <iframe
+                    className="w-full h-96 rounded-2xl shadow-lg"
+                    src="https://www.youtube.com/embed/AJawG-3Y4Zw?si=VnQjJcY05e4SvuBV"
+                    title="How to Use This Course to Kickstart Your Earnings"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+            </section>
+
+            {/* Popup */}
+            {showPopup && (
+              <div className="fixed inset-0 flex items-center justify-center bg-black/50 z-50 p-4">
+                <div className="bg-white rounded-2xl max-w-lg w-full p-8 shadow-xl text-center relative">
+                  <button onClick={() => setShowPopup(false)} className="absolute top-3 right-3 text-slate-500 hover:text-slate-700">✕</button>
+                  <h3 className="text-xl font-bold mb-4">What You Get from the Course</h3>
+                  <ul className="text-left list-disc list-inside space-y-2 text-slate-700 mb-4">
+                    <li>Access to Course Video Lectures</li>
+                    <li>Class Notes and Slides</li>
+                    <li>Mock Quizzes and Papers</li>
+                    <li>Guidance for Registering with SEBI</li>
+                    <li>Live Weekly Expert Guidance Sessions</li>
+                  </ul>
+                  <p className="text-slate-700 mb-6">
+                    Taught by <strong>Pranshumaan Singh</strong>, an Investment Banker with over 10 years of experience.
+                  </p>
+                  <p className="font-semibold text-slate-900">You get everything you need to start your career in Finance.</p>
+                </div>
+              </div>
+            )}
+
+            {/* Careers */}
+            <section id="careers" className="py-12 sm:py-16">
+              <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+                <h2 className="text-xl sm:text-2xl font-bold mb-6 sm:mb-10 text-center">Career Paths: RIA vs RA</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                  <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                    <div className="text-sm font-semibold text-emerald-700 bg-emerald-50 inline-flex px-3 py-1 rounded-full">RIA — Registered Investment Adviser</div>
+                    <h3 className="mt-3 text-lg font-bold">Advise Clients. Charge Fees. Build a Practice.</h3>
+                    <p className="mt-2 text-slate-600">
+                      RIAs provide fee-only advice on investments and financial planning to clients.
+                    </p>
+                    <ul className="mt-4 space-y-2 text-sm text-slate-700 list-disc list-inside">
+                      <li>Who is it for? Advisors who want direct client relationships.</li>
+                      <li>How do you earn? Advisory/retainer fees, review fees.</li>
+                      <li>Pathway: NISM XA → NISM XB → RIA registration with SEBI.</li>
+                    </ul>
+                  </div>
+
+                  <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                    <div className="text-sm font-semibold text-indigo-700 bg-indigo-50 inline-flex px-3 py-1 rounded-full">RA — Research Analyst</div>
+                    <h3 className="mt-3 text-lg font-bold">Analyze Businesses. Publish Research. Guide Decisions.</h3>
+                    <p className="mt-2 text-slate-600">
+                      RAs focus on equity research — analyzing companies, sectors, and themes to publish reports.
+                    </p>
+                    <ul className="mt-4 space-y-2 text-sm text-slate-700 list-disc list-inside">
+                      <li>Who is it for? Research-focused professionals and creators.</li>
+                      <li>How do you earn? Research subscriptions, mandates, corporate roles.</li>
+                      <li>Pathway: NISM XV → RA registration with SEBI.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            {/* Testimonials */}
+            <section id="testimonials" className="py-12 sm:py-16 bg-slate-50">
+              <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 text-center">
+                <h2 className="text-xl sm:text-2xl font-bold mb-8">What Our Students Are Saying</h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                  <img
+                    src="testimonial1.jpeg"
+                    alt="Testimonial 1"
+                    className="rounded-2xl shadow-md w-full h-80 object-cover border border-slate-200 hover:shadow-lg transition-transform hover:-translate-y-1"
+                  />
+                  <img
+                    src="testimonial2.jpeg"
+                    alt="Testimonial 2"
+                    className="rounded-2xl shadow-md w-full h-80 object-cover border border-slate-200 hover:shadow-lg transition-transform hover:-translate-y-1"
+                  />
+                  <img
+                    src="testimonial3.jpeg"
+                    alt="Testimonial 3"
+                    className="rounded-2xl shadow-md w-full h-80 object-cover border border-slate-200 hover:shadow-lg transition-transform hover:-translate-y-1"
+                  />
+                </div>
+              </div>
+            </section>
+
+            {/* CTA – UPDATED WITH EBOOK BUTTON */}
+            <section id="cta" className="py-12 sm:py-16 bg-white text-center">
+              <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+                <h2 className="text-xl sm:text-2xl font-bold mb-4">Still Have Questions?</h2>
+                <p className="text-slate-600 mb-6 text-base sm:text-lg">
+                  Join our active Telegram group where you can ask your doubts and connect with other aspiring advisors.
+                </p>
+                <div className="flex flex-col items-center gap-4">
+                  <a
+                    href="https://t.me/becomeRIA/1"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center justify-center rounded-xl bg-slate-900 text-white font-semibold px-6 py-3 text-sm hover:bg-slate-800 shadow-md"
+                  >
+                    Join the Telegram Group
+                  </a>
+                  <a
+                    href="/ebook/ebook.html"
+                    className="inline-flex items-center justify-center rounded-xl bg-emerald-600 text-white font-semibold px-6 py-3 text-sm hover:bg-emerald-700 shadow-md"
+                  >
+                    Get Free ebook Sample
+                  </a>
+                </div>
+              </div>
+            </section>
+
+            {/* About */}
+            <section id="about" className="py-12 sm:py-16 bg-slate-50">
+              <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
+                <h2 className="text-xl sm:txt-2xl font-bold mb-6">About Me</h2>
+                <div className="flex flex-col items-center md:flex-row md:items-center md:justify-center gap-6">
+                  <a href="https://www.linkedin.com/in/pranshumaaan/" target="_blank" rel="noreferrer">
+                    <img src="/pranshumaan-singh.jpg" alt="Pranshumaan Singh" className="w-40 h-40 rounded-full object-cover shadow-md border-4 border-slate-200 hover:opacity-90 transition" />
+                  </a>
+                  <div className="md:text-left text-center max-w-xl">
+                    <p className="text-slate-700 leading-relaxed text-base sm:text-lg">
+                      My name is Pranshumaan Singh. I'm a former investment banker with over 10 years of experience in Corporate Finance, M&amp;A, and Strategy.
+                    </p>
+                    <p className="mt-4 text-slate-700 leading-relaxed text-base sm:text-lg">
+                      Today, I help professionals become SEBI-registered Investment Advisors and Research Analysts.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            {/* Footer */}
+            <footer className="bg-slate-900 text-slate-200">
+              <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-10">
+                <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-6">
+                  <div>
+                    <p className="text-lg font-semibold">NISM Gym</p>
+                    <p className="text-sm text-slate-400 mt-1">Courses for NISM XA • XB • XV</p>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <a
+                      href="http://www.youtube.com/@permabullish"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-2 rounded-xl bg-white/5 px-4 py-2 text-sm hover:bg-white/10"
+                    >
+                      More videos on YouTube
+                    </a>
+                  </div>
+                </div>
+                <div className="mt-6 text-xs text-slate-500">
+                  © {year} Permabullish / Arivvo. All rights reserved. | Contact: <a href="mailto:mail@mayaskara.com" className="underline hover:text-slate-300">mail@mayaskara.com</a>
+                </div>
+                <div className="mt-2">
+                  <a href="/terms-and-conditions.html" className="underline hover:text-slate-300 mr-4">Terms and Conditions</a>
+                  <a href="/refund-and-cancellation-policy.html" className="underline hover:text-slate-300">Refund and Cancellation Policy</a>
+                </div>
+              </div>
+            </footer>
+          </div>
+        );
+      }
+
+      ReactDOM.createRoot(document.getElementById('root')).render(<NismGymLanding />);
+    </script>
+  </body>
+</html>
